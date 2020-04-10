@@ -1,0 +1,55 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONObject']/method[@name='entrySet' and count(parameter)=0]"
+        name="managedName">RawEntrySet</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONObject']/method[@name='keySet' and count(parameter)=0]"
+        name="managedName">RawKeySet</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONObject']/method[@name='put' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]"
+        name="managedName">RawPut</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONObject']/method[@name='putAll' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;? extends java.lang.String, ? extends java.lang.Object&gt;']]"
+        name="managedName">RawPutAll</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONObject']/method[@name='values' and count(parameter)=0]"
+        name="managedName">RawValues</attr>  
+
+  <remove-node path="/api/package[@name='com.alibaba.fastjson.parser']/class[@name='JSONReaderScanner']/method[@name='charArrayCompare' and count(parameter)=1 and parameter[1][@type='char[]']]"
+  />
+  <remove-node path="/api/package[@name='com.alibaba.fastjson.parser']/class[@name='JSONReaderScanner']/method[@name='sub_chars' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"
+  />
+
+  <remove-node path="/api/package[@name='com.alibaba.fastjson.parser']/class[@name='JSONScanner']/method[@name='charArrayCompare' and count(parameter)=1 and parameter[1][@type='char[]']]"
+  />
+  <remove-node path="/api/package[@name='com.alibaba.fastjson.parser']/class[@name='JSONScanner']/method[@name='sub_chars' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"
+  />
+
+  <remove-node path="/api/package[@name='com.alibaba.fastjson.serializer']/class[@name='DateCodec']/method[@name='cast' and count(parameter)=4 and parameter[1][@type='com.alibaba.fastjson.parser.DefaultJSONParser'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='java.lang.Object'] and parameter[4][@type='java.lang.Object']]"
+  />
+
+  <attr path="/api/package[@name='com.alibaba.fastjson.serializer']/class[@name='FieldSerializer']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.alibaba.fastjson.serializer.FieldSerializer']]"
+        name="managedName">RawCompareTo</attr>
+  
+  <attr path="/api/package[@name='com.alibaba.fastjson.util']/class[@name='FieldInfo']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.alibaba.fastjson.util.FieldInfo']]"
+        name="managedName">RawCompareTo</attr>
+  
+  <remove-node path="/api/package[@name='com.alibaba.fastjson.util']/class[@name='AntiCollisionHashMap']/method[@name='entrySet' and count(parameter)=0]"
+  />
+  
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONArray']/method[@name='addAll' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.util.Collection&lt;? extends java.lang.Object&gt;']]"
+        name="managedName">RawAddAll</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONArray']/method[@name='addAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;? extends java.lang.Object&gt;']]"
+        name="managedName">RawAddAll</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONArray']/method[@name='containsAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;?&gt;']]"
+        name="managedName">RawContainsAll</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONArray']/method[@name='removeAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;?&gt;']]"
+        name="managedName">RawRemoveAll</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONArray']/method[@name='retainAll' and count(parameter)=1 and parameter[1][@type='java.util.Collection&lt;?&gt;']]"
+        name="managedName">RawRetainAll</attr>
+  <attr path="/api/package[@name='com.alibaba.fastjson']/class[@name='JSONArray']/method[@name='subList' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='int']]"
+        name="managedName">RawSubList</attr>
+</metadata>
