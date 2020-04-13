@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Android/com.alibaba/fastjson/1.2.68/FastJsonBinding/FastJsonBinding/obj
