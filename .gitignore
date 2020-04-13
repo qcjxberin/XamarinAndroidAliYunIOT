@@ -3,3 +3,8 @@
 ################################################################################
 
 /Android/com.alibaba/fastjson/1.2.68/FastJsonBinding/FastJsonBinding/obj
+/Android/com.aliyun.api.gateway/sdk-core-android/1.2.2/SdkCoreAndroidBinding/SdkCoreAndroidBinding/obj
+/Android/com.aliyun.iot.aep.sdk.external/securityguard/5.4.191.2020-02-26-exclude-x86/SecurityGuardBinding/SecurityGuardBinding/obj
+/Android/com.aliyun.iot.aep.sdk/threadpool/0.0.3/ThreadPoolBinding/ThreadPoolBinding/ThreadPoolBinding/obj
+/Android/com.aliyun.iot.aep.sdk/apiclient/0.1/ApiClientBinding/ApiClientBinding/obj
+/.vs
