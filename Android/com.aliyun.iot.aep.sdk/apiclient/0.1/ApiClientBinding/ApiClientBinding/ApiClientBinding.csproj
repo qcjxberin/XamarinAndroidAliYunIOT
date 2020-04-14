@@ -57,6 +57,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Square.OkHttp3">
+      <Version>4.2.2</Version>
+    </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Api.Gateway.SdkCoreAndroid">
       <Version>1.2.2</Version>
     </PackageReference>
