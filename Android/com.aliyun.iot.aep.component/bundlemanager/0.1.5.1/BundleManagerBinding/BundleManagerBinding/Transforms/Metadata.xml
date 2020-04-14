@@ -1,0 +1,24 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager.bean']/class[@name='Result']/field[@name='result']"
+        name="managedName">RawResult</attr>
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager']/class[@name='a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager']/interface[@name='j']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager']/class[@name='k']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager']/interface[@name='u']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager']/interface[@name='w']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.iot.aep.component.bundlemanager']/class[@name='e']"
+        name="obfuscated">false</attr>
+  
+</metadata>

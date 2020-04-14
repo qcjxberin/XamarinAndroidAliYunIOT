@@ -165,7 +165,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    +--- com.aliyun.iot.aep.sdk:router:0.0.6 -> 0.0.7 💯💯💯💯💯 uploaded to nuget and github
 |    |    \--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.sdk:router:0.0.7 💯💯💯💯💯 uploaded to nuget and github
-|    +--- com.aliyun.iot.aep.component:bundlemanager:0.1.5.1
+|    +--- com.aliyun.iot.aep.component:bundlemanager:0.1.5.1 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:threadpool:0.0.3 (*) 💯💯💯💯💯 uploaded to nuget and github
