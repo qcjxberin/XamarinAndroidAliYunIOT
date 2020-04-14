@@ -1,0 +1,8 @@
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\bin\Debug\ToolsBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\bin\Debug\ToolsBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\obj\Debug\ToolsBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\obj\Debug\ToolsBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\obj\Debug\ToolsBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\bin\Debug\FastJsonBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.alink.linksdk\ToolsBinding\ToolsBinding\obj\Debug\ToolsBinding.csproj.CopyComplete

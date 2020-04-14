@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.ta.utdid2.a" jni-name="com/ta/utdid2/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/a/a;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)Lcom/ta/utdid2/a/a;" bridge="false" native="false" return="com.ta.utdid2.a.a" jni-return="Lcom/ta/utdid2/a/a;" static="true" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/ut/device/a;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="com.ut.device.a" jni-type="Lcom/ut/device/a;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/a/b;">
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.ta.utdid2.a.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)Lcom/ta/utdid2/a/b;" bridge="false" native="false" return="com.ta.utdid2.a.b" jni-return="Lcom/ta/utdid2/a/b;" static="true" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/ut/device/a;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p4" type="com.ut.device.a" jni-type="Lcom/ut/device/a;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" jni-extends="Ljava/lang/Thread;" final="false" name="b.a" static="false" visibility="" jni-signature="Lcom/ta/utdid2/a/b$a;">
+      <constructor deprecated="not deprecated" final="false" name="b.a" jni-signature="(Lcom/ta/utdid2/a/b;Lorg/apache/http/client/methods/HttpPost;)V" bridge="false" static="false" type="com.ta.utdid2.a.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.apache.http.client.methods.HttpPost" jni-type="Lorg/apache/http/client/methods/HttpPost;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="b.a" jni-signature="(Lcom/ta/utdid2/a/b;Lorg/apache/http/client/methods/HttpPost;Lcom/ut/device/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" static="false" type="com.ta.utdid2.a.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.apache.http.client.methods.HttpPost" jni-type="Lorg/apache/http/client/methods/HttpPost;"></parameter>
+        <parameter name="p1" type="com.ut.device.a" jni-type="Lcom/ut/device/a;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p4" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/a/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="()V" bridge="false" static="false" type="com.ta.utdid2.a.c" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)J" bridge="false" native="false" return="long" jni-return="J" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.ta.utdid2.b.a" jni-name="com/ta/utdid2/b/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/a;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="[B" static="true" transient="false" type="byte[]" type-generic-aware="byte[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/b;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" jni-signature="([BI)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="input" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" jni-signature="([BIII)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="input" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="offset" type="int" jni-type="I"></parameter>
+        <parameter name="len" type="int" jni-type="I"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" jni-signature="(Ljava/lang/String;I)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="str" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" jni-signature="([BI)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="input" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" jni-signature="([BIII)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="input" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="offset" type="int" jni-type="I"></parameter>
+        <parameter name="len" type="int" jni-type="I"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encodeToString" jni-signature="([BI)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="input" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.a" static="true" visibility="" jni-signature="Lcom/ta/utdid2/b/a/b$a;">
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="[B" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.ta.utdid2.b.a.b.a" extends-generic-aware="com.ta.utdid2.b.a.b.a" jni-extends="Lcom/ta/utdid2/b/a/b$a;" final="false" name="b.b" static="true" visibility="" jni-signature="Lcom/ta/utdid2/b/a/b$b;">
+      <constructor deprecated="not deprecated" final="false" name="b.b" jni-signature="(I[B)V" bridge="false" static="false" type="com.ta.utdid2.b.a.b.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([BIIZ)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+        <parameter name="p3" type="boolean" jni-type="Z"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.ta.utdid2.b.a.b.a" extends-generic-aware="com.ta.utdid2.b.a.b.a" jni-extends="Lcom/ta/utdid2/b/a/b$a;" final="false" name="b.c" static="true" visibility="" jni-signature="Lcom/ta/utdid2/b/a/b$c;">
+      <constructor deprecated="not deprecated" final="false" name="b.c" jni-signature="(I[B)V" bridge="false" static="false" type="com.ta.utdid2.b.a.b.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([BIIZ)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+        <parameter name="p3" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/c;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="encodeToString" jni-signature="([BI)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="input" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="flags" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/d;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInt" jni-signature="(Ljava/lang/String;I)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="def" type="int" jni-type="I"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/e;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getBytes" jni-signature="(I)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="f" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/f;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)Landroid/net/ConnectivityManager;" bridge="false" native="false" return="android.net.ConnectivityManager" jni-return="Landroid/net/ConnectivityManager;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Landroid/content/Context;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="g" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/g;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Landroid/content/Context;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="h" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/h;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/SharedPreferences$Editor;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.SharedPreferences.Editor" jni-type="Landroid/content/SharedPreferences$Editor;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="i" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/i;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="j" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/b/a/j;">
+      <constructor deprecated="not deprecated" final="false" name="j" jni-signature="()V" bridge="false" static="false" type="com.ta.utdid2.b.a.j" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(JI)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="TAG" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.ta.utdid2.c.a" jni-name="com/ta/utdid2/c/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="" jni-signature="Lcom/ta/utdid2/c/a/a;">
+      <implements name="org.xmlpull.v1.XmlSerializer" name-generic-aware="org.xmlpull.v1.XmlSerializer" jni-type="Lorg/xmlpull/v1/XmlSerializer;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="attribute" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;" bridge="false" native="false" return="org.xmlpull.v1.XmlSerializer" jni-return="Lorg/xmlpull/v1/XmlSerializer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="namespace" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="cdsect" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="comment" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="docdecl" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="endDocument" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="endTag" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;" bridge="false" native="false" return="org.xmlpull.v1.XmlSerializer" jni-return="Lorg/xmlpull/v1/XmlSerializer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="namespace" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="entityRef" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDepth" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFeature" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getName" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getNamespace" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPrefix" jni-signature="(Ljava/lang/String;Z)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="namespace" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="generatePrefix" type="boolean" jni-type="Z"></parameter>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getProperty" jni-signature="(Ljava/lang/String;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="ignorableWhitespace" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="processingInstruction" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFeature" jni-signature="(Ljava/lang/String;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="state" type="boolean" jni-type="Z"></parameter>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOutput" jni-signature="(Ljava/io/OutputStream;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="os" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;"></parameter>
+        <parameter name="encoding" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOutput" jni-signature="(Ljava/io/Writer;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="writer" type="java.io.Writer" jni-type="Ljava/io/Writer;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPrefix" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="prefix" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="namespace" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setProperty" jni-signature="(Ljava/lang/String;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="value" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startDocument" jni-signature="(Ljava/lang/String;Ljava/lang/Boolean;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="encoding" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="standalone" type="java.lang.Boolean" jni-type="Ljava/lang/Boolean;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startTag" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;" bridge="false" native="false" return="org.xmlpull.v1.XmlSerializer" jni-return="Lorg/xmlpull/v1/XmlSerializer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="namespace" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="text" jni-signature="([CII)Lorg/xmlpull/v1/XmlSerializer;" bridge="false" native="false" return="org.xmlpull.v1.XmlSerializer" jni-return="Lorg/xmlpull/v1/XmlSerializer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="buf" type="char[]" jni-type="[C"></parameter>
+        <parameter name="start" type="int" jni-type="I"></parameter>
+        <parameter name="len" type="int" jni-type="I"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="text" jni-signature="(Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;" bridge="false" native="false" return="org.xmlpull.v1.XmlSerializer" jni-return="Lorg/xmlpull/v1/XmlSerializer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="text" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="IllegalArgumentException" type="java.lang.IllegalArgumentException"></exception>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException"></exception>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/c/a/b;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="()Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getAll" jni-signature="()Ljava/util/Map;" bridge="false" native="false" return="java.util.Map&lt;java.lang.String, ?&gt;" jni-return="Ljava/util/Map&lt;Ljava/lang/String;*&gt;;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getLong" jni-signature="(Ljava/lang/String;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getString" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="b.a" static="true" visibility="public" jni-signature="Lcom/ta/utdid2/c/a/b$a;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Z)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;F)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="float" jni-type="F"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;I)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;J)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="b" jni-signature="()Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="commit" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="b.b" static="true" visibility="public" jni-signature="Lcom/ta/utdid2/c/a/b$b;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(Lcom/ta/utdid2/c/a/b;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.ta.utdid2.c.a.b" jni-type="Lcom/ta/utdid2/c/a/b;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/c/a/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;ZZ)V" bridge="false" static="false" type="com.ta.utdid2.c.a.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p4" type="boolean" jni-type="Z"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="commit" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getString" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="putString" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="value" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="remove" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/c/a/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;)V" bridge="false" static="false" type="com.ta.utdid2.c.a.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;I)Lcom/ta/utdid2/c/a/b;" bridge="false" native="false" return="com.ta.utdid2.c.a.b" jni-return="Lcom/ta/utdid2/c/a/b;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="d.a" static="true" visibility="private" jni-signature="Lcom/ta/utdid2/c/a/d$a;">
+      <implements name="com.ta.utdid2.c.a.b" name-generic-aware="com.ta.utdid2.c.a.b" jni-type="Lcom/ta/utdid2/c/a/b;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/util/Map;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Map" jni-type="Ljava/util/Map;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAll" jni-signature="()Ljava/util/Map;" bridge="false" native="false" return="java.util.Map&lt;java.lang.String, ?&gt;" jni-return="Ljava/util/Map&lt;Ljava/lang/String;*&gt;;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLong" jni-signature="(Ljava/lang/String;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="defValue" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getString" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="key" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="defValue" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="d.a.a" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/c/a/d$a$a;">
+      <implements name="com.ta.utdid2.c.a.b.a" name-generic-aware="com.ta.utdid2.c.a.b.a" jni-type="Lcom/ta/utdid2/c/a/b$a;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="d.a.a" jni-signature="(Lcom/ta/utdid2/c/a/d$a;)V" bridge="false" static="false" type="com.ta.utdid2.c.a.d.a.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Z)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;F)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="float" jni-type="F"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;I)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;J)Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Lcom/ta/utdid2/c/a/b$a;" bridge="false" native="false" return="com.ta.utdid2.c.a.b.a" jni-return="Lcom/ta/utdid2/c/a/b$a;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="commit" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="" jni-signature="Lcom/ta/utdid2/c/a/e;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="([BLjava/lang/String;Lorg/xmlpull/v1/XmlSerializer;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.xmlpull.v1.XmlSerializer" jni-type="Lorg/xmlpull/v1/XmlSerializer;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="([ILjava/lang/String;Lorg/xmlpull/v1/XmlSerializer;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int[]" jni-type="[I"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.xmlpull.v1.XmlSerializer" jni-type="Lorg/xmlpull/v1/XmlSerializer;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/io/InputStream;)Ljava/util/HashMap;" bridge="false" native="false" return="java.util.HashMap" jni-return="Ljava/util/HashMap;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.io.InputStream" jni-type="Ljava/io/InputStream;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/lang/Object;Ljava/lang/String;Lorg/xmlpull/v1/XmlSerializer;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.xmlpull.v1.XmlSerializer" jni-type="Lorg/xmlpull/v1/XmlSerializer;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/util/List;Ljava/lang/String;Lorg/xmlpull/v1/XmlSerializer;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List" jni-type="Ljava/util/List;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.xmlpull.v1.XmlSerializer" jni-type="Lorg/xmlpull/v1/XmlSerializer;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/util/Map;Ljava/io/OutputStream;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Map" jni-type="Ljava/util/Map;"></parameter>
+        <parameter name="p1" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/util/Map;Ljava/lang/String;Lorg/xmlpull/v1/XmlSerializer;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Map" jni-type="Ljava/util/Map;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.xmlpull.v1.XmlSerializer" jni-type="Lorg/xmlpull/v1/XmlSerializer;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;[Ljava/lang/String;)Ljava/util/ArrayList;" bridge="false" native="false" return="java.util.ArrayList" jni-return="Ljava/util/ArrayList;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.xmlpull.v1.XmlPullParser" jni-type="Lorg/xmlpull/v1/XmlPullParser;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;[Ljava/lang/String;)Ljava/util/HashMap;" bridge="false" native="false" return="java.util.HashMap" jni-return="Ljava/util/HashMap;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.xmlpull.v1.XmlPullParser" jni-type="Lorg/xmlpull/v1/XmlPullParser;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;[Ljava/lang/String;)[I" bridge="false" native="false" return="int[]" jni-return="[I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.xmlpull.v1.XmlPullParser" jni-type="Lorg/xmlpull/v1/XmlPullParser;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Lorg/xmlpull/v1/XmlPullParser;[Ljava/lang/String;)Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.xmlpull.v1.XmlPullParser" jni-type="Lorg/xmlpull/v1/XmlPullParser;"></parameter>
+        <parameter name="p1" type="java.lang.String[]" jni-type="[Ljava/lang/String;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+        <exception name="XmlPullParserException" type="org.xmlpull.v1.XmlPullParserException"></exception>
+      </method>
+    </class>
+  </package>
+  <package name="com.ta.utdid2.device" jni-name="com/ta/utdid2/device">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/device/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" static="false" type="com.ta.utdid2.device.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="f" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDeviceId" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/device/b;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Landroid/content/Context;)Lcom/ta/utdid2/device/a;" bridge="false" native="false" return="com.ta.utdid2.device.a" jni-return="Lcom/ta/utdid2/device/a;" static="true" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/device/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.ta.utdid2.device.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)Lcom/ta/utdid2/device/c;" bridge="false" native="false" return="com.ta.utdid2.device.c" jni-return="Lcom/ta/utdid2/device/c;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getValue" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="true" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="h" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="true" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/device/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="()V" bridge="false" static="false" type="com.ta.utdid2.device.d" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/device/e;">
+      <constructor deprecated="not deprecated" final="false" name="e" jni-signature="()V" bridge="false" static="false" type="com.ta.utdid2.device.e" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="UTDevice" static="false" visibility="public" jni-signature="Lcom/ta/utdid2/device/UTDevice;">
+      <constructor deprecated="not deprecated" final="false" name="UTDevice" jni-signature="()V" bridge="false" static="false" type="com.ta.utdid2.device.UTDevice" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUtdid" jni-signature="(Landroid/content/Context;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUtdidForUpdate" jni-signature="(Landroid/content/Context;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.ut.device" jni-name="com/ut/device">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/ut/device/a;" obfuscated="false">
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="(ILjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="UTDevice" static="false" visibility="public" jni-signature="Lcom/ut/device/UTDevice;">
+      <constructor deprecated="not deprecated" final="false" name="UTDevice" jni-signature="()V" bridge="false" static="false" type="com.ut.device.UTDevice" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAid" jni-signature="(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="appName" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="token" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAidAsync" jni-signature="(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lcom/ut/device/a;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="appName" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="token" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="callback" type="com.ut.device.a" jni-type="Lcom/ut/device/a;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUtdid" jni-signature="(Landroid/content/Context;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+    </class>
+  </package>
+</api>

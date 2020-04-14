@@ -1,0 +1,16 @@
+com/aliyun/alink/apiclient/biz/ApiClientBiz = Com.Aliyun.Alink.Apiclient.Biz.ApiClientBiz
+  getInstance()Lcom/aliyun/alink/apiclient/biz/ApiClientBiz; = Instance
+  setApiClientBiz(Lcom/aliyun/alink/apiclient/biz/IApiClientBiz;)V = SetApiClientBiz(Com.Aliyun.Alink.Apiclient.Biz.IApiClientBiz)
+  usageTrack(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lcom/aliyun/alink/apiclient/biz/IApiClientBizCallback;)V = UsageTrack(string, string, string, System.Collections.IDictionary, Com.Aliyun.Alink.Apiclient.Biz.IApiClientBizCallback)
+com/aliyun/alink/apiclient/biz/IApiClientBiz = Com.Aliyun.Alink.Apiclient.Biz.IApiClientBiz
+  usageTrack(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Lcom/aliyun/alink/apiclient/biz/IApiClientBizCallback;)V = UsageTrack(string, string, string, System.Collections.IDictionary, Com.Aliyun.Alink.Apiclient.Biz.IApiClientBizCallback)
+com/aliyun/alink/apiclient/biz/IApiClientBizCallback = Com.Aliyun.Alink.Apiclient.Biz.IApiClientBizCallback
+  onFail(Ljava/lang/Exception;)V = OnFail(Java.Lang.Exception)
+  onResponse(Lcom/aliyun/alink/apiclient/biz/IApiClientResponse;)V = OnResponse(Com.Aliyun.Alink.Apiclient.Biz.IApiClientResponse)
+com/aliyun/alink/apiclient/biz/IApiClientResponse = Com.Aliyun.Alink.Apiclient.Biz.IApiClientResponse
+  getCode()I = Code
+  getData()Ljava/lang/Object; = Data
+  getId()Ljava/lang/String; = Id
+  getLocalizedMsg()Ljava/lang/String; = LocalizedMsg
+  getMessage()Ljava/lang/String; = Message
+  getRawData()[B = GetRawData()

@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x64": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x86": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+      "sha512": "yhp3jEGlK7cCB+Ar725RDewDJPxz9w821v1szL/O3sjTHrVwslQk2Z1tcxzwim4YA9TAelVBlpi2QA6IN8CmSA==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.alibaba.fastjson/1.2.68",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/FastJsonBinding.dll",
+        "xamarinlibrary.xamarin.android.alibaba.fastjson.1.2.68.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.alibaba.fastjson.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson >= 1.2.68"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ericc\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\GithubWorkspace\\AliIOT\\Android\\com.aliyun.alink.linksdk\\ToolsBinding\\ToolsBinding\\ToolsBinding.csproj",
+      "projectName": "ToolsBinding",
+      "projectPath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.aliyun.alink.linksdk\\ToolsBinding\\ToolsBinding\\ToolsBinding.csproj",
+      "packagesPath": "C:\\Users\\ericc\\.nuget\\packages\\",
+      "outputPath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.aliyun.alink.linksdk\\ToolsBinding\\ToolsBinding\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ericc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Alibaba.FastJson": {
+            "target": "Package",
+            "version": "[1.2.68, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

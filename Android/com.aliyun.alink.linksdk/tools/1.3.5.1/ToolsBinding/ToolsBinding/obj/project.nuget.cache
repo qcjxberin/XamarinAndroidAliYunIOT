@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d5wHOCaUv7VAhTVON5516UsdjT9JvtwP+NcwHSIwO7cQTvIdwMjH5xe0SPbgsyjQ6OZaVtl65+7qKaWeewXftA==",
+  "success": true,
+  "projectFilePath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.aliyun.alink.linksdk\\ToolsBinding\\ToolsBinding\\ToolsBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.alibaba.fastjson\\1.2.68\\xamarinlibrary.xamarin.android.alibaba.fastjson.1.2.68.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\bin\Debug\RouterBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\bin\Debug\RouterBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\obj\Debug\RouterBinding.csprojAssemblyReference.cache
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\obj\Debug\RouterBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\obj\Debug\RouterBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\RouterBinding\RouterBinding\obj\Debug\RouterBinding.pdb

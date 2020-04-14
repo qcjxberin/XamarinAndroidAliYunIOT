@@ -1,0 +1,11 @@
+com/ta/utdid2/device/UTDevice = Com.TA.Utdid2.Device.UTDevice
+  <init>()V = .ctor()
+  getUtdid(Landroid/content/Context;)Ljava/lang/String; = GetUtdid(Android.Content.Context)
+  getUtdidForUpdate(Landroid/content/Context;)Ljava/lang/String; = GetUtdidForUpdate(Android.Content.Context)
+com/ut/device/a = Com.UT.Device.IA
+  a(ILjava/lang/String;)V = A(int, string)
+com/ut/device/UTDevice = Com.UT.Device.UTDevice
+  <init>()V = .ctor()
+  getAid(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String; = GetAid(string, string, Android.Content.Context)
+  getAidAsync(Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lcom/ut/device/a;)V = GetAidAsync(string, string, Android.Content.Context, Com.UT.Device.IA)
+  getUtdid(Landroid/content/Context;)Ljava/lang/String; = GetUtdid(Android.Content.Context)

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.AError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.ALog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.HLoggerFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.IDGenerater.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.ILogDispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.ILogger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.ILogStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.ILogUpload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.LogcatLogStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.LogerImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.LogHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.LogLevel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.LogStrategyFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.LogStrategyType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.RealTimeLogStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.Request.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.Response.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Log.TLogHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.NetTools.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.SystemUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.ThreadTools.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.AliCloudUtSdkTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.AntSdkTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.BaseSdkTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.EmptySdkTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.IoTUTSdkTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.ISDKTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.IValidityChecker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.Tracker.UTSdkTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.UT.AUserTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Tools.UT.IUserTrackDispatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

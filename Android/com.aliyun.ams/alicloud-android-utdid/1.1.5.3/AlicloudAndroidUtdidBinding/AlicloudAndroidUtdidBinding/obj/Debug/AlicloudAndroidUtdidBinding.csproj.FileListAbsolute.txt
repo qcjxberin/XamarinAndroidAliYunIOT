@@ -1,0 +1,6 @@
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.ams\AlicloudAndroidUtdidBinding\AlicloudAndroidUtdidBinding\bin\Debug\AlicloudAndroidUtdidBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.ams\AlicloudAndroidUtdidBinding\AlicloudAndroidUtdidBinding\bin\Debug\AlicloudAndroidUtdidBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.ams\AlicloudAndroidUtdidBinding\AlicloudAndroidUtdidBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.ams\AlicloudAndroidUtdidBinding\AlicloudAndroidUtdidBinding\obj\Debug\AlicloudAndroidUtdidBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.ams\AlicloudAndroidUtdidBinding\AlicloudAndroidUtdidBinding\obj\Debug\AlicloudAndroidUtdidBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.ams\AlicloudAndroidUtdidBinding\AlicloudAndroidUtdidBinding\obj\Debug\AlicloudAndroidUtdidBinding.pdb

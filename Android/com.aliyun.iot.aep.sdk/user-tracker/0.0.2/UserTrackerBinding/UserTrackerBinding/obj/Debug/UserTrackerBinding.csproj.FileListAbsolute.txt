@@ -1,0 +1,6 @@
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\UserTrackerBinding\UserTrackerBinding\bin\Debug\UserTrackerBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\UserTrackerBinding\UserTrackerBinding\bin\Debug\UserTrackerBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\UserTrackerBinding\UserTrackerBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\UserTrackerBinding\UserTrackerBinding\obj\Debug\UserTrackerBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\UserTrackerBinding\UserTrackerBinding\obj\Debug\UserTrackerBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.aliyun.iot.aep.sdk\UserTrackerBinding\UserTrackerBinding\obj\Debug\UserTrackerBinding.pdb

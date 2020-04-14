@@ -1,0 +1,14 @@
+com/aliyun/iot/aep/routerexternal/BuildConfig = Com.Aliyun.Iot.Aep.Routerexternal.BuildConfig
+  <init>()V = .ctor()
+  APPLICATION_ID = ApplicationId
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  FLAVOR = Flavor
+  VERSION_CODE = VersionCode
+  VERSION_NAME = VersionName
+com/aliyun/iot/aep/routerexternal/RouterExternal = Com.Aliyun.Iot.Aep.Routerexternal.RouterExternal
+  getInstance()Lcom/aliyun/iot/aep/routerexternal/RouterExternal; = Instance
+  init(Landroid/content/Context;Ljava/lang/String;)V = Init(Android.Content.Context, string)
+  registerNativeCodeUrl(Ljava/lang/String;Ljava/lang/String;)V = RegisterNativeCodeUrl(string, string)
+  registerNativePages(Ljava/util/List;Lcom/aliyun/iot/aep/component/router/IUrlHandler;)V = RegisterNativePages(System.Collections.Generic.IList<string>, Com.Aliyun.Iot.Aep.Component.Router.IUrlHandler)
+  removeRouterCache(Ljava/lang/String;)V = RemoveRouterCache(string)

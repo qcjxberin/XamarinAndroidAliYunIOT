@@ -1,0 +1,11 @@
+ApiClientBinding
+FastJsonBinding
+SdkCoreAndroidBinding
+SecurityGuardBinding
+Square.OkHttp3
+Square.OkIO
+System.Runtime
+ToolsBinding
+Xamarin.Jetbrains.Annotations
+Xamarin.Kotlin.StdLib.Common
+Xamarin.Kotlin.StdLib
