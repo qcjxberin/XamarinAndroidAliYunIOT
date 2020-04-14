@@ -166,7 +166,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    \--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.sdk:router:0.0.7 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.component:bundlemanager:0.1.5.1
-|    |    +--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2
+|    |    +--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:threadpool:0.0.3 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    \--- com.aliyun.alink.linksdk:tools:1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
@@ -204,7 +204,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    +--- com.squareup.okio:okio:1.15.0
 |    |    |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
 |    |    +--- org.chromium:v8-android:7.8.1-20191210
-|    |    \--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2
+|    |    \--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.sdk:jsbridge-external:0.1.4
 |    |    +--- com.aliyun.iot.aep.sdk:jsbridge-core:0.0.5
 |    |    |    +--- com.aliyun.iot.aep.sdk:jsbridge-annotation:0.0.1
