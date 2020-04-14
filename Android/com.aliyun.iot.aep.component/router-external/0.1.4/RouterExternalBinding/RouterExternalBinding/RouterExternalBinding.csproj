@@ -61,7 +61,7 @@
       <Version>1.2.68</Version>
     </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.ApiClient">
-      <Version>0.1.0</Version>
+      <Version>0.1.0.3</Version>
     </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Router">
       <Version>0.0.7</Version>
