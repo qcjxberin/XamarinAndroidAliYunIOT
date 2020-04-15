@@ -1,0 +1,50 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.facebook.imagepipeline.cache']/class[@name='DefaultBitmapMemoryCacheParamsSupplier']/method[@name='get' and count(parameter)=0]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.cache']/class[@name='DefaultEncodedMemoryCacheParamsSupplier']/method[@name='get' and count(parameter)=0]"
+        name="managedName">RawGet</attr>
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.datasource']/class[@name='BaseBitmapDataSubscriber']/method[@name='onNewResultImpl' and count(parameter)=1 and parameter[1][@type='com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.datasource']/class[@name='BaseBitmapReferenceDataSubscriber']/method[@name='onNewResultImpl' and count(parameter)=1 and parameter[1][@type='com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.datasource']/class[@name='BaseListBitmapDataSubscriber']/method[@name='onNewResultImpl' and count(parameter)=1 and parameter[1][@type='com.facebook.datasource.DataSource&lt;java.util.List&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;&gt;']]"
+               />
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='GingerbreadPurgeableDecoder']/method[@name='decodeFromEncodedImage' and count(parameter)=3 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect']]"
+        name="name">DecodeFromEncodedImage1</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']/method[@name='decodeFromEncodedImage' and count(parameter)=3 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect']]"
+        name="name">DecodeFromEncodedImage2</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='GingerbreadPurgeableDecoder']/method[@name='decodeJPEGFromEncodedImage' and count(parameter)=4 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect'] and parameter[4][@type='int']]"
+        name="name">DecodeJPEGFromEncodedImage1</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']/method[@name='decodeJPEGFromEncodedImage' and count(parameter)=4 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect'] and parameter[4][@type='int']]"
+        name="name">DecodeJPEGFromEncodedImage2</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='GingerbreadPurgeableDecoder']/method[@name='pinBitmap' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
+        name="name">PinBitmap1</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']/method[@name='pinBitmap' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
+        name="name">PinBitmap2</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheKeyMultiplexProducer']/method[@name='cloneOrNull' and count(parameter)=1 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;']]"
+        name="managedName">RawCloneOrNull</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheKeyMultiplexProducer']/method[@name='getKey' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.producers.ProducerContext']]"
+        name="managedName">RawGetKey</attr>  
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='EncodedCacheKeyMultiplexProducer']/method[@name='cloneOrNull' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage']]"
+        name="managedName">RawCloneOrNull</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='EncodedCacheKeyMultiplexProducer']/method[@name='getKey' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.producers.ProducerContext']]"
+        name="managedName">RawGetKey</attr>
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='HttpUrlConnectionNetworkFetcher']/method[@name='createFetchState' and count(parameter)=2 and parameter[1][@type='com.facebook.imagepipeline.producers.Consumer&lt;com.facebook.imagepipeline.image.EncodedImage&gt;'] and parameter[2][@type='com.facebook.imagepipeline.producers.ProducerContext']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='HttpUrlConnectionNetworkFetcher']/method[@name='fetch' and count(parameter)=2 and parameter[1][@type='com.facebook.imagepipeline.producers.FetchState'] and parameter[2][@type='com.facebook.imagepipeline.producers.NetworkFetcher.Callback']]"
+               />
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='PostprocessedBitmapMemoryCacheProducer.CachedPostprocessorConsumer']/method[@name='onNewResultImpl' and count(parameter)=2 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;'] and parameter[2][@type='int']]"
+        name="managedName">RawOnNewResultImpl</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='PostprocessorProducer.RepeatedPostprocessorConsumer']/method[@name='onNewResultImpl' and count(parameter)=2 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;'] and parameter[2][@type='int']]"
+        name="managedName">RawOnNewResultImpl</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='PostprocessorProducer.SingleUsePostprocessorConsumer']/method[@name='onNewResultImpl' and count(parameter)=2 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;'] and parameter[2][@type='int']]"
+        name="managedName">RawOnNewResultImpl</attr>  
+
+</metadata>
