@@ -1,0 +1,15 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.facebook.cache.disk']/class[@name='DefaultDiskStorage']/method[@name='getEntries' and count(parameter)=0]"
+        name="managedName">RawEntries</attr>
+  <attr path="/api/package[@name='com.facebook.cache.disk']/class[@name='DefaultDiskStorage.EntryImpl']/method[@name='getResource' and count(parameter)=0]"
+        name="managedName">RawResource</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.bitmaps']/class[@name='SimpleBitmapReleaser']/method[@name='release' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
+        name="managedName">RawRelease</attr>  
+</metadata>
