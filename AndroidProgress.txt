@@ -183,7 +183,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    |    +--- com.facebook.fresco:drawee:1.10.0
 |    |    |    |    |    +--- com.facebook.fresco:fbcore:1.10.0 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    |    |    \--- com.facebook.fresco:imagepipeline:1.10.0
-|    |    |    |    |         +--- com.facebook.fresco:imagepipeline-base:1.10.0
+|    |    |    |    |         +--- com.facebook.fresco:imagepipeline-base:1.10.0 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    |    |         |    +--- com.facebook.soloader:soloader:0.5.0 -> 0.6.0 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    |    |         |    +--- com.parse.bolts:bolts-tasks:1.4.0 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    |    |         |    \--- com.facebook.fresco:fbcore:1.10.0 💯💯💯💯💯 uploaded to nuget and github
