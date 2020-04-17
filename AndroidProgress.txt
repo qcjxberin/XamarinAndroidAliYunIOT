@@ -158,16 +158,16 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 +--- com.aliyun.alink.linksdk:api-client-biz:1.0.2 💯💯💯💯💯 uploaded to nuget and github ✅
 |    +--- com.aliyun.alink.linksdk:tools:1.3.3 -> 1.3.5.1 💯💯💯💯💯 uploaded to nuget and github
 |    |    \--- com.alibaba:fastjson:1.1.41 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
-|    \--- com.aliyun.iot.aep.sdk:apiclient:0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    \--- com.aliyun.iot.aep.sdk:apiclient:0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅
 +--- com.aliyun.iot.aep.page:rn:0.3.2.1
 |    +--- com.aliyun.iot.aep.component:router-external:0.1.4 💯💯💯💯💯 uploaded to nuget and github
-|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.5 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.5 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅0.1now
 |    |    +--- com.aliyun.iot.aep.sdk:router:0.0.6 -> 0.0.7 💯💯💯💯💯 uploaded to nuget and github
 |    |    \--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    +--- com.aliyun.iot.aep.sdk:router:0.0.7 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.component:bundlemanager:0.1.5.1 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2 💯💯💯💯💯 uploaded to nuget and github
-|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅0.1now
 |    |    +--- com.aliyun.iot.aep.sdk:threadpool:0.0.3 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    \--- com.aliyun.alink.linksdk:tools:1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.sdk:rn-external:0.59.8.20200216 💯💯💯💯💯 uploaded to nuget and github(something no class error but should be not have these dependence)
@@ -209,7 +209,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    +--- com.aliyun.iot.aep.sdk:jsbridge-core:0.0.5
 |    |    |    +--- com.aliyun.iot.aep.sdk:jsbridge-annotation:0.0.1
 |    |    |    \--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
-|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅0.1now
 |    |    \--- com.aliyun.alink.linksdk:tools:1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.sdk:rn-external-jsbridge:0.0.5
 |    |    \--- com.aliyun.iot.aep.sdk:jsbridge-core:0.0.5 (*)
@@ -222,7 +222,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    +--- com.aliyun.iot.aep.sdk:jsbridge:0.0.4 -> 0.1.2 (*)
 |    +--- com.aliyun.alink.linksdk:public-channel-mobile:1.5.1.3
 |    |    +--- com.aliyun.iot.aep.sdk.external:securityguard:5.3.38 -> 5.4.191.2020-02-26-exclude-x86 💯💯💯💯💯 uploaded to nuget and github
-|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅0.1now
 |    |    \--- com.aliyun.alink.linksdk:public-channel-core:0.7.0.2 -> 0.7.1
 |    |         +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |         +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
@@ -295,7 +295,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    +--- com.google.firebase:firebase-iid:[17.1.2] -> 17.1.2 (*)
 |    |    \--- com.google.firebase:firebase-measurement-connector:17.0.1 (*)
 |    +--- com.aliyun.ams:alicloud-android-push-iot:3.1.8
-|    +--- com.aliyun.iot.aep.sdk:apiclient:0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    +--- com.aliyun.iot.aep.sdk:apiclient:0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅
 |    +--- com.aliyun.alink.linksdk:tools:1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.ams:alicloud-android-third-push:3.0.8
 |    +--- com.aliyun.ams:alicloud-android-beacon:1.0.1
@@ -314,7 +314,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    +--- com.aliyun.alink.linksdk:public-channel-core:0.6.4 -> 0.7.1 (*)
 |    |    |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.1
-|    |    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.5 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
+|    |    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.5 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅0.1now
 |    |    |    +--- com.aliyun.alink.linksdk:iot-apiclient:1.0.0
 |    |    |    |    +--- com.aliyun.alink.linksdk:network-core:1.0.0
 |    |    |    |    |    \--- com.squareup.okhttp3:okhttp:3.0.1 -> 3.12.8 (*) 💯💯💯💯💯 uploaded to nuget and github ✅
