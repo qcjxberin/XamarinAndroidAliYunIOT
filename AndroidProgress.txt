@@ -2,7 +2,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 +--- com.aliyun.iot.aep.sdk:apiclient:0.1 💯💯💯💯💯 uploaded to nuget and github ✅
 |    +--- com.aliyun.iot.aep.sdk.external:securityguard:5.4.191.2020-02-26-exclude-x86 💯💯💯💯💯 uploaded to nuget and github ✅
 |    +--- com.aliyun.api.gateway:sdk-core-android:1.2.2 💯💯💯💯💯 uploaded to nuget and github ✅
-|    |    +--- com.alibaba:fastjson:1.2.5 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅
+|    |    +--- com.alibaba:fastjson:1.2.5 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |    \--- com.squareup.okhttp3:okhttp:3.12.0 -> 3.12.8 💯💯💯💯💯 uploaded to nuget and github ✅
 |    |         \--- com.squareup.okio:okio:1.15.0 💯💯💯💯💯 uploaded to nuget and github ✅
 |    \--- com.squareup.okhttp3:okhttp:3.12.8 (*) 💯💯💯💯💯 uploaded to nuget and github ✅
@@ -140,7 +140,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    \--- androidx.constraintlayout:constraintlayout-solver:1.1.3
 |    |    +--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
 |    |    \--- com.google.android.material:material:1.0.0 (*)
-|    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    +--- androidx.multidex:multidex:2.0.0
 |    +--- androidx.fragment:fragment:1.0.0 -> 1.1.0 (*)
 |    +--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
@@ -157,13 +157,13 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 +--- com.aliyun.ams:alicloud-android-utdid:1.1.5.3 💯💯💯💯💯 uploaded to nuget and github ✅
 +--- com.aliyun.alink.linksdk:api-client-biz:1.0.2 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.alink.linksdk:tools:1.3.3 -> 1.3.5.1 💯💯💯💯💯 uploaded to nuget and github
-|    |    \--- com.alibaba:fastjson:1.1.41 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    |    \--- com.alibaba:fastjson:1.1.41 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    \--- com.aliyun.iot.aep.sdk:apiclient:0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 +--- com.aliyun.iot.aep.page:rn:0.3.2.1
 |    +--- com.aliyun.iot.aep.component:router-external:0.1.4 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.5 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:router:0.0.6 -> 0.0.7 💯💯💯💯💯 uploaded to nuget and github
-|    |    \--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    |    \--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    +--- com.aliyun.iot.aep.sdk:router:0.0.7 💯💯💯💯💯 uploaded to nuget and github
 |    +--- com.aliyun.iot.aep.component:bundlemanager:0.1.5.1 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2 💯💯💯💯💯 uploaded to nuget and github
@@ -224,17 +224,17 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    +--- com.aliyun.iot.aep.sdk.external:securityguard:5.3.38 -> 5.4.191.2020-02-26-exclude-x86 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.9 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    \--- com.aliyun.alink.linksdk:public-channel-core:0.7.0.2 -> 0.7.1
-|    |         +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    |         +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |         +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |         +--- com.aliyun.alink.linksdk:android_alink_id2:1.1.3
 |    |         |    \--- com.aliyun.alink.linksdk:tools:1.3.1 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |         \--- com.aliyun.alink.linksdk:opensource-paho:1.2.0.3
 |    \--- com.aliyun.alink.linksdk:public-channel-core:0.7.1 (*)
 +--- com.aliyun.iot.aep.sdk:iot-credential:0.0.2.8
-|    \--- com.alibaba:fastjson:1.2.3 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    \--- com.alibaba:fastjson:1.2.3 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 +--- com.aliyun.iot.sdk:account-oa-ui:0.1.6
 |    +--- com.aliyun.iot.aep.sdk:alog:0.0.5 -> 0.0.5.1 (*)
-|    +--- com.alibaba:fastjson:1.2.3 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    +--- com.alibaba:fastjson:1.2.3 -> 1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    \--- com.alibaba.sdk.android.openaccount:openaccount-ui-default:3.6.3
 |         +--- com.alibaba.sdk.android.openaccount:openaccount-core:3.6.3
 |         |    +--- androidx.legacy:legacy-support-v4:1.0.0 (*)
@@ -306,11 +306,11 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    \--- com.aliyun.ams:meizu-push:3.8.3-fix
 +--- com.aliyun.alink.linksdk:public-tmp-ext-boneplugin:1.7.1.2
 |    +--- com.aliyun.alink.linksdk:public-tmp:1.9.1.2
-|    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |    +--- com.aliyun.iot.aep.sdk.external:securityguard:5.3.38 -> 5.4.191.2020-02-26-exclude-x86 💯💯💯💯💯 uploaded to nuget and github
 |    |    +--- com.google.code.gson:gson:2.8.1
 |    |    +--- com.aliyun.alink.linksdk:public-cmp:1.7.1
-|    |    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    |    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |    |    +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    +--- com.aliyun.alink.linksdk:public-channel-core:0.6.4 -> 0.7.1 (*)
 |    |    |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.1
@@ -323,7 +323,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    |    +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    |    +--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.3.0.1 -> 1.5.0
 |    |    |    |    |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.0 -> 1.7.1
-|    |    |    |    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    |    |    |    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |    |    |    |    +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    |    |    |    |    \--- org.mozilla:rhino:1.7.9
 |    |    |    |    \--- com.aliyun.alink.linksdk:coap-sdk:1.5.0 -> 1.7.1
@@ -336,7 +336,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    \--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 +--- com.aliyun.alink.linksdk:ilop-devicecenter-ext-boneplugin:1.5.1
 +--- com.aliyun.alink.linksdk:ilop-devicecenter:1.7.6
-|    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github
+|    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    +--- com.aliyun.alink.linksdk:tools:1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github
 |    \--- com.aliyun.alink.linksdk:coap-sdk:1.7.1
 +--- com.aliyun.alink.linksdk:lpbs-plugin-breeze:1.1.0.1
