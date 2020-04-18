@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_cancel">Annuler</string>
+    <string name="account_choose_register_style">Sélectionner méthode d\'enregistrement</string>
+    <string name="account_choose_register_style_email">Adresse email</string>
+    <string name="account_choose_register_style_phone">Numéro de téléphone</string>
+    <string name="account_hot_country">Pays/région populaire</string>
+    <string name="account_loading_loginout">Déconnexion...</string>
+    <string name="account_select_country_code">Sélectionnez le code du pays/de la région</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_code_subfix">+</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_default_code">65</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_search_hint">Rechercher</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_title">Sélectionnez le code du pays/de la région</string>
+    <string name="click_retry">cliquez pour réessayer.</string>
+    <string name="component_cancel">Annuler</string>
+    <string name="component_set_up">Aller param.</string>
+    <string name="component_unopened_location_service">Autorisation de la localisation désactivée</string>
+    <string name="component_unopened_location_service_des">Pour accélérer la localisation, autorisez Cloud Intelligence à utiliser les services de localisation.</string>
+    <string name="locating">Recherche</string>
+    <string name="location_failed">Impossible de localiser.</string>
+    <string name="location_failed_again">Cliquez pour réessayer.</string>
+    <string name="login_country_selected">Code de pays/région</string>
+    <string name="login_create_account">S\'inscrire</string>
+    <string name="login_go_choose">OK</string>
+    <string name="login_google_text">Connexion avec Google</string>
+    <string name="login_locate">Recherche</string>
+    <string name="login_location_fail">Échec de la localisation. Cliquez pour réessayer</string>
+    <string name="login_no_select_country_text">Sélectionnez un code pays/région avant la connexion ou l\'inscription.</string>
+    <string name="login_no_select_country_title">Aucun code pays/région sélectionné</string>
+    <string name="login_start">Connexion</string>
+    <string name="login_welcome">Bienvenue sur le\nCloud Intelligence</string>
+    <string name="mine_setting_choose_country">Sélectionner pays/région</string>
+    <string name="region_cancel">Annuler</string>
+    <string name="region_china">Chine</string>
+    <string name="region_header_title">Code de pays/région</string>
+    <string name="share_confirm_dialog_sure">Confirmer</string>
+    <string name="tp_loading">Chargement...</string>
+</resources>

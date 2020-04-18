@@ -1,0 +1,2 @@
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\sdk-framework\0.1.4.5\SdkFramework\SdkFramework\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\sdk-framework\0.1.4.5\SdkFramework\SdkFramework\obj\Debug\SdkFramework.csproj.CoreCompileInputs.cache

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.aliyun.iot.aep.sdk.page.OATitleBar
+            android:id="@+id/country_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white" />
+
+        <RelativeLayout
+            android:id="@+id/country_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/country_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:divider="@null"
+                android:scrollbars="none" />
+
+            <com.aliyun.iot.aep.sdk.page.CountrySiderBar
+                android:id="@+id/countryLetterListView"
+                android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="60dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="1dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_select_country"
+        android:layout_width="138dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/default_start_country_select_btn_background"
+        android:paddingBottom="14dp"
+        android:text="@string/share_confirm_dialog_sure"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_cancel">取消</string>
+    <string name="account_choose_register_style">Select Registration Method</string>
+    <string name="account_choose_register_style_email">邮箱注册</string>
+    <string name="account_choose_register_style_phone">Mobile Number</string>
+    <string name="account_hot_country">Popular Country/Region</string>
+    <string name="account_loading_loginout">Logging out...</string>
+    <string name="account_select_country_code">Select Country/Region Code</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_code_subfix">+</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_default_code">86</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_search_hint">Search</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_title">Select Country/Region Code</string>
+    <string name="click_retry">Click to retry</string>
+    <string name="component_cancel">Cancel</string>
+    <string name="component_set_up">Go to Settings</string>
+    <string name="component_unopened_location_service">Location Permissions Disabled</string>
+    <string name="component_unopened_location_service_des">To quickly locate, allow Cloud Intelligence to use the location services.</string>
+    <string name="locating">Locating</string>
+    <string name="location_failed">Failed to locate.</string>
+    <string name="location_failed_again">Click to retry.</string>
+    <string name="login_country_selected">Select Country/Region</string>
+    <string name="login_create_account">注册</string>
+    <string name="login_go_choose">OK</string>
+    <string name="login_google_text">Login with Google</string>
+    <string name="login_locate">正在定位</string>
+    <string name="login_location_fail">Failed to locate. Click to retry</string>
+    <string name="login_no_select_country_text">Select a country/area code before login or sign-up.</string>
+    <string name="login_no_select_country_title">No country/area code is selected</string>
+    <string name="login_start">登录</string>
+    <string name="login_welcome">Welcome to\nCloud Intelligence</string>
+    <string name="mine_setting_choose_country">Select Country/Region</string>
+    <string name="region_cancel">取消</string>
+    <string name="region_china">China </string>
+    <string name="region_header_title">选择国家/地区</string>
+    <string name="share_confirm_dialog_sure">确定</string>
+    <string name="tp_loading">加载中</string>
+</resources>
