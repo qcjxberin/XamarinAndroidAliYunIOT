@@ -1,7 +1,0 @@
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\bin\Debug\ABus.dll
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\bin\Debug\ABus.pdb
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\obj\Debug\ABus.csprojAssemblyReference.cache
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\obj\Debug\ABus.csproj.CoreCompileInputs.cache
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\obj\Debug\ABus.dll
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.iot.aep.sdk\abus\0.0.1\ABus\ABus\obj\Debug\ABus.pdb

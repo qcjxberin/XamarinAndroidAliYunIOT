@@ -1,2 +1,0 @@
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBus\EventBus\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-E:\GitHub\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBus\EventBus\obj\Debug\EventBus.csproj.CoreCompileInputs.cache
