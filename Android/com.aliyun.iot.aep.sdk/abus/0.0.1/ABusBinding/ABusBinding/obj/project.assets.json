@@ -17,11 +17,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\XamarinAndroidAliYunIOT\\Android\\com.taobao.external\\eventbus\\1.0.2\\EventBus\\EventBus\\EventBus.csproj",
-      "projectName": "EventBus",
-      "projectPath": "E:\\GitHub\\XamarinAndroidAliYunIOT\\Android\\com.taobao.external\\eventbus\\1.0.2\\EventBus\\EventBus\\EventBus.csproj",
+      "projectUniqueName": "E:\\GitHub\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.iot.aep.sdk\\abus\\0.0.1\\ABus\\ABus\\ABusBinding.csproj",
+      "projectName": "ABusBinding",
+      "projectPath": "E:\\GitHub\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.iot.aep.sdk\\abus\\0.0.1\\ABus\\ABus\\ABusBinding.csproj",
       "packagesPath": "C:\\Users\\dingchuan\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\XamarinAndroidAliYunIOT\\Android\\com.taobao.external\\eventbus\\1.0.2\\EventBus\\EventBus\\obj\\",
+      "outputPath": "E:\\GitHub\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.iot.aep.sdk\\abus\\0.0.1\\ABus\\ABus\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
