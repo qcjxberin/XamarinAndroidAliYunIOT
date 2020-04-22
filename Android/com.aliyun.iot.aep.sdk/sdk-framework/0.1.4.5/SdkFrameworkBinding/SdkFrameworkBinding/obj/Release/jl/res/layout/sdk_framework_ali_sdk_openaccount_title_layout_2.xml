@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/ali_sdk_openaccount_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:src="@drawable/back_arrow_white"
+            android:tint="@android:color/black"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/ali_sdk_openaccount_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ali_sdk_openaccount_back"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            tools:text="Title" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_title"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#38EDEDED" />
+
+    <com.aliyun.iot.link.ui.component.nav.UINavigationBar
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:visibility="gone">
+
+    </com.aliyun.iot.link.ui.component.nav.UINavigationBar>
+
+</merge>

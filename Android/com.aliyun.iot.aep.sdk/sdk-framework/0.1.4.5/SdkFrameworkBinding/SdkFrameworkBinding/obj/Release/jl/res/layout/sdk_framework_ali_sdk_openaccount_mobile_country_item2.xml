@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/country_catalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1AF5F5F5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/country_catalog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="9dp"
+            android:gravity="center_vertical"
+            android:textColor="#9B9B9B"
+            android:textSize="16sp"
+            tools:text="12312321" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/country_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:text="12312321" />
+
+        <TextView
+            android:id="@+id/country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingStart="0dp"
+            android:paddingEnd="28dp"
+            android:text="@string/ali_sdk_openaccount_text_mobile_country_default_code"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            tools:text="12312321" />
+
+        <TextView
+            android:id="@+id/country_code_subfix"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/country_code"
+            android:gravity="center_vertical"
+            android:text="@string/ali_sdk_openaccount_text_mobile_country_code_subfix"
+            android:textColor="#5E5E5E"
+            android:textSize="12sp"
+            tools:ignore="RelativeOverlap"
+            tools:text="12312321" />
+
+        <View
+            android:id="@+id/country_code_hint"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignStart="@id/country_name"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:background="#38EDEDED" />
+    </RelativeLayout>
+
+</LinearLayout>

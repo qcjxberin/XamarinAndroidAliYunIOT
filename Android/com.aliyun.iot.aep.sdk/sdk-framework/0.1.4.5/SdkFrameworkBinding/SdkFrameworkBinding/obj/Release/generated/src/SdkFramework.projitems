@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.AService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Base.ApiDataCallBack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Base.BaseServerApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Base.IDataCallBack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Bundle.BundleConfigure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Bundle.BundleManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Bundle.IBundleRegister.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Bundle.PageConfigure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Config.AConfigure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Config.GlobalConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Config.SDKConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Config.SDKConfigAll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Language.LanguageHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Language.LanguageManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Log.IALogCloud.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Network.BaseApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Network.BaseRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Network.BaseResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Network.ILopRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Network.NetworkConnectiveManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Region.CountryManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Region.RegionInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Region.RegionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Region.RegionQueryApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Sdk.ISDKDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Sdk.SDKConfigure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Sdk.SDKManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Sdk.SimpleSDKDelegateImp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Utils.BroadCastUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Utils.ObjectUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Framework.Utils.SpUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Init.BaseSDKDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Init.DownStreamHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Init.OpenAccountSDKDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Init.PushManagerHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Init.PushSDKDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Init.ThingModuleSDKDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.IoTSmart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.IoTSmartImpl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Page.CountryCodeAdapter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Page.GetCountryNameSort.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Page.LocateHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Page.LocateTask.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Page.LocationUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Page.OATitleBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Submodule.BaseSDKGlue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Submodule.DeviceCenterGlue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Submodule.OpenAccountBoneGlue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Submodule.PushBindAccountGlue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Iot.Aep.Sdk.Submodule.ThingModuleBoneGlue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

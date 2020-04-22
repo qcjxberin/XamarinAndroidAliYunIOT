@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_cancel">Abbrechen</string>
+    <string name="account_choose_register_style">Registrierungsmethode auswählen</string>
+    <string name="account_choose_register_style_email">E-Mail-Adresse</string>
+    <string name="account_choose_register_style_phone">Handynummer</string>
+    <string name="account_hot_country">Beliebtes Land/beliebte Region</string>
+    <string name="account_loading_loginout">Abmelden...</string>
+    <string name="account_select_country_code">Länder-/Regionscode auswählen</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_code_subfix">+</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_default_code">65</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_search_hint">Suchen</string>
+    <string name="ali_sdk_openaccount_text_mobile_country_title">Länder-/Regionscode auswählen</string>
+    <string name="click_retry">klicken, um es erneut zu versuchen.</string>
+    <string name="component_cancel">Abbrechen</string>
+    <string name="component_set_up">Einstell öffnen</string>
+    <string name="component_unopened_location_service">Standortberechtigungen deaktiviert</string>
+    <string name="component_unopened_location_service_des">Um eine schnelle Ortung zu ermöglichen, erlauben Sie Cloud Intelligence die Nutzung der Standortdienste.</string>
+    <string name="locating">Ortung läuft</string>
+    <string name="location_failed">Ort nicht gefunden.</string>
+    <string name="location_failed_again">Klicken, um es erneut zu versuchen.</string>
+    <string name="login_country_selected">Land/Region</string>
+    <string name="login_create_account">Registrieren</string>
+    <string name="login_go_choose">OK</string>
+    <string name="login_google_text">Über Google anmelden</string>
+    <string name="login_locate">Ortung läuft</string>
+    <string name="login_location_fail">Ort nicht gefunden. Klicken zum Wiederholen</string>
+    <string name="login_no_select_country_text">Wählen Sie einen Land-/Gebietscode, bevor Sie sich anmelden oder registrieren.</string>
+    <string name="login_no_select_country_title">Kein Land-/Gebietscode ausgewählt</string>
+    <string name="login_start">Anmeldung</string>
+    <string name="login_welcome">Willkommen bei\nCloud Intelligence</string>
+    <string name="mine_setting_choose_country">Land/Region</string>
+    <string name="region_cancel">Abbrechen</string>
+    <string name="region_china">China</string>
+    <string name="region_header_title">Land/Region</string>
+    <string name="share_confirm_dialog_sure">Bestätigen</string>
+    <string name="tp_loading">Wird geladen...</string>
+</resources>
