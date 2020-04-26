@@ -765,7 +765,7 @@
         <parameter name="delegates" type="java.util.List&lt;com.aliyun.iot.aep.sdk.framework.sdk.ISDKDelegate&gt;" jni-type="Ljava/util/List&lt;Lcom/aliyun/iot/aep/sdk/framework/sdk/ISDKDelegate;&gt;;"></parameter>
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="_parseToSDKConfigure" jni-signature="(Lorg/json/JSONObject;)Lcom/aliyun/iot/aep/sdk/framework/sdk/SDKConfigure;" bridge="false" native="false" return="com.aliyun.iot.aep.sdk.framework.sdk.SDKConfigure" jni-return="Lcom/aliyun/iot/aep/sdk/framework/sdk/SDKConfigure;" static="true" synchronized="false" synthetic="false" visibility="public">
-        <parameter name="jsonObject" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;" not-null="true"></parameter>
+        <parameter name="jsonObject" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;"></parameter>
       </method>
       <method abstract="false" deprecated="not deprecated" final="false" name="_prepareSdkDelegateClassName" jni-signature="(Lorg/json/JSONObject;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
         <parameter name="object" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;"></parameter>
@@ -1190,7 +1190,7 @@
     </interface>
     <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="LocateTask" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/page/LocateTask;">
       <constructor deprecated="not deprecated" final="false" name="LocateTask" jni-signature="(Landroid/content/Context;Ljava/util/List;Lcom/aliyun/iot/aep/sdk/page/LocateHandler$OnLocationListener;)V" bridge="false" static="false" type="com.aliyun.iot.aep.sdk.page.LocateTask" synthetic="false" visibility="public">
-        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;" not-null="true"></parameter>
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
         <parameter name="countries" type="java.util.List&lt;com.aliyun.iot.aep.sdk.IoTSmart.Country&gt;" jni-type="Ljava/util/List&lt;Lcom/aliyun/iot/aep/sdk/IoTSmart$Country;&gt;;"></parameter>
         <parameter name="locationListener" type="com.aliyun.iot.aep.sdk.page.LocateHandler.OnLocationListener" jni-type="Lcom/aliyun/iot/aep/sdk/page/LocateHandler$OnLocationListener;"></parameter>
       </constructor>

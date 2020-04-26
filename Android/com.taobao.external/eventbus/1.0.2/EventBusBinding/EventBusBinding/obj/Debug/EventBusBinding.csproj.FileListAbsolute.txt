@@ -1,0 +1,7 @@
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\obj\Debug\EventBusBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\bin\Debug\EventBus.dll
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\bin\Debug\EventBus.pdb
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\obj\Debug\EventBus.dll
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\obj\Debug\EventBus.pdb
+E:\GithubWorkspace\AliIOTPR\XamarinAndroidAliYunIOT\Android\com.taobao.external\eventbus\1.0.2\EventBusBinding\EventBusBinding\obj\Debug\EventBusBinding.csprojAssemblyReference.cache

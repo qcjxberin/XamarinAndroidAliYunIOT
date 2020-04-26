@@ -7179,8 +7179,7 @@
         <parameter
           name="jsonObject"
           type="org.json.JSONObject"
-          jni-type="Lorg/json/JSONObject;"
-          not-null="true" />
+          jni-type="Lorg/json/JSONObject;" />
       </method>
       <method
         abstract="false"
@@ -10558,8 +10557,7 @@
         <parameter
           name="context"
           type="android.content.Context"
-          jni-type="Landroid/content/Context;"
-          not-null="true" />
+          jni-type="Landroid/content/Context;" />
         <parameter
           name="countries"
           type="java.util.List&lt;com.aliyun.iot.aep.sdk.IoTSmart.Country&gt;"
