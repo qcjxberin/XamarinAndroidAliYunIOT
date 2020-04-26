@@ -1,0 +1,2732 @@
+<api
+  api-source="class-parse">
+  <package
+    name="de.greenrobot.event"
+    jni-name="de/greenrobot/event">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AsyncPoster"
+      jni-signature="Lde/greenrobot/event/AsyncPoster;"
+      source-file-name="AsyncPoster.java"
+      static="false"
+      visibility="">
+      <implements
+        name="java.lang.Runnable"
+        name-generic-aware="java.lang.Runnable"
+        jni-type="Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="enqueue"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/Subscription;Ljava/lang/Object;)V">
+        <parameter
+          name="subscription"
+          type="de.greenrobot.event.Subscription"
+          jni-type="Lde/greenrobot/event/Subscription;" />
+        <parameter
+          name="event"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BackgroundPoster"
+      jni-signature="Lde/greenrobot/event/BackgroundPoster;"
+      source-file-name="BackgroundPoster.java"
+      static="false"
+      visibility="">
+      <implements
+        name="java.lang.Runnable"
+        name-generic-aware="java.lang.Runnable"
+        jni-type="Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="enqueue"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/Subscription;Ljava/lang/Object;)V">
+        <parameter
+          name="subscription"
+          type="de.greenrobot.event.Subscription"
+          jni-type="Lde/greenrobot/event/Subscription;" />
+        <parameter
+          name="event"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="EventBus"
+      jni-signature="Lde/greenrobot/event/EventBus;"
+      source-file-name="EventBus.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="EventBus"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clearCaches"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clearSkipMethodNameVerifications"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="configureLogSubscriberExceptions"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="logSubscriberExceptions"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getDefault"
+        native="false"
+        return="de.greenrobot.event.EventBus"
+        jni-return="Lde/greenrobot/event/EventBus;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lde/greenrobot/event/EventBus;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getStickyEvent"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;)Ljava/lang/Object;">
+        <parameter
+          name="eventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="post"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="event"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="postSticky"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="event"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="register"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="register"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="eventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+        <parameter
+          name="moreEventTypes"
+          type="java.lang.Class&lt;?&gt;..."
+          jni-type="[Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="register"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/String;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="methodName"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="register"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="true"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Class;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="methodName"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="eventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+        <parameter
+          name="moreEventTypes"
+          type="java.lang.Class&lt;?&gt;..."
+          jni-type="[Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerSticky"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerSticky"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/Class;[Ljava/lang/Class;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="eventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+        <parameter
+          name="moreEventTypes"
+          type="java.lang.Class&lt;?&gt;..."
+          jni-type="[Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerSticky"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/String;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="methodName"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerSticky"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="true"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Class;[Ljava/lang/Class;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="methodName"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="eventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+        <parameter
+          name="moreEventTypes"
+          type="java.lang.Class&lt;?&gt;..."
+          jni-type="[Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeStickyEvent"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;)Ljava/lang/Object;">
+        <parameter
+          name="eventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeStickyEvent"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="event"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="skipMethodNameVerificationFor"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;)V">
+        <parameter
+          name="clazz"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unregister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="true"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unregister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="true"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;[Ljava/lang/Class;)V">
+        <parameter
+          name="subscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="eventTypes"
+          type="java.lang.Class&lt;?&gt;..."
+          jni-type="[Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="TAG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lde/greenrobot/event/EventBus;"
+      jni-extends="Ljava/lang/ThreadLocal;"
+      extends="java.lang.ThreadLocal"
+      extends-generic-aware="java.lang.ThreadLocal&lt;java.util.List&lt;java.lang.Object&gt;&gt;"
+      final="false"
+      name="EventBus.1"
+      jni-signature="Lde/greenrobot/event/EventBus$1;"
+      source-file-name="EventBus.java"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialValue"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialValue"
+        native="false"
+        return="java.util.List&lt;java.lang.Object&gt;"
+        jni-return="Ljava/util/List&lt;Ljava/lang/Object;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lde/greenrobot/event/EventBus;"
+      jni-extends="Ljava/lang/ThreadLocal;"
+      extends="java.lang.ThreadLocal"
+      extends-generic-aware="java.lang.ThreadLocal&lt;de.greenrobot.event.EventBus.BooleanWrapper&gt;"
+      final="false"
+      name="EventBus.2"
+      jni-signature="Lde/greenrobot/event/EventBus$2;"
+      source-file-name="EventBus.java"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialValue"
+        native="false"
+        return="de.greenrobot.event.EventBus.BooleanWrapper"
+        jni-return="Lde/greenrobot/event/EventBus$BooleanWrapper;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lde/greenrobot/event/EventBus$BooleanWrapper;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initialValue"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="true"
+        synthetic="true"
+        jni-signature="()Ljava/lang/Object;" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="EventBus.BooleanWrapper"
+      jni-signature="Lde/greenrobot/event/EventBus$BooleanWrapper;"
+      source-file-name="EventBus.java"
+      static="true"
+      visibility="" />
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="EventBus.PostCallback"
+      jni-signature="Lde/greenrobot/event/EventBus$PostCallback;"
+      source-file-name="EventBus.java"
+      static="true"
+      visibility="">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onPostCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;de.greenrobot.event.SubscriberExceptionEvent&gt;"
+          jni-type="Ljava/util/List&lt;Lde/greenrobot/event/SubscriberExceptionEvent;&gt;;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/RuntimeException;"
+      extends="java.lang.RuntimeException"
+      extends-generic-aware="java.lang.RuntimeException"
+      final="false"
+      name="EventBusException"
+      jni-signature="Lde/greenrobot/event/EventBusException;"
+      source-file-name="EventBusException.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="EventBusException"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="detailMessage"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="EventBusException"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/Throwable;)V">
+        <parameter
+          name="detailMessage"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="EventBusException"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </constructor>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/os/Handler;"
+      extends="android.os.Handler"
+      extends-generic-aware="android.os.Handler"
+      final="true"
+      name="HandlerPoster"
+      jni-signature="Lde/greenrobot/event/HandlerPoster;"
+      source-file-name="HandlerPoster.java"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="handleMessage"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Message;)V">
+        <parameter
+          name="msg"
+          type="android.os.Message"
+          jni-type="Landroid/os/Message;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="NoSubscriberEvent"
+      jni-signature="Lde/greenrobot/event/NoSubscriberEvent;"
+      source-file-name="NoSubscriberEvent.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="NoSubscriberEvent"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/EventBus;Ljava/lang/Object;)V">
+        <parameter
+          name="eventBus"
+          type="de.greenrobot.event.EventBus"
+          jni-type="Lde/greenrobot/event/EventBus;" />
+        <parameter
+          name="originalEvent"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </constructor>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="eventBus"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.EventBus"
+        type-generic-aware="de.greenrobot.event.EventBus"
+        jni-signature="Lde/greenrobot/event/EventBus;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="originalEvent"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Object"
+        type-generic-aware="java.lang.Object"
+        jni-signature="Ljava/lang/Object;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="PendingPost"
+      jni-signature="Lde/greenrobot/event/PendingPost;"
+      source-file-name="PendingPost.java"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="PendingPostQueue"
+      jni-signature="Lde/greenrobot/event/PendingPostQueue;"
+      source-file-name="PendingPostQueue.java"
+      static="false"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="SubscriberExceptionEvent"
+      jni-signature="Lde/greenrobot/event/SubscriberExceptionEvent;"
+      source-file-name="SubscriberExceptionEvent.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SubscriberExceptionEvent"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/EventBus;Ljava/lang/Throwable;Ljava/lang/Object;Ljava/lang/Object;)V">
+        <parameter
+          name="eventBus"
+          type="de.greenrobot.event.EventBus"
+          jni-type="Lde/greenrobot/event/EventBus;" />
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+        <parameter
+          name="causingEvent"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="causingSubscriber"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </constructor>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="causingEvent"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Object"
+        type-generic-aware="java.lang.Object"
+        jni-signature="Ljava/lang/Object;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="causingSubscriber"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Object"
+        type-generic-aware="java.lang.Object"
+        jni-signature="Ljava/lang/Object;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="eventBus"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.EventBus"
+        type-generic-aware="de.greenrobot.event.EventBus"
+        jni-signature="Lde/greenrobot/event/EventBus;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="throwable"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Throwable"
+        type-generic-aware="java.lang.Throwable"
+        jni-signature="Ljava/lang/Throwable;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="SubscriberMethod"
+      jni-signature="Lde/greenrobot/event/SubscriberMethod;"
+      source-file-name="SubscriberMethod.java"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="other"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SubscriberMethodFinder"
+      jni-signature="Lde/greenrobot/event/SubscriberMethodFinder;"
+      source-file-name="SubscriberMethodFinder.java"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="clearSkipMethodNameVerifications"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="Subscription"
+      jni-signature="Lde/greenrobot/event/Subscription;"
+      source-file-name="Subscription.java"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="other"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;de.greenrobot.event.ThreadMode&gt;"
+      final="true"
+      name="ThreadMode"
+      jni-signature="Lde/greenrobot/event/ThreadMode;"
+      source-file-name="ThreadMode.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="de.greenrobot.event.ThreadMode"
+        jni-return="Lde/greenrobot/event/ThreadMode;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lde/greenrobot/event/ThreadMode;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="de.greenrobot.event.ThreadMode[]"
+        jni-return="[Lde/greenrobot/event/ThreadMode;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lde/greenrobot/event/ThreadMode;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="Async"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.ThreadMode"
+        type-generic-aware="de.greenrobot.event.ThreadMode"
+        jni-signature="Lde/greenrobot/event/ThreadMode;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BackgroundThread"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.ThreadMode"
+        type-generic-aware="de.greenrobot.event.ThreadMode"
+        jni-signature="Lde/greenrobot/event/ThreadMode;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="MainThread"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.ThreadMode"
+        type-generic-aware="de.greenrobot.event.ThreadMode"
+        jni-signature="Lde/greenrobot/event/ThreadMode;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="PostThread"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.ThreadMode"
+        type-generic-aware="de.greenrobot.event.ThreadMode"
+        jni-signature="Lde/greenrobot/event/ThreadMode;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="de.greenrobot.event.util"
+    jni-name="de/greenrobot/event/util">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AsyncExecutor"
+      jni-signature="Lde/greenrobot/event/util/AsyncExecutor;"
+      source-file-name="AsyncExecutor.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="builder"
+        native="false"
+        return="de.greenrobot.event.util.AsyncExecutor.Builder"
+        jni-return="Lde/greenrobot/event/util/AsyncExecutor$Builder;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lde/greenrobot/event/util/AsyncExecutor$Builder;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="create"
+        native="false"
+        return="de.greenrobot.event.util.AsyncExecutor"
+        jni-return="Lde/greenrobot/event/util/AsyncExecutor;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lde/greenrobot/event/util/AsyncExecutor;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="execute"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/AsyncExecutor$RunnableEx;)V">
+        <parameter
+          name="runnable"
+          type="de.greenrobot.event.util.AsyncExecutor.RunnableEx"
+          jni-type="Lde/greenrobot/event/util/AsyncExecutor$RunnableEx;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lde/greenrobot/event/util/AsyncExecutor;"
+      enclosing-method-name="execute"
+      enclosing-method-signature="(Lde/greenrobot/event/util/AsyncExecutor$RunnableEx;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AsyncExecutor.1"
+      jni-signature="Lde/greenrobot/event/util/AsyncExecutor$1;"
+      source-file-name="AsyncExecutor.java"
+      static="false"
+      visibility="">
+      <implements
+        name="java.lang.Runnable"
+        name-generic-aware="java.lang.Runnable"
+        jni-type="Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="AsyncExecutor.Builder"
+      jni-signature="Lde/greenrobot/event/util/AsyncExecutor$Builder;"
+      source-file-name="AsyncExecutor.java"
+      static="true"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="build"
+        native="false"
+        return="de.greenrobot.event.util.AsyncExecutor"
+        jni-return="Lde/greenrobot/event/util/AsyncExecutor;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lde/greenrobot/event/util/AsyncExecutor;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="eventBus"
+        native="false"
+        return="de.greenrobot.event.util.AsyncExecutor.Builder"
+        jni-return="Lde/greenrobot/event/util/AsyncExecutor$Builder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/EventBus;)Lde/greenrobot/event/util/AsyncExecutor$Builder;">
+        <parameter
+          name="eventBus"
+          type="de.greenrobot.event.EventBus"
+          jni-type="Lde/greenrobot/event/EventBus;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="failureEventType"
+        native="false"
+        return="de.greenrobot.event.util.AsyncExecutor.Builder"
+        jni-return="Lde/greenrobot/event/util/AsyncExecutor$Builder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;)Lde/greenrobot/event/util/AsyncExecutor$Builder;">
+        <parameter
+          name="failureEventType"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="threadPool"
+        native="false"
+        return="de.greenrobot.event.util.AsyncExecutor.Builder"
+        jni-return="Lde/greenrobot/event/util/AsyncExecutor$Builder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/concurrent/Executor;)Lde/greenrobot/event/util/AsyncExecutor$Builder;">
+        <parameter
+          name="threadPool"
+          type="java.util.concurrent.Executor"
+          jni-type="Ljava/util/concurrent/Executor;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="AsyncExecutor.RunnableEx"
+      jni-signature="Lde/greenrobot/event/util/AsyncExecutor$RunnableEx;"
+      source-file-name="AsyncExecutor.java"
+      static="true"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V">
+        <exception
+          name="java/lang/Exception"
+          type="java.lang.Exception"
+          type-generic-aware="java.lang.Exception" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ErrorDialogConfig"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogConfig;"
+      source-file-name="ErrorDialogConfig.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/res/Resources;II)V">
+        <parameter
+          name="resources"
+          type="android.content.res.Resources"
+          jni-type="Landroid/content/res/Resources;" />
+        <parameter
+          name="defaultTitleId"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="defaultMsgId"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addMapping"
+        native="false"
+        return="de.greenrobot.event.util.ErrorDialogConfig"
+        jni-return="Lde/greenrobot/event/util/ErrorDialogConfig;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;I)Lde/greenrobot/event/util/ErrorDialogConfig;">
+        <parameter
+          name="clazz"
+          type="java.lang.Class&lt;? extends java.lang.Throwable&gt;"
+          jni-type="Ljava/lang/Class&lt;+Ljava/lang/Throwable;&gt;;" />
+        <parameter
+          name="msgId"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="disableExceptionLogging"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getMessageIdForThrowable"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)I">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDefaultDialogIconId"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(I)V">
+        <parameter
+          name="defaultDialogIconId"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDefaultEventTypeOnDialogClosed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;)V">
+        <parameter
+          name="defaultEventTypeOnDialogClosed"
+          type="java.lang.Class&lt;?&gt;"
+          jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setEventBus"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/EventBus;)V">
+        <parameter
+          name="eventBus"
+          type="de.greenrobot.event.EventBus"
+          jni-type="Lde/greenrobot/event/EventBus;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTagForLoggingExceptions"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="tagForLoggingExceptions"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="true"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ErrorDialogFragmentFactory"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogFragmentFactory;"
+      source-file-name="ErrorDialogFragmentFactory.java"
+      static="false"
+      visibility="public">
+      <typeParameters>
+        <typeParameter
+          name="T"
+          jni-classBound="Ljava/lang/Object;"
+          classBound="java.lang.Object"
+          interfaceBounds=""
+          jni-interfaceBounds="" />
+      </typeParameters>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogFragmentFactory"
+        static="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ErrorDialogConfig;)V">
+        <parameter
+          name="config"
+          type="de.greenrobot.event.util.ErrorDialogConfig"
+          jni-type="Lde/greenrobot/event/util/ErrorDialogConfig;" />
+      </constructor>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="createErrorFragment"
+        native="false"
+        return="T"
+        jni-return="TT;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="p1"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getMessageFor"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Ljava/lang/String;">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="arguments"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTitleFor"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Ljava/lang/String;">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="arguments"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="prepareErrorFragment"
+        native="false"
+        return="T"
+        jni-return="TT;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;ZLandroid/os/Bundle;)Ljava/lang/Object;">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="finishAfterDialog"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="argumentsForErrorDialog"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="config"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.util.ErrorDialogConfig"
+        type-generic-aware="de.greenrobot.event.util.ErrorDialogConfig"
+        jni-signature="Lde/greenrobot/event/util/ErrorDialogConfig;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lde/greenrobot/event/util/ErrorDialogFragmentFactory;"
+      extends="de.greenrobot.event.util.ErrorDialogFragmentFactory"
+      extends-generic-aware="de.greenrobot.event.util.ErrorDialogFragmentFactory&lt;android.app.Fragment&gt;"
+      final="false"
+      name="ErrorDialogFragmentFactory.Honeycomb"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogFragmentFactory$Honeycomb;"
+      source-file-name="ErrorDialogFragmentFactory.java"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogFragmentFactory.Honeycomb"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ErrorDialogConfig;)V">
+        <parameter
+          name="config"
+          type="de.greenrobot.event.util.ErrorDialogConfig"
+          jni-type="Lde/greenrobot/event/util/ErrorDialogConfig;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createErrorFragment"
+        native="false"
+        return="android.app.Fragment"
+        jni-return="Landroid/app/Fragment;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Landroid/app/Fragment;">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="arguments"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createErrorFragment"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="p1"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lde/greenrobot/event/util/ErrorDialogFragmentFactory;"
+      extends="de.greenrobot.event.util.ErrorDialogFragmentFactory"
+      extends-generic-aware="de.greenrobot.event.util.ErrorDialogFragmentFactory&lt;android.support.v4.app.Fragment&gt;"
+      final="false"
+      name="ErrorDialogFragmentFactory.Support"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogFragmentFactory$Support;"
+      source-file-name="ErrorDialogFragmentFactory.java"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogFragmentFactory.Support"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ErrorDialogConfig;)V">
+        <parameter
+          name="config"
+          type="de.greenrobot.event.util.ErrorDialogConfig"
+          jni-type="Lde/greenrobot/event/util/ErrorDialogConfig;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createErrorFragment"
+        native="false"
+        return="android.support.v4.app.Fragment"
+        jni-return="Landroid/support/v4/app/Fragment;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Landroid/support/v4/app/Fragment;">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="arguments"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createErrorFragment"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;Landroid/os/Bundle;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+        <parameter
+          name="p1"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ErrorDialogFragments"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogFragments;"
+      source-file-name="ErrorDialogFragments.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogFragments"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createDialog"
+        native="false"
+        return="android.app.Dialog"
+        jni-return="Landroid/app/Dialog;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/os/Bundle;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/Dialog;">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="arguments"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+        <parameter
+          name="onClickListener"
+          type="android.content.DialogInterface.OnClickListener"
+          jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="handleOnClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;ILandroid/app/Activity;Landroid/os/Bundle;)V">
+        <parameter
+          name="dialog"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="which"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="activity"
+          type="android.app.Activity"
+          jni-type="Landroid/app/Activity;" />
+        <parameter
+          name="arguments"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="ERROR_DIALOG_ICON"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="EVENT_TYPE_ON_CLICK"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Class"
+        type-generic-aware="java.lang.Class&lt;?&gt;"
+        jni-signature="Ljava/lang/Class;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/app/DialogFragment;"
+      extends="android.app.DialogFragment"
+      extends-generic-aware="android.app.DialogFragment"
+      final="false"
+      name="ErrorDialogFragments.Honeycomb"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogFragments$Honeycomb;"
+      source-file-name="ErrorDialogFragments.java"
+      static="true"
+      visibility="public">
+      <implements
+        name="android.content.DialogInterface.OnClickListener"
+        name-generic-aware="android.content.DialogInterface.OnClickListener"
+        jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogFragments.Honeycomb"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;I)V">
+        <parameter
+          name="dialog"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="which"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreateDialog"
+        native="false"
+        return="android.app.Dialog"
+        jni-return="Landroid/app/Dialog;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)Landroid/app/Dialog;">
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/support/v4/app/DialogFragment;"
+      extends="android.support.v4.app.DialogFragment"
+      extends-generic-aware="android.support.v4.app.DialogFragment"
+      final="false"
+      name="ErrorDialogFragments.Support"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogFragments$Support;"
+      source-file-name="ErrorDialogFragments.java"
+      static="true"
+      visibility="public">
+      <implements
+        name="android.content.DialogInterface.OnClickListener"
+        name-generic-aware="android.content.DialogInterface.OnClickListener"
+        jni-type="Landroid/content/DialogInterface$OnClickListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogFragments.Support"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/DialogInterface;I)V">
+        <parameter
+          name="dialog"
+          type="android.content.DialogInterface"
+          jni-type="Landroid/content/DialogInterface;" />
+        <parameter
+          name="which"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreateDialog"
+        native="false"
+        return="android.app.Dialog"
+        jni-return="Landroid/app/Dialog;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)Landroid/app/Dialog;">
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ErrorDialogManager"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogManager;"
+      source-file-name="ErrorDialogManager.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogManager"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="attachTo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/app/Activity;)V">
+        <parameter
+          name="activity"
+          type="android.app.Activity"
+          jni-type="Landroid/app/Activity;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="attachTo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/app/Activity;Z)V">
+        <parameter
+          name="activity"
+          type="android.app.Activity"
+          jni-type="Landroid/app/Activity;" />
+        <parameter
+          name="finishAfterDialog"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="attachTo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/app/Activity;ZLandroid/os/Bundle;)V">
+        <parameter
+          name="activity"
+          type="android.app.Activity"
+          jni-type="Landroid/app/Activity;" />
+        <parameter
+          name="finishAfterDialog"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="argumentsForErrorDialog"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="checkLogException"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;)V">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="factory"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="de.greenrobot.event.util.ErrorDialogFragmentFactory"
+        type-generic-aware="de.greenrobot.event.util.ErrorDialogFragmentFactory&lt;?&gt;"
+        jni-signature="Lde/greenrobot/event/util/ErrorDialogFragmentFactory;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_EVENT_TYPE_ON_CLOSE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.errordialog.event_type_on_close&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_FINISH_AFTER_DIALOG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.errordialog.finish_after_dialog&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_ICON_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.errordialog.icon_id&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_MESSAGE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.errordialog.message&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_TITLE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.errordialog.title&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="TAG_ERROR_DIALOG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.error_dialog&quot;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="TAG_ERROR_DIALOG_MANAGER"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;de.greenrobot.eventbus.error_dialog_manager&quot;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/app/Fragment;"
+      extends="android.app.Fragment"
+      extends-generic-aware="android.app.Fragment"
+      final="false"
+      name="ErrorDialogManager.HoneycombManagerFragment"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogManager$HoneycombManagerFragment;"
+      source-file-name="ErrorDialogManager.java"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogManager.HoneycombManagerFragment"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="attachTo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/app/Activity;ZLandroid/os/Bundle;)V">
+        <parameter
+          name="activity"
+          type="android.app.Activity"
+          jni-type="Landroid/app/Activity;" />
+        <parameter
+          name="finishAfterDialog"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="argumentsForErrorDialog"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onEventMainThread"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;)V">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPause"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResume"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="argumentsForErrorDialog"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.os.Bundle"
+        type-generic-aware="android.os.Bundle"
+        jni-signature="Landroid/os/Bundle;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="finishAfterDialog"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/support/v4/app/Fragment;"
+      extends="android.support.v4.app.Fragment"
+      extends-generic-aware="android.support.v4.app.Fragment"
+      final="false"
+      name="ErrorDialogManager.SupportManagerFragment"
+      jni-signature="Lde/greenrobot/event/util/ErrorDialogManager$SupportManagerFragment;"
+      source-file-name="ErrorDialogManager.java"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ErrorDialogManager.SupportManagerFragment"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="attachTo"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/app/Activity;ZLandroid/os/Bundle;)V">
+        <parameter
+          name="activity"
+          type="android.app.Activity"
+          jni-type="Landroid/app/Activity;" />
+        <parameter
+          name="finishAfterDialog"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="argumentsForErrorDialog"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)V">
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onEventMainThread"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lde/greenrobot/event/util/ThrowableFailureEvent;)V">
+        <parameter
+          name="event"
+          type="de.greenrobot.event.util.ThrowableFailureEvent"
+          jni-type="Lde/greenrobot/event/util/ThrowableFailureEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onPause"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResume"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="argumentsForErrorDialog"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="android.os.Bundle"
+        type-generic-aware="android.os.Bundle"
+        jni-signature="Landroid/os/Bundle;"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="finishAfterDialog"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ExceptionToResourceMapping"
+      jni-signature="Lde/greenrobot/event/util/ExceptionToResourceMapping;"
+      source-file-name="ExceptionToResourceMapping.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ExceptionToResourceMapping"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addMapping"
+        native="false"
+        return="de.greenrobot.event.util.ExceptionToResourceMapping"
+        jni-return="Lde/greenrobot/event/util/ExceptionToResourceMapping;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Class;I)Lde/greenrobot/event/util/ExceptionToResourceMapping;">
+        <parameter
+          name="clazz"
+          type="java.lang.Class&lt;? extends java.lang.Throwable&gt;"
+          jni-type="Ljava/lang/Class&lt;+Ljava/lang/Throwable;&gt;;" />
+        <parameter
+          name="msgId"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="mapThrowable"
+        native="false"
+        return="java.lang.Integer"
+        jni-return="Ljava/lang/Integer;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)Ljava/lang/Integer;">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="mapThrowableFlat"
+        native="false"
+        return="java.lang.Integer"
+        jni-return="Ljava/lang/Integer;"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)Ljava/lang/Integer;">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="throwableToMsgIdMap"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.util.Map"
+        type-generic-aware="java.util.Map&lt;java.lang.Class&lt;? extends java.lang.Throwable&gt;, java.lang.Integer&gt;"
+        jni-signature="Ljava/util/Map;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ThrowableFailureEvent"
+      jni-signature="Lde/greenrobot/event/util/ThrowableFailureEvent;"
+      source-file-name="ThrowableFailureEvent.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ThrowableFailureEvent"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ThrowableFailureEvent"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;Z)V">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+        <parameter
+          name="suppressErrorUi"
+          type="boolean"
+          jni-type="Z" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getThrowable"
+        native="false"
+        return="java.lang.Throwable"
+        jni-return="Ljava/lang/Throwable;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Throwable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSuppressErrorUi"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="suppressErrorUi"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="protected"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="throwable"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.Throwable"
+        type-generic-aware="java.lang.Throwable"
+        jni-signature="Ljava/lang/Throwable;"
+        visibility="protected"
+        volatile="false" />
+    </class>
+  </package>
+</api>
