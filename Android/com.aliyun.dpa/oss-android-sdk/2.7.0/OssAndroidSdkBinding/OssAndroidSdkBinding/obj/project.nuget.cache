@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "X9Stq6YnRGJljGw4EGFq/hp/e8d1iN5qXg8qNSuGARayD4ipqFZimLKikkYnDT/ldo0DXgZkXm3B8/1UNcmlgQ==",
+  "success": true,
+  "projectFilePath": "E:\\GithubWorkspace\\AliIOTPr\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.dpa\\oss-android-sdk\\2.7.0\\OssAndroidSdkBinding\\OssAndroidSdkBinding\\OssAndroidSdkBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.squareup.okhttp3.okhttp\\3.4.1\\xamarinlibrary.xamarin.android.squareup.okhttp3.okhttp.3.4.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.squareup.okio.okio\\1.9.0\\xamarinlibrary.xamarin.android.squareup.okio.okio.1.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

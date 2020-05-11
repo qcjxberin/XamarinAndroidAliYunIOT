@@ -7,6 +7,23 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
+  <attr path="/api/package[@name='com.alibaba.sdk.android.oss.internal']/class[@name='HttpMessage']"
+        name="visibility">public</attr>
+
+  <attr path="/api/package[@name='com.alibaba.sdk.android.oss.internal']/class[@name='HttpMessage']/method[@name='getHeaders' and count(parameter)=0]"
+        name="propertyName"></attr>
+  <attr path="/api/package[@name='com.alibaba.sdk.android.oss.internal']/class[@name='HttpMessage']/method[@name='setHeaders' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+        name="propertyName"></attr>
+
+  <attr path="/api/package[@name='com.alibaba.sdk.android.oss.common.utils']/class[@name='HttpdnsMini.QueryHostTask']/method[@name='call' and count(parameter)=0]"
+        name="managedName">RawCall</attr>
+
+  <attr path="/api/package[@name='com.alibaba.sdk.android.oss.internal']/class[@name='SequenceUploadTask']/method[@name='doMultipartUpload' and count(parameter)=0]"
+        name="managedName">RawDoMultipartUpload</attr>
+
+  <attr path="/api/package[@name='com.alibaba.sdk.android.oss.internal']/class[@name='ResumableUploadTask']/method[@name='doMultipartUpload' and count(parameter)=0]"
+        name="managedName">RawDoMultipartUpload</attr>  
+  
   <attr path="/api/package[@name='com.alibaba.sdk.android.oss.internal']/class[@name='MultipartUploadTask']/method[@name='doMultipartUpload' and count(parameter)=0]"
       name="managedReturn">Java.Lang.Object</attr>
   <attr path="/api/package[@name='com.alibaba.sdk.android.oss.common.utils']/class[@name='IOUtils']/method[@name='safeClose' and count(parameter)=1 and parameter[1][@type='java.io.OutputStream']]"
