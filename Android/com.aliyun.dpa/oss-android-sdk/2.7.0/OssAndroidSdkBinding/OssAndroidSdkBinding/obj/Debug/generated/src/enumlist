@@ -1,4 +1,0 @@
-com.alibaba.sdk.android.oss.common.HttpMethod:Com.Alibaba.Sdk.Android.Oss.Common:HttpMethod
-com.alibaba.sdk.android.oss.internal.OSSRetryType:Com.Alibaba.Sdk.Android.Oss.Internal:OSSRetryType
-com.alibaba.sdk.android.oss.model.CannedAccessControlList:Com.Alibaba.Sdk.Android.Oss.Model:CannedAccessControlList
-com.alibaba.sdk.android.oss.model.OSSRequest$CRC64Config:Com.Alibaba.Sdk.Android.Oss.Model:OSSRequest.CRC64Config

@@ -1,9 +1,0 @@
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\obj\Debug\OssAndroidSdkBinding.csproj.CoreCompileInputs.cache
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\bin\Debug\OssAndroidSdkBinding.dll
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\bin\Debug\OssAndroidSdkBinding.pdb
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\bin\Debug\OkHttpBinding.dll
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\bin\Debug\OkioBinding.dll
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\obj\Debug\OssAndroidSdkBinding.csproj.CopyComplete
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\obj\Debug\OssAndroidSdkBinding.dll
-E:\GithubWorkspace\AliIOTPr\XamarinAndroidAliYunIOT\Android\com.aliyun.dpa\oss-android-sdk\2.7.0\OssAndroidSdkBinding\OssAndroidSdkBinding\obj\Debug\OssAndroidSdkBinding.pdb
