@@ -321,14 +321,14 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    |    \--- com.google.code.gson:gson:2.7 -> 2.8.1
 |    |    |    +--- com.aliyun.alink.linksdk:public-alcs-cmp:1.5.0.1
 |    |    |    |    +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now
-|    |    |    |    +--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.3.0.1 -> 1.5.0
+|    |    |    |    +--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.3.0.1 -> 1.5.0 💯💯💯💯💯
 |    |    |    |    |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.0 -> 1.7.1 💯💯💯💯💯
 |    |    |    |    |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |    |    |    |    +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now
 |    |    |    |    |    \--- org.mozilla:rhino:1.7.9
 |    |    |    |    \--- com.aliyun.alink.linksdk:coap-sdk:1.5.0 -> 1.7.1 💯💯💯💯💯
-|    |    |    \--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.5.0 (*)
-|    |    +--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.5.0 (*)
+|    |    |    \--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.5.0 (*) 💯💯💯💯💯
+|    |    +--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.5.0 (*) 💯💯💯💯💯
 |    |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.1 💯💯💯💯💯
 |    |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*) 💯💯💯💯💯nuget ✅
 |    +--- com.aliyun.alink.linksdk:public-cmp:1.7.1 (*)
@@ -341,7 +341,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    \--- com.aliyun.alink.linksdk:coap-sdk:1.7.1 💯💯💯💯💯
 +--- com.aliyun.alink.linksdk:lpbs-plugin-breeze:1.1.0.1
 |    +--- com.aliyun.iot.aep.sdk:apiclient:0.0.3.1 -> 0.1 (*) 💯💯💯💯💯 uploaded to nuget and github
-|    \--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.3.0.1 -> 1.5.0 (*)
+|    \--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.3.0.1 -> 1.5.0 (*) 💯💯💯💯💯
 +--- com.aliyun.alink.linksdk:breeze:1.2.12
 |    +--- com.aliyun.alink.linksdk:ble-library:1.2.4
 |    \--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now

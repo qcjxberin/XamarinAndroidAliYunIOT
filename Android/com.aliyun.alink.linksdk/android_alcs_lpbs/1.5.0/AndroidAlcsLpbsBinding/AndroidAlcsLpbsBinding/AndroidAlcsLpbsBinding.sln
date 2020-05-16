@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30105.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidAlcsLpbsBinding", "AndroidAlcsLpbsBinding.csproj", "{D7648F64-608D-492B-950F-1FCC446A4216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7648F64-608D-492B-950F-1FCC446A4216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7648F64-608D-492B-950F-1FCC446A4216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7648F64-608D-492B-950F-1FCC446A4216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7648F64-608D-492B-950F-1FCC446A4216}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A65F9C3B-2FBC-42FA-A776-40BACF875F69}
+	EndGlobalSection
+EndGlobal
