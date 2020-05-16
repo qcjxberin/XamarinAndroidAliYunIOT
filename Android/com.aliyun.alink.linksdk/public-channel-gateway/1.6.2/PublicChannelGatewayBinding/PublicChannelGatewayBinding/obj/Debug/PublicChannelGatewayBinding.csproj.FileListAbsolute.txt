@@ -1,0 +1,6 @@
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-gateway\1.6.2\PublicChannelGatewayBinding\PublicChannelGatewayBinding\bin\Debug\PublicChannelGatewayBinding.dll
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-gateway\1.6.2\PublicChannelGatewayBinding\PublicChannelGatewayBinding\bin\Debug\PublicChannelGatewayBinding.pdb
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-gateway\1.6.2\PublicChannelGatewayBinding\PublicChannelGatewayBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-gateway\1.6.2\PublicChannelGatewayBinding\PublicChannelGatewayBinding\obj\Debug\PublicChannelGatewayBinding.csproj.CoreCompileInputs.cache
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-gateway\1.6.2\PublicChannelGatewayBinding\PublicChannelGatewayBinding\obj\Debug\PublicChannelGatewayBinding.dll
+E:\GitHub\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-gateway\1.6.2\PublicChannelGatewayBinding\PublicChannelGatewayBinding\obj\Debug\PublicChannelGatewayBinding.pdb

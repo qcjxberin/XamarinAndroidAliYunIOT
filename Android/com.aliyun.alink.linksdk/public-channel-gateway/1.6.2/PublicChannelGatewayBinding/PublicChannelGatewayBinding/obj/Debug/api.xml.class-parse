@@ -1,0 +1,3617 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.aliyun.alink.linksdk.channel.gateway.a"
+    jni-name="com/aliyun/alink/linksdk/channel/gateway/a">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayChannel"
+        name-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayChannel"
+        jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayChannel;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addSubDevice"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="asyncSendRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p4"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncSendPublishRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p4"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="destroyConnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="deviceListUpload"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGatewayConnectState"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDeviceChannel"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceChannel"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDevices"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerDownstreamListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZLcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayDownstreamListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeSubDevice"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceRemoveListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startConnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startConnectReuseMobileChannel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subDeviceRegister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subDevicUnregister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewaySubscribeListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unRegisterDownstreamListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayDownstreamListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unSubscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewaySubscribeListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/a;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.1"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$1;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.manager.connect.IRegisterConnectListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.manager.connect.IRegisterConnectListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/manager/connect/IRegisterConnectListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/a;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.2"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$2;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/a;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.3"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$3;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/a;"
+      enclosing-method-name="a"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.4"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$4;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/a;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.5"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$5;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectNotifyListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectNotifyListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectNotifyListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onConnectStateChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/cmp/core/base/ConnectState;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ConnectState"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ConnectState;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNotify"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/aliyun/alink/linksdk/cmp/core/base/AMessage;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AMessage"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AMessage;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="shouldHandle"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)Z">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.a"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$a;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="private">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="a.a"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/a/a;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="a.b"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/a$b;"
+      source-file-name="GatewayChannelImpl.java"
+      static="false"
+      visibility="private">
+      <implements
+        name="com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener"
+        name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener"
+        jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCommand"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;[B)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="byte[]"
+          jni-type="[B" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="shouldHandle"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Z">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/aliyun/alink/linksdk/cmp/connect/channel/MqttPublishRequest;"
+      extends="com.aliyun.alink.linksdk.cmp.connect.channel.MqttPublishRequest"
+      extends-generic-aware="com.aliyun.alink.linksdk.cmp.connect.channel.MqttPublishRequest"
+      final="false"
+      name="b"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/b;"
+      source-file-name="GatewayRequest.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="b"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZLcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p3"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p4"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p5"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </constructor>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceChannel"
+        name-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceChannel"
+        jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="c"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDeviceInfo"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="offline"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="online"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDeleteListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setDisableListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unSubscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="uploadData"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="online"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.1"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$1;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="offline"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.2"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$2;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="setDisableListener"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.3"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$3;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onReceived"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcHandle;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcHandle"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcHandle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponseFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponseSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSubscribeFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSubscribeSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="setDeleteListener"
+      enclosing-method-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.4"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$4;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onReceived"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcHandle;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcHandle"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcHandle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponseFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponseSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSubscribeFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSubscribeSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="uploadData"
+      enclosing-method-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.5"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$5;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResponse"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ARequest"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ARequest;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AResponse"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AResponse;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="subscribe"
+      enclosing-method-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.6"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$6;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSubscribeListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSubscribeListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSubscribeListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/a/c;"
+      enclosing-method-name="unSubscribe"
+      enclosing-method-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="c.7"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/c$7;"
+      source-file-name="SubDeviceChannelImpl.java"
+      static="false"
+      visibility="">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectUnscribeListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectUnscribeListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectUnscribeListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/aliyun/alink/linksdk/cmp/connect/channel/MqttPublishRequest;"
+      extends="com.aliyun.alink.linksdk.cmp.connect.channel.MqttPublishRequest"
+      extends-generic-aware="com.aliyun.alink.linksdk.cmp.connect.channel.MqttPublishRequest"
+      final="false"
+      name="d"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/a/d;"
+      source-file-name="SubDeviceRequest.java"
+      static="false"
+      visibility="public">
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="a"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.util.concurrent.atomic.AtomicLong"
+        type-generic-aware="java.util.concurrent.atomic.AtomicLong"
+        jni-signature="Ljava/util/concurrent/atomic/AtomicLong;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="com.aliyun.alink.linksdk.channel.gateway.api"
+    jni-name="com/aliyun/alink/linksdk/channel/gateway/api">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GatewayChannel"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayChannel;"
+      source-file-name="GatewayChannel.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayChannel"
+        name-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayChannel"
+        jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayChannel;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addSubDevice"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="asyncSendRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p4"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncSendPublishRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p4"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="destroyConnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="deviceListUpload"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGatewayConnectState"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayChannel"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayChannel;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayChannel;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDeviceChannel"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceChannel"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDevices"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="registerDownstreamListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZLcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayDownstreamListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="removeSubDevice"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceRemoveListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startConnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startConnectReuseMobileChannel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subDeviceRegister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subDevicUnregister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="subscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewaySubscribeListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unRegisterDownstreamListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayDownstreamListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="unSubscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewaySubscribeListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DID_SEPARATOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;-&amp;&amp;-&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      enclosing-method-jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayChannel;"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GatewayChannel.1"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayChannel$1;"
+      source-file-name="GatewayChannel.java"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GatewayChannel.InstanceHolder"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayChannel$InstanceHolder;"
+      source-file-name="GatewayChannel.java"
+      static="true"
+      visibility="private" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="GatewayConnectConfig"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;"
+      source-file-name="GatewayConnectConfig.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="GatewayConnectConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="checkValid"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getGatewayConnectConfig"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/connect/channel/PersistentConnectConfig;)Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.connect.channel.PersistentConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/connect/channel/PersistentConnectConfig;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getPersistentConnectConfig"
+        native="false"
+        return="com.aliyun.alink.linksdk.cmp.connect.channel.PersistentConnectConfig"
+        jni-return="Lcom/aliyun/alink/linksdk/cmp/connect/channel/PersistentConnectConfig;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;)Lcom/aliyun/alink/linksdk/cmp/connect/channel/PersistentConnectConfig;">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="channelHost"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="channelRootCrtFile"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.io.InputStream"
+        type-generic-aware="java.io.InputStream"
+        jni-signature="Ljava/io/InputStream;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="deviceName"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="deviceSecret"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="isCheckChannelRootCrt"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="productKey"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState&gt;"
+      final="true"
+      name="GatewayConnectState"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+      source-file-name="GatewayConnectState.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toGatewayConnectState"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/base/ConnectState;)Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.base.ConnectState"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/ConnectState;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState[]"
+        jni-return="[Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CONNECTED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CONNECTFAIL"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CONNECTING"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DISCONNECTED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IGatewayChannel"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayChannel;"
+      source-file-name="IGatewayChannel.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="addSubDevice"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="asyncSendRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p4"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="ayncSendPublishRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/Object;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+          jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;" />
+        <parameter
+          name="p3"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+        <parameter
+          name="p4"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayRequestListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="destroyConnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="deviceListUpload"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getGatewayConnectState"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDeviceChannel"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceChannel"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDevices"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="registerDownstreamListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZLcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayDownstreamListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="removeSubDevice"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceRemoveListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="startConnect"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectConfig"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectConfig;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="startConnectReuseMobileChannel"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;)V">
+        <parameter
+          name="p0"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayConnectListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="subDeviceRegister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="subDevicUnregister"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;&gt;;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSendListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSendListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="subscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewaySubscribeListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="unRegisterDownstreamListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewayDownstreamListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="unSubscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.IGatewaySubscribeListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IGatewayConnectListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayConnectListener;"
+      source-file-name="IGatewayConnectListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onConnectStateChange"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/GatewayConnectState;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IGatewayDownstreamListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayDownstreamListener;"
+      source-file-name="IGatewayDownstreamListener.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener"
+        name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener"
+        jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IGatewayRequestListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewayRequestListener;"
+      source-file-name="IGatewayRequestListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailure"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="IGatewaySubscribeListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/IGatewaySubscribeListener;"
+      source-file-name="IGatewaySubscribeListener.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSubscribeListener"
+        name-generic-aware="com.aliyun.alink.linksdk.cmp.core.listener.IConnectSubscribeListener"
+        jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectSubscribeListener;" />
+    </interface>
+  </package>
+  <package
+    name="com.aliyun.alink.linksdk.channel.gateway.api.subdevice"
+    jni-name="com/aliyun/alink/linksdk/channel/gateway/api/subdevice">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ISubDeviceActionListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;"
+      source-file-name="ISubDeviceActionListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onSuccess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ISubDeviceChannel"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;"
+      source-file-name="ISubDeviceChannel.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getSubDeviceInfo"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceInfo"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="offline"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="online"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="setDeleteListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="setDisableListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.cmp.core.listener.IConnectRrpcListener"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/listener/IConnectRrpcListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="subscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="unSubscribe"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="uploadData"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceActionListener"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceActionListener;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ISubDeviceConnectListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceConnectListener;"
+      source-file-name="ISubDeviceConnectListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getClientId"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getSignExtraData"
+        native="false"
+        return="java.util.Map&lt;java.lang.String, java.lang.Object&gt;"
+        jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/Map;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getSignMethod"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="getSignValue"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onConnectResult"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(ZLcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="boolean"
+          jni-type="Z" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.ISubDeviceChannel"
+          jni-type="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceChannel;" />
+        <parameter
+          name="p2"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onDataPush"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/cmp/core/base/AMessage;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="com.aliyun.alink.linksdk.cmp.core.base.AMessage"
+          jni-type="Lcom/aliyun/alink/linksdk/cmp/core/base/AMessage;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ISubDeviceRemoveListener"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/ISubDeviceRemoveListener;"
+      source-file-name="ISubDeviceRemoveListener.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/aliyun/alink/linksdk/tools/AError;)V">
+        <parameter
+          name="p0"
+          type="com.aliyun.alink.linksdk.tools.AError"
+          jni-type="Lcom/aliyun/alink/linksdk/tools/AError;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onSuceess"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SubDeviceInfo"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceInfo;"
+      source-file-name="SubDeviceInfo.java"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SubDeviceInfo"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SubDeviceInfo"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="checkValid"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getDeviceId"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="deviceName"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="deviceState"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="loginState"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="productKey"
+        static="false"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState&gt;"
+      final="true"
+      name="SubDeviceLoginState"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;"
+      source-file-name="SubDeviceLoginState.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState[]"
+        jni-return="[Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="OFFLINE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="ONLINE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceLoginState;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState&gt;"
+      final="true"
+      name="SubDeviceState"
+      jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+      source-file-name="SubDeviceState.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        jni-return="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState[]"
+        jni-return="[Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DELETED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DISABLED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="ENABLED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        type-generic-aware="com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState"
+        jni-signature="Lcom/aliyun/alink/linksdk/channel/gateway/api/subdevice/SubDeviceState;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+</api>

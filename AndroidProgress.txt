@@ -143,7 +143,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    +--- androidx.multidex:multidex:2.0.0
 |    +--- androidx.fragment:fragment:1.0.0 -> 1.1.0 (*)
-|    +--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
+|    +--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*) 💯💯💯💯💯nuget ✅
 |    +--- androidx.legacy:legacy-support-v4:1.0.0
 |    |    +--- androidx.core:core:1.0.0 -> 1.1.0 (*)
 |    |    +--- androidx.media:media:1.0.0
@@ -202,7 +202,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    +--- com.squareup.okhttp3:okhttp-urlconnection:3.12.1 💯💯💯💯💯nuget ✅
 |    |    |    |    \--- com.squareup.okhttp3:okhttp:3.12.1 -> 3.12.8 (*) 💯💯💯💯💯 uploaded to nuget and github ✅
 |    |    |    +--- com.squareup.okio:okio:1.15.0 💯💯💯💯💯 uploaded to nuget and github ✅
-|    |    |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
+|    |    |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*) 💯💯💯💯💯nuget ✅
 |    |    +--- org.chromium:v8-android:7.8.1-20191210
 |    |    \--- com.aliyun.iot.aep.sdk:user-tracker:0.0.2 💯💯💯💯💯 uploaded to nuget and github ✅
 |    +--- com.aliyun.iot.aep.sdk:jsbridge-external:0.1.4
@@ -239,7 +239,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |         +--- com.alibaba.sdk.android.openaccount:openaccount-core:3.6.3
 |         |    +--- androidx.legacy:legacy-support-v4:1.0.0 (*)
 |         |    \--- com.google.android.material:material:1.0.0 (*)
-|         +--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
+|         +--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*) 💯💯💯💯💯nuget ✅
 |         +--- com.google.android.material:material:1.0.0 (*)
 |         \--- androidx.legacy:legacy-support-v4:1.0.0 (*)
 +--- com.aliyun.iot.aep.sdk:push:1.0.4
@@ -330,7 +330,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    |    \--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.5.0 (*)
 |    |    +--- com.aliyun.alink.linksdk:android_alcs_lpbs:1.5.0 (*)
 |    |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.1
-|    |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
+|    |    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*) 💯💯💯💯💯nuget ✅
 |    +--- com.aliyun.alink.linksdk:public-cmp:1.7.1 (*)
 |    +--- com.aliyun.alink.linksdk:coap-sdk:1.7.1
 |    \--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now
@@ -354,9 +354,9 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 +--- com.aliyun.alink.linksdk:breeze-ota:1.2.2
 |    +--- com.aliyun.alink.linksdk:breeze:1.2.5 -> 1.2.12 (*)
 |    +--- com.aliyun.alink.linksdk:ble-library:1.2.3 -> 1.2.4
-|    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*)
-+--- com.aliyun.alink.linksdk:public-channel-gateway:1.6.2 (*)
-+--- androidx.appcompat:appcompat:1.1.0 (*)
-+--- androidx.constraintlayout:constraintlayout:1.1.3 (*)
+|    \--- androidx.appcompat:appcompat:1.0.0 -> 1.1.0 (*) 💯💯💯💯💯nuget ✅
++--- com.aliyun.alink.linksdk:public-channel-gateway:1.6.2 (*) 💯💯💯💯💯
++--- androidx.appcompat:appcompat:1.1.0 (*) 💯💯💯💯💯nuget ✅
++--- androidx.constraintlayout:constraintlayout:1.1.3 (*) 💯💯💯💯💯nuget ✅
 \--- junit:junit:4.12
      \--- org.hamcrest:hamcrest-core:1.3

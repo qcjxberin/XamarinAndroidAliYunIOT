@@ -1,0 +1,3 @@
+com.aliyun.alink.linksdk.channel.gateway.api.GatewayConnectState:Com.Aliyun.Alink.Linksdk.Channel.Gateway.Api:GatewayConnectState
+com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceLoginState:Com.Aliyun.Alink.Linksdk.Channel.Gateway.Api.Subdevice:SubDeviceLoginState
+com.aliyun.alink.linksdk.channel.gateway.api.subdevice.SubDeviceState:Com.Aliyun.Alink.Linksdk.Channel.Gateway.Api.Subdevice:SubDeviceState
