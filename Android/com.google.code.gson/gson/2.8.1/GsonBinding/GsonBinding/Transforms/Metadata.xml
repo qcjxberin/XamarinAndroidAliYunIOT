@@ -1,0 +1,28 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='DateTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.google.gson.stream.JsonReader']]"
+        name="managedName">RawRead</attr>
+
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='DateTypeAdapter']/method[@name='write' and count(parameter)=2 and parameter[1][@type='com.google.gson.stream.JsonWriter'] and parameter[2][@type='java.util.Date']]"
+        name="managedName">RawWrite</attr>
+
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='SqlDateTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.google.gson.stream.JsonReader']]"
+        name="managedName">RawRead</attr>
+
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='SqlDateTypeAdapter']/method[@name='write' and count(parameter)=2 and parameter[1][@type='com.google.gson.stream.JsonWriter'] and parameter[2][@type='java.sql.Date']]"
+        name="managedName">RawWrite</attr>
+
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='TimeTypeAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.google.gson.stream.JsonReader']]"
+        name="managedName">RawRead</attr>
+
+  <attr path="/api/package[@name='com.google.gson.internal.bind']/class[@name='TimeTypeAdapter']/method[@name='write' and count(parameter)=2 and parameter[1][@type='com.google.gson.stream.JsonWriter'] and parameter[2][@type='java.sql.Time']]"
+        name="managedName">RawWrite</attr>
+  
+</metadata>

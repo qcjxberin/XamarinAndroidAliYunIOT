@@ -90,9 +90,9 @@
 /Android/com.aliyun.iot.link/uicomponent/0.1.0/UiComponentBinding/.vs/UiComponentBinding/v16
 /Android/com.aliyun.iot.link/uicomponent/0.1.0/UiComponentBinding/UiComponentBinding/obj
 /Android/com.aliyun.iot.link/uicomponent/0.1.0/UiComponentBinding/UiComponentBinding/bin
-/Android/com.aliyun.dpa/oss-android-sdk/2.7.0/ssAndroidSdkBinding/.vs/OssAndroidSdkBinding/v16
-/Android/com.aliyun.dpa/oss-android-sdk/2.7.0/ssAndroidSdkBinding/OssAndroidSdkBinding/obj
-/Android/com.aliyun.dpa/oss-android-sdk/2.7.0/ssAndroidSdkBinding/OssAndroidSdkBinding/bin
+/Android/com.aliyun.dpa/oss-android-sdk/2.7.0/OssAndroidSdkBinding/.vs/OssAndroidSdkBinding/v16
+/Android/com.aliyun.dpa/oss-android-sdk/2.7.0/OssAndroidSdkBinding/OssAndroidSdkBinding/obj
+/Android/com.aliyun.dpa/oss-android-sdk/2.7.0/OssAndroidSdkBinding/OssAndroidSdkBinding/bin
 /Android/com.aliyun.ams/alicloud-android-utdid/1.1.5.3/AlicloudAndroidUtdidBinding/.vs/AlicloudAndroidUtdidBinding/v16
 /Android/com.aliyun.ams/alicloud-android-utdid/1.1.5.3/AlicloudAndroidUtdidBinding/AlicloudAndroidUtdidBinding/obj
 /Android/com.aliyun.ams/alicloud-android-utdid/1.1.5.3/AlicloudAndroidUtdidBinding/AlicloudAndroidUtdidBinding/bin
@@ -117,6 +117,9 @@
 /Android/com.aliyun.alink.linksdk/coap-sdk/1.7.1/CoapSdkBinding/CoapSdkBinding/.vs/CoapSdkBinding/v16
 /Android/com.aliyun.alink.linksdk/coap-sdk/1.7.1/CoapSdkBinding/CoapSdkBinding/obj
 /Android/com.aliyun.alink.linksdk/coap-sdk/1.7.1/CoapSdkBinding/CoapSdkBinding/bin
-/Android/com.aliyun.alink.linksdk/android_alcs_lpbs/1.5.0/AndroidAlcsLpbsBinding/AndroidAlcsLpbsBinding/.vs/CoapSdkBinding/v16
+/Android/com.aliyun.alink.linksdk/android_alcs_lpbs/1.5.0/AndroidAlcsLpbsBinding/AndroidAlcsLpbsBinding/.vs/AndroidAlcsLpbsBinding/v16
 /Android/com.aliyun.alink.linksdk/android_alcs_lpbs/1.5.0/AndroidAlcsLpbsBinding/AndroidAlcsLpbsBinding/obj
 /Android/com.aliyun.alink.linksdk/android_alcs_lpbs/1.5.0/AndroidAlcsLpbsBinding/AndroidAlcsLpbsBinding/bin
+/Android/com.google.code.gson/gson/2.8.1/GsonBinding/GsonBinding/.vs/GsonBinding/v16
+/Android/com.google.code.gson/gson/2.8.1/GsonBinding/GsonBinding/obj
+/Android/com.google.code.gson/gson/2.8.1/GsonBinding/GsonBinding/bin
