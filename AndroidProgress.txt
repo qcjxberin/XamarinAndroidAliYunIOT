@@ -226,7 +226,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    |    \--- com.aliyun.alink.linksdk:public-channel-core:0.7.0.2 -> 0.7.1
 |    |         +--- com.alibaba:fastjson:1.2.40 💯💯💯💯💯 uploaded to nuget and github ✅1.2.68now
 |    |         +--- com.aliyun.alink.linksdk:tools:1.3.4 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now
-|    |         +--- com.aliyun.alink.linksdk:android_alink_id2:1.1.3
+|    |         +--- com.aliyun.alink.linksdk:android_alink_id2:1.1.3 💯💯💯💯💯 uploaded to nuget and github
 |    |         |    \--- com.aliyun.alink.linksdk:tools:1.3.1 -> 1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now
 |    |         \--- com.aliyun.alink.linksdk:opensource-paho:1.2.0.3
 |    \--- com.aliyun.alink.linksdk:public-channel-core:0.7.1 (*)
