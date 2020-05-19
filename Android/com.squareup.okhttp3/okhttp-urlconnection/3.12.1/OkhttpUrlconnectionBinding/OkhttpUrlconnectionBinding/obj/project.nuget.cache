@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VIuV8iBbSF/5O8Edc0AIbT2Xl3lkQEgTojyAWNfMskYuFX/XfBPyfqyatVZV2bt8sjYtN0+0+1IrjVr01N3FXA==",
+  "success": true,
+  "projectFilePath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.squareup.okhttp3\\okhttp-urlconnection\\3.12.1\\OkhttpUrlconnectionBinding\\OkhttpUrlconnectionBinding\\OkhttpUrlconnectionBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.squareup.okhttp3.okhttp\\3.12.1\\xamarinlibrary.xamarin.android.squareup.okhttp3.okhttp.3.12.1.nupkg.sha512"
+  ],
+  "logs": []
+}

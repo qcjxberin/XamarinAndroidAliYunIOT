@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.facebook.imagepipeline.backends.okhttp3" jni-name="com/facebook/imagepipeline/backends/okhttp3">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.facebook.imagepipeline.backends.okhttp3.BuildConfig" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.facebook.imagepipeline.backends.okhttp3&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="OkHttpImagePipelineConfigFactory" static="false" visibility="public" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpImagePipelineConfigFactory;">
+      <constructor deprecated="not deprecated" final="false" name="OkHttpImagePipelineConfigFactory" jni-signature="()V" bridge="false" static="false" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpImagePipelineConfigFactory" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newBuilder" jni-signature="(Landroid/content/Context;Lokhttp3/OkHttpClient;)Lcom/facebook/imagepipeline/core/ImagePipelineConfig$Builder;" bridge="false" native="false" return="com.facebook.imagepipeline.core.ImagePipelineConfig.Builder" jni-return="Lcom/facebook/imagepipeline/core/ImagePipelineConfig$Builder;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="okHttpClient" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.imagepipeline.producers.BaseNetworkFetcher" extends-generic-aware="com.facebook.imagepipeline.producers.BaseNetworkFetcher&lt;com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState&gt;" jni-extends="Lcom/facebook/imagepipeline/producers/BaseNetworkFetcher;" final="false" name="OkHttpNetworkFetcher" static="false" visibility="public" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher;">
+      <constructor deprecated="not deprecated" final="false" name="OkHttpNetworkFetcher" jni-signature="(Lokhttp3/Call$Factory;Ljava/util/concurrent/Executor;)V" bridge="false" static="false" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher" synthetic="false" visibility="public">
+        <parameter name="callFactory" type="okhttp3.Call.Factory" jni-type="Lokhttp3/Call$Factory;"></parameter>
+        <parameter name="cancellationExecutor" type="java.util.concurrent.Executor" jni-type="Ljava/util/concurrent/Executor;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="OkHttpNetworkFetcher" jni-signature="(Lokhttp3/OkHttpClient;)V" bridge="false" static="false" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher" synthetic="false" visibility="public">
+        <parameter name="okHttpClient" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFetchState" jni-signature="(Lcom/facebook/imagepipeline/producers/Consumer;Lcom/facebook/imagepipeline/producers/ProducerContext;)Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;" bridge="false" native="false" return="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState" jni-return="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="consumer" type="com.facebook.imagepipeline.producers.Consumer&lt;com.facebook.imagepipeline.image.EncodedImage&gt;" jni-type="Lcom/facebook/imagepipeline/producers/Consumer&lt;Lcom/facebook/imagepipeline/image/EncodedImage;&gt;;"></parameter>
+        <parameter name="context" type="com.facebook.imagepipeline.producers.ProducerContext" jni-type="Lcom/facebook/imagepipeline/producers/ProducerContext;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" jni-signature="(Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;Lcom/facebook/imagepipeline/producers/NetworkFetcher$Callback;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="fetchState" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState" jni-type="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;"></parameter>
+        <parameter name="callback" type="com.facebook.imagepipeline.producers.NetworkFetcher.Callback" jni-type="Lcom/facebook/imagepipeline/producers/NetworkFetcher$Callback;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetchWithRequest" jni-signature="(Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;Lcom/facebook/imagepipeline/producers/NetworkFetcher$Callback;Lokhttp3/Request;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="fetchState" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState" jni-type="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;"></parameter>
+        <parameter name="callback" type="com.facebook.imagepipeline.producers.NetworkFetcher.Callback" jni-type="Lcom/facebook/imagepipeline/producers/NetworkFetcher$Callback;"></parameter>
+        <parameter name="request" type="okhttp3.Request" jni-type="Lokhttp3/Request;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getExtraMap" jni-signature="(Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;I)Ljava/util/Map;" bridge="false" native="false" return="java.util.Map&lt;java.lang.String, java.lang.String&gt;" jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="fetchState" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState" jni-type="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;"></parameter>
+        <parameter name="byteSize" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFetchCompletion" jni-signature="(Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="fetchState" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState" jni-type="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;"></parameter>
+        <parameter name="byteSize" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.imagepipeline.producers.BaseProducerContextCallbacks" extends-generic-aware="com.facebook.imagepipeline.producers.BaseProducerContextCallbacks" jni-extends="Lcom/facebook/imagepipeline/producers/BaseProducerContextCallbacks;" final="false" name="OkHttpNetworkFetcher.1" static="false" visibility="" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="OkHttpNetworkFetcher.1.1" static="false" visibility="" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$1$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="OkHttpNetworkFetcher.2" static="false" visibility="" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$2;">
+      <implements name="okhttp3.Callback" name-generic-aware="okhttp3.Callback" jni-type="Lokhttp3/Callback;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Lokhttp3/Call;Ljava/io/IOException;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="call" type="okhttp3.Call" jni-type="Lokhttp3/Call;"></parameter>
+        <parameter name="e" type="java.io.IOException" jni-type="Ljava/io/IOException;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onResponse" jni-signature="(Lokhttp3/Call;Lokhttp3/Response;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="call" type="okhttp3.Call" jni-type="Lokhttp3/Call;"></parameter>
+        <parameter name="response" type="okhttp3.Response" jni-type="Lokhttp3/Response;"></parameter>
+        <exception name="IOException" type="java.io.IOException"></exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.imagepipeline.producers.FetchState" extends-generic-aware="com.facebook.imagepipeline.producers.FetchState" jni-extends="Lcom/facebook/imagepipeline/producers/FetchState;" final="false" name="OkHttpNetworkFetcher.OkHttpNetworkFetchState" static="true" visibility="public" jni-signature="Lcom/facebook/imagepipeline/backends/okhttp3/OkHttpNetworkFetcher$OkHttpNetworkFetchState;">
+      <constructor deprecated="not deprecated" final="false" name="OkHttpNetworkFetcher.OkHttpNetworkFetchState" jni-signature="(Lcom/facebook/imagepipeline/producers/Consumer;Lcom/facebook/imagepipeline/producers/ProducerContext;)V" bridge="false" static="false" type="com.facebook.imagepipeline.backends.okhttp3.OkHttpNetworkFetcher.OkHttpNetworkFetchState" synthetic="false" visibility="public">
+        <parameter name="consumer" type="com.facebook.imagepipeline.producers.Consumer&lt;com.facebook.imagepipeline.image.EncodedImage&gt;" jni-type="Lcom/facebook/imagepipeline/producers/Consumer&lt;Lcom/facebook/imagepipeline/image/EncodedImage;&gt;;"></parameter>
+        <parameter name="producerContext" type="com.facebook.imagepipeline.producers.ProducerContext" jni-type="Lcom/facebook/imagepipeline/producers/ProducerContext;"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="fetchCompleteTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="responseTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="submitTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+</api>

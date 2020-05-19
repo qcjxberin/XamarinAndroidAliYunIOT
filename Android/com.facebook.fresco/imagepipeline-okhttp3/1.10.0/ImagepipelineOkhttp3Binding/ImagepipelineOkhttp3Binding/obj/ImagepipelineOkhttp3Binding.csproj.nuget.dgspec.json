@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\imagepipeline-okhttp3\\1.10.0\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding.csproj": {}
+  },
+  "projects": {
+    "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\imagepipeline-okhttp3\\1.10.0\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\imagepipeline-okhttp3\\1.10.0\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding.csproj",
+        "projectName": "ImagepipelineOkhttp3Binding",
+        "projectPath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\imagepipeline-okhttp3\\1.10.0\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding.csproj",
+        "packagesPath": "C:\\Users\\ericc\\.nuget\\packages\\",
+        "outputPath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\imagepipeline-okhttp3\\1.10.0\\ImagepipelineOkhttp3Binding\\ImagepipelineOkhttp3Binding\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ericc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": {
+              "target": "Package",
+              "version": "[1.10.0.1, )"
+            },
+            "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline": {
+              "target": "Package",
+              "version": "[1.10.0.1, )"
+            },
+            "XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

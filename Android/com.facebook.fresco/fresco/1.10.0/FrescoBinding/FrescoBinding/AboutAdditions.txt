@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Facebook.Fresco.Fresco</id>
+    <version>1.10.0.2</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui/XamarinAndroidAliYunIOT</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.facebook.fresco:fresco for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.facebook.fresco:fresco.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Fresco XamarinAndroidFresco AndroidFresco XamarinFresco</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee" version="1.10.0.1" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore" version="1.10.0.1" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline" version="1.10.0.1" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader" version="0.5.0" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="FrescoBinding.dll" target="lib\MonoAndroid10\FrescoBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

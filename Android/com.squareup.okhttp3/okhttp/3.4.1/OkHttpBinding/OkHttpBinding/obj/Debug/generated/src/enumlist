@@ -1,0 +1,5 @@
+okhttp3.HttpUrl$Builder$ParseResult:Okhttp3:HttpUrl.Builder.ParseResult
+okhttp3.internal.framed.ErrorCode:Okhttp3.Internal.Framed:ErrorCode
+okhttp3.internal.framed.HeadersMode:Okhttp3.Internal.Framed:HeadersMode
+okhttp3.Protocol:Okhttp3:Protocol
+okhttp3.TlsVersion:Okhttp3:TlsVersion

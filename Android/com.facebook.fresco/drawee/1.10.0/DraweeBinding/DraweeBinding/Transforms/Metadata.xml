@@ -1,0 +1,18 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.facebook.drawee.controller']/class[@name='AbstractDraweeControllerBuilder']/method[@name='build' and count(parameter)=0]"
+        name="name">RawBuild</attr>
+  <attr path="/api/package[@name='com.facebook.drawee.controller']/class[@name='AbstractDraweeControllerBuilder']/method[@name='setCallerContext' and count(parameter)=1 and parameter[1][@type='java.lang.Object']]"
+        name="name">RawSetCallerContext</attr>
+  <attr path="/api/package[@name='com.facebook.drawee.controller']/class[@name='AbstractDraweeControllerBuilder']/method[@name='setOldController' and count(parameter)=1 and parameter[1][@type='com.facebook.drawee.interfaces.DraweeController']]"
+        name="name">RawSetOldController</attr>
+  <attr path="/api/package[@name='com.facebook.drawee.drawable']/class[@name='AutoRotateDrawable']/method[@name='cloneDrawable' and count(parameter)=0]"
+        name="managedName">RawCloneDrawable</attr>
+  
+</metadata>

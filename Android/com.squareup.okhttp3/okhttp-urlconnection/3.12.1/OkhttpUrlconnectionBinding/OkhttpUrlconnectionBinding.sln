@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkhttpUrlconnectionBinding", "OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding.csproj", "{AE959F1C-33E1-42FF-A0FD-4385785E943D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE959F1C-33E1-42FF-A0FD-4385785E943D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE959F1C-33E1-42FF-A0FD-4385785E943D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE959F1C-33E1-42FF-A0FD-4385785E943D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE959F1C-33E1-42FF-A0FD-4385785E943D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BEAC47D-7C81-4BD0-B649-EA5510CF255A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WEKGkIQIgQdStIhvJVCxQ7SVqYNp3nHe6qRraIWGpV4WoL0r3Bp1hIdZITv03rDnbpstWkYjXUSRnGt5EAhdvw==",
+  "success": true,
+  "projectFilePath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\fresco\\1.10.0\\FrescoBinding\\FrescoBinding\\FrescoBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.drawee\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.drawee.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.fbcore\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.fbcore.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.soloader.soloader\\0.5.0\\xamarinlibrary.xamarin.android.facebook.soloader.soloader.0.5.0.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.parse.bolts.boltstasks\\1.4.0\\xamarinlibrary.xamarin.android.parse.bolts.boltstasks.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

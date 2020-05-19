@@ -1,0 +1,28 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='okio']/class[@name='Options']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"/>
+
+  <attr path="/api/package[@name='okio']/class[@name='ByteString']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='okio.ByteString']]"
+        name="managedName">RawCompareTo</attr>
+  
+  <add-node path="/api/package[@name='okio']/interface[@name='BufferedSource']">
+    <method abstract="true" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      <exception name="IOException" type="java.io.IOException">
+      </exception>
+    </method>
+  </add-node>
+
+  <add-node path="/api/package[@name='okio']/interface[@name='BufferedSink']">
+    <method abstract="true" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      <exception name="IOException" type="java.io.IOException">
+      </exception>
+    </method>
+  </add-node>
+  
+</metadata>

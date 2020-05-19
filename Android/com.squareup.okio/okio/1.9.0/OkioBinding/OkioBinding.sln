@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkioBinding", "OkioBinding\OkioBinding.csproj", "{F0A5EBDC-FDBF-45B2-AA66-47CDD08BE164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A5EBDC-FDBF-45B2-AA66-47CDD08BE164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A5EBDC-FDBF-45B2-AA66-47CDD08BE164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A5EBDC-FDBF-45B2-AA66-47CDD08BE164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A5EBDC-FDBF-45B2-AA66-47CDD08BE164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9DC3AF4-51A0-4E7C-9FF4-BA91A44D9B9B}
+	EndGlobalSection
+EndGlobal

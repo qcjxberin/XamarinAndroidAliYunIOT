@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkhttpUrlconnection</id>
+    <version>3.12.1</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui/XamarinAndroidAliYunIOT</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.squareup.okhttp3:okhttp-urlconnection for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.squareup.okhttp3:okhttp-urlconnection.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>OkhttpUrlconnection XamarinOkhttpUrlconnection AndroidOkhttpUrlconnection XamarinOkhttpUrlconnection</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+        <dependency id="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp" version="3.12.1" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="OkhttpUrlconnectionBinding.dll" target="lib\MonoAndroid10\OkhttpUrlconnectionBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

@@ -1,0 +1,678 @@
+<api>
+  <package name="com.facebook.drawee.backends.pipeline" jni-name="com/facebook/drawee/backends/pipeline">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.BuildConfig" synthetic="false" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.facebook.drawee.backends.pipeline&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="DefaultDrawableFactory" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/DefaultDrawableFactory;">
+      <implements name="com.facebook.imagepipeline.drawable.DrawableFactory" name-generic-aware="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="DefaultDrawableFactory" jni-signature="(Landroid/content/res/Resources;Lcom/facebook/imagepipeline/drawable/DrawableFactory;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.DefaultDrawableFactory" synthetic="false" visibility="public">
+        <parameter name="resources" type="android.content.res.Resources" jni-type="Landroid/content/res/Resources;">
+        </parameter>
+        <parameter name="animatedDrawableFactory" type="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createDrawable" jni-signature="(Lcom/facebook/imagepipeline/image/CloseableImage;)Landroid/graphics/drawable/Drawable;" bridge="false" native="false" return="android.graphics.drawable.Drawable" jni-return="Landroid/graphics/drawable/Drawable;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="closeableImage" type="com.facebook.imagepipeline.image.CloseableImage" jni-type="Lcom/facebook/imagepipeline/image/CloseableImage;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="supportsImageType" jni-signature="(Lcom/facebook/imagepipeline/image/CloseableImage;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="image" type="com.facebook.imagepipeline.image.CloseableImage" jni-type="Lcom/facebook/imagepipeline/image/CloseableImage;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="DraweeConfig" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/DraweeConfig;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCustomDrawableFactories" jni-signature="()Lcom/facebook/common/internal/ImmutableList;" bridge="false" native="false" return="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-return="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDebugOverlayEnabledSupplier" jni-signature="()Lcom/facebook/common/internal/Supplier;" bridge="false" native="false" return="com.facebook.common.internal.Supplier&lt;java.lang.Boolean&gt;" jni-return="Lcom/facebook/common/internal/Supplier&lt;Ljava/lang/Boolean;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPipelineDraweeControllerFactory" jni-signature="()Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerFactory" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newBuilder" jni-signature="()Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.DraweeConfig.Builder" jni-return="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="DraweeConfig.1" static="true" visibility="" jni-signature="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="DraweeConfig.Builder" static="true" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;">
+      <constructor deprecated="not deprecated" final="false" name="DraweeConfig.Builder" jni-signature="()V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.DraweeConfig.Builder" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addCustomDrawableFactory" jni-signature="(Lcom/facebook/imagepipeline/drawable/DrawableFactory;)Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.DraweeConfig.Builder" jni-return="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="factory" type="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="build" jni-signature="()Lcom/facebook/drawee/backends/pipeline/DraweeConfig;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.DraweeConfig" jni-return="Lcom/facebook/drawee/backends/pipeline/DraweeConfig;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDebugOverlayEnabledSupplier" jni-signature="(Lcom/facebook/common/internal/Supplier;)Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.DraweeConfig.Builder" jni-return="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="debugOverlayEnabledSupplier" type="com.facebook.common.internal.Supplier&lt;java.lang.Boolean&gt;" jni-type="Lcom/facebook/common/internal/Supplier&lt;Ljava/lang/Boolean;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawDebugOverlay" jni-signature="(Z)Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.DraweeConfig.Builder" jni-return="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawDebugOverlay" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPipelineDraweeControllerFactory" jni-signature="(Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;)Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.DraweeConfig.Builder" jni-return="Lcom/facebook/drawee/backends/pipeline/DraweeConfig$Builder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="factory" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerFactory" jni-type="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Fresco" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/Fresco;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDraweeControllerBuilderSupplier" jni-signature="()Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilderSupplier;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilderSupplier" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilderSupplier;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImagePipeline" jni-signature="()Lcom/facebook/imagepipeline/core/ImagePipeline;" bridge="false" native="false" return="com.facebook.imagepipeline.core.ImagePipeline" jni-return="Lcom/facebook/imagepipeline/core/ImagePipeline;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImagePipelineFactory" jni-signature="()Lcom/facebook/imagepipeline/core/ImagePipelineFactory;" bridge="false" native="false" return="com.facebook.imagepipeline.core.ImagePipelineFactory" jni-return="Lcom/facebook/imagepipeline/core/ImagePipelineFactory;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasBeenInitialized" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initialize" jni-signature="(Landroid/content/Context;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initialize" jni-signature="(Landroid/content/Context;Lcom/facebook/imagepipeline/core/ImagePipelineConfig;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="imagePipelineConfig" type="com.facebook.imagepipeline.core.ImagePipelineConfig" jni-type="Lcom/facebook/imagepipeline/core/ImagePipelineConfig;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initialize" jni-signature="(Landroid/content/Context;Lcom/facebook/imagepipeline/core/ImagePipelineConfig;Lcom/facebook/drawee/backends/pipeline/DraweeConfig;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="imagePipelineConfig" type="com.facebook.imagepipeline.core.ImagePipelineConfig" jni-type="Lcom/facebook/imagepipeline/core/ImagePipelineConfig;">
+        </parameter>
+        <parameter name="draweeConfig" type="com.facebook.drawee.backends.pipeline.DraweeConfig" jni-type="Lcom/facebook/drawee/backends/pipeline/DraweeConfig;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newDraweeControllerBuilder" jni-signature="()Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="shutDown" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.drawee.controller.AbstractDraweeController" extends-generic-aware="com.facebook.drawee.controller.AbstractDraweeController&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;, com.facebook.imagepipeline.image.ImageInfo&gt;" jni-extends="Lcom/facebook/drawee/controller/AbstractDraweeController;" final="false" name="PipelineDraweeController" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;">
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeController" jni-signature="(Landroid/content/res/Resources;Lcom/facebook/drawee/components/DeferredReleaser;Lcom/facebook/imagepipeline/drawable/DrawableFactory;Ljava/util/concurrent/Executor;Lcom/facebook/imagepipeline/cache/MemoryCache;Lcom/facebook/common/internal/ImmutableList;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeController" synthetic="false" visibility="public">
+        <parameter name="resources" type="android.content.res.Resources" jni-type="Landroid/content/res/Resources;">
+        </parameter>
+        <parameter name="deferredReleaser" type="com.facebook.drawee.components.DeferredReleaser" jni-type="Lcom/facebook/drawee/components/DeferredReleaser;">
+        </parameter>
+        <parameter name="animatedDrawableFactory" type="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+        <parameter name="uiThreadExecutor" type="java.util.concurrent.Executor" jni-type="Ljava/util/concurrent/Executor;">
+        </parameter>
+        <parameter name="memoryCache" type="com.facebook.imagepipeline.cache.MemoryCache&lt;com.facebook.cache.common.CacheKey, com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/imagepipeline/cache/MemoryCache&lt;Lcom/facebook/cache/common/CacheKey;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+        <parameter name="globalDrawableFactories" type="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-type="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addImageOriginListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="imageOriginListener" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addRequestListener" jni-signature="(Lcom/facebook/imagepipeline/listener/RequestListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="requestListener" type="com.facebook.imagepipeline.listener.RequestListener" jni-type="Lcom/facebook/imagepipeline/listener/RequestListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clearImageOriginListeners" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createDrawable" jni-signature="(Lcom/facebook/common/references/CloseableReference;)Landroid/graphics/drawable/Drawable;" bridge="false" native="false" return="android.graphics.drawable.Drawable" jni-return="Landroid/graphics/drawable/Drawable;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="image" type="com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCacheKey" jni-signature="()Lcom/facebook/cache/common/CacheKey;" bridge="false" native="false" return="com.facebook.cache.common.CacheKey" jni-return="Lcom/facebook/cache/common/CacheKey;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDataSource" jni-signature="()Lcom/facebook/datasource/DataSource;" bridge="false" native="false" return="com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;" jni-return="Lcom/facebook/datasource/DataSource&lt;Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;&gt;;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDataSourceSupplier" jni-signature="()Lcom/facebook/common/internal/Supplier;" bridge="false" native="false" return="com.facebook.common.internal.Supplier&lt;com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;&gt;" jni-return="Lcom/facebook/common/internal/Supplier&lt;Lcom/facebook/datasource/DataSource&lt;Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;&gt;;&gt;;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageHash" jni-signature="(Lcom/facebook/common/references/CloseableReference;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="image" type="com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageInfo" jni-signature="(Lcom/facebook/common/references/CloseableReference;)Lcom/facebook/imagepipeline/image/ImageInfo;" bridge="false" native="false" return="com.facebook.imagepipeline.image.ImageInfo" jni-return="Lcom/facebook/imagepipeline/image/ImageInfo;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="image" type="com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestListener" jni-signature="()Lcom/facebook/imagepipeline/listener/RequestListener;" bridge="false" native="false" return="com.facebook.imagepipeline.listener.RequestListener" jni-return="Lcom/facebook/imagepipeline/listener/RequestListener;" static="false" synchronized="true" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResources" jni-signature="()Landroid/content/res/Resources;" bridge="false" native="false" return="android.content.res.Resources" jni-return="Landroid/content/res/Resources;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initialize" jni-signature="(Lcom/facebook/common/internal/Supplier;Ljava/lang/String;Lcom/facebook/cache/common/CacheKey;Ljava/lang/Object;Lcom/facebook/common/internal/ImmutableList;Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="dataSourceSupplier" type="com.facebook.common.internal.Supplier&lt;com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;&gt;" jni-type="Lcom/facebook/common/internal/Supplier&lt;Lcom/facebook/datasource/DataSource&lt;Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;&gt;;&gt;;">
+        </parameter>
+        <parameter name="id" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="cacheKey" type="com.facebook.cache.common.CacheKey" jni-type="Lcom/facebook/cache/common/CacheKey;">
+        </parameter>
+        <parameter name="callerContext" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="customDrawableFactories" type="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-type="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;">
+        </parameter>
+        <parameter name="imageOriginListener" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initializePerformanceMonitoring" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="protected">
+        <parameter name="imagePerfDataListener" type="com.facebook.drawee.backends.pipeline.info.ImagePerfDataListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSameImageRequest" jni-signature="(Lcom/facebook/drawee/interfaces/DraweeController;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="com.facebook.drawee.interfaces.DraweeController" jni-type="Lcom/facebook/drawee/interfaces/DraweeController;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onImageLoadedFromCacheImmediately" jni-signature="(Ljava/lang/String;Lcom/facebook/common/references/CloseableReference;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="id" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="cachedImage" type="com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="releaseDrawable" jni-signature="(Landroid/graphics/drawable/Drawable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="drawable" type="android.graphics.drawable.Drawable" jni-type="Landroid/graphics/drawable/Drawable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="releaseImage" jni-signature="(Lcom/facebook/common/references/CloseableReference;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="image" type="com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeImageOriginListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="imageOriginListener" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeRequestListener" jni-signature="(Lcom/facebook/imagepipeline/listener/RequestListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="requestListener" type="com.facebook.imagepipeline.listener.RequestListener" jni-type="Lcom/facebook/imagepipeline/listener/RequestListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCustomDrawableFactories" jni-signature="(Lcom/facebook/common/internal/ImmutableList;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="customDrawableFactories" type="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-type="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDrawDebugOverlay" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawDebugOverlay" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.drawee.controller.AbstractDraweeControllerBuilder" extends-generic-aware="com.facebook.drawee.controller.AbstractDraweeControllerBuilder&lt;com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder, com.facebook.imagepipeline.request.ImageRequest, com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;, com.facebook.imagepipeline.image.ImageInfo&gt;" jni-extends="Lcom/facebook/drawee/controller/AbstractDraweeControllerBuilder;" final="false" name="PipelineDraweeControllerBuilder" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;">
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeControllerBuilder" jni-signature="(Landroid/content/Context;Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;Lcom/facebook/imagepipeline/core/ImagePipeline;Ljava/util/Set;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="pipelineDraweeControllerFactory" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerFactory" jni-type="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;">
+        </parameter>
+        <parameter name="imagePipeline" type="com.facebook.imagepipeline.core.ImagePipeline" jni-type="Lcom/facebook/imagepipeline/core/ImagePipeline;">
+        </parameter>
+        <parameter name="boundControllerListeners" type="java.util.Set&lt;com.facebook.drawee.controller.ControllerListener&gt;" jni-type="Ljava/util/Set&lt;Lcom/facebook/drawee/controller/ControllerListener;&gt;;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="convertCacheLevelToRequestLevel" jni-signature="(Lcom/facebook/drawee/controller/AbstractDraweeControllerBuilder$CacheLevel;)Lcom/facebook/imagepipeline/request/ImageRequest$RequestLevel;" bridge="false" native="false" return="com.facebook.imagepipeline.request.ImageRequest.RequestLevel" jni-return="Lcom/facebook/imagepipeline/request/ImageRequest$RequestLevel;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="cacheLevel" type="com.facebook.drawee.controller.AbstractDraweeControllerBuilder.CacheLevel" jni-type="Lcom/facebook/drawee/controller/AbstractDraweeControllerBuilder$CacheLevel;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDataSourceForRequest" jni-signature="(Lcom/facebook/drawee/interfaces/DraweeController;Ljava/lang/String;Lcom/facebook/imagepipeline/request/ImageRequest;Ljava/lang/Object;Lcom/facebook/drawee/controller/AbstractDraweeControllerBuilder$CacheLevel;)Lcom/facebook/datasource/DataSource;" bridge="false" native="false" return="com.facebook.datasource.DataSource&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;" jni-return="Lcom/facebook/datasource/DataSource&lt;Lcom/facebook/common/references/CloseableReference&lt;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;&gt;;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="controller" type="com.facebook.drawee.interfaces.DraweeController" jni-type="Lcom/facebook/drawee/interfaces/DraweeController;">
+        </parameter>
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageRequest" type="com.facebook.imagepipeline.request.ImageRequest" jni-type="Lcom/facebook/imagepipeline/request/ImageRequest;">
+        </parameter>
+        <parameter name="callerContext" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="cacheLevel" type="com.facebook.drawee.controller.AbstractDraweeControllerBuilder.CacheLevel" jni-type="Lcom/facebook/drawee/controller/AbstractDraweeControllerBuilder$CacheLevel;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestListener" jni-signature="(Lcom/facebook/drawee/interfaces/DraweeController;)Lcom/facebook/imagepipeline/listener/RequestListener;" bridge="false" native="false" return="com.facebook.imagepipeline.listener.RequestListener" jni-return="Lcom/facebook/imagepipeline/listener/RequestListener;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="controller" type="com.facebook.drawee.interfaces.DraweeController" jni-type="Lcom/facebook/drawee/interfaces/DraweeController;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="obtainController" jni-signature="()Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeController" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCustomDrawableFactories" jni-signature="(Lcom/facebook/common/internal/ImmutableList;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="customDrawableFactories" type="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-type="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCustomDrawableFactories" jni-signature="([Lcom/facebook/imagepipeline/drawable/DrawableFactory;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawableFactories" type="com.facebook.imagepipeline.drawable.DrawableFactory..." jni-type="[Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCustomDrawableFactory" jni-signature="(Lcom/facebook/imagepipeline/drawable/DrawableFactory;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="drawableFactory" type="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageOriginListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageOriginListener" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPerfDataListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imagePerfDataListener" type="com.facebook.drawee.backends.pipeline.info.ImagePerfDataListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUri" jni-signature="(Landroid/net/Uri;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="uri" type="android.net.Uri" jni-type="Landroid/net/Uri;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUri" jni-signature="(Ljava/lang/String;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="uriString" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PipelineDraweeControllerBuilder.1" static="true" visibility="" jni-signature="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PipelineDraweeControllerBuilderSupplier" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilderSupplier;">
+      <implements name="com.facebook.common.internal.Supplier" name-generic-aware="com.facebook.common.internal.Supplier&lt;com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder&gt;" jni-type="Lcom/facebook/common/internal/Supplier&lt;Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;&gt;;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeControllerBuilderSupplier" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilderSupplier" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeControllerBuilderSupplier" jni-signature="(Landroid/content/Context;Lcom/facebook/drawee/backends/pipeline/DraweeConfig;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilderSupplier" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="draweeConfig" type="com.facebook.drawee.backends.pipeline.DraweeConfig" jni-type="Lcom/facebook/drawee/backends/pipeline/DraweeConfig;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeControllerBuilderSupplier" jni-signature="(Landroid/content/Context;Lcom/facebook/imagepipeline/core/ImagePipelineFactory;Lcom/facebook/drawee/backends/pipeline/DraweeConfig;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilderSupplier" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="imagePipelineFactory" type="com.facebook.imagepipeline.core.ImagePipelineFactory" jni-type="Lcom/facebook/imagepipeline/core/ImagePipelineFactory;">
+        </parameter>
+        <parameter name="draweeConfig" type="com.facebook.drawee.backends.pipeline.DraweeConfig" jni-type="Lcom/facebook/drawee/backends/pipeline/DraweeConfig;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeControllerBuilderSupplier" jni-signature="(Landroid/content/Context;Lcom/facebook/imagepipeline/core/ImagePipelineFactory;Ljava/util/Set;Lcom/facebook/drawee/backends/pipeline/DraweeConfig;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilderSupplier" synthetic="false" visibility="public">
+        <parameter name="context" type="android.content.Context" jni-type="Landroid/content/Context;">
+        </parameter>
+        <parameter name="imagePipelineFactory" type="com.facebook.imagepipeline.core.ImagePipelineFactory" jni-type="Lcom/facebook/imagepipeline/core/ImagePipelineFactory;">
+        </parameter>
+        <parameter name="boundControllerListeners" type="java.util.Set&lt;com.facebook.drawee.controller.ControllerListener&gt;" jni-type="Ljava/util/Set&lt;Lcom/facebook/drawee/controller/ControllerListener;&gt;;">
+        </parameter>
+        <parameter name="draweeConfig" type="com.facebook.drawee.backends.pipeline.DraweeConfig" jni-type="Lcom/facebook/drawee/backends/pipeline/DraweeConfig;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="get" jni-signature="()Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerBuilder" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerBuilder;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PipelineDraweeControllerFactory" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeControllerFactory;">
+      <constructor deprecated="not deprecated" final="false" name="PipelineDraweeControllerFactory" jni-signature="()V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.PipelineDraweeControllerFactory" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/content/res/Resources;Lcom/facebook/drawee/components/DeferredReleaser;Lcom/facebook/imagepipeline/drawable/DrawableFactory;Ljava/util/concurrent/Executor;Lcom/facebook/imagepipeline/cache/MemoryCache;Lcom/facebook/common/internal/ImmutableList;Lcom/facebook/common/internal/Supplier;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="resources" type="android.content.res.Resources" jni-type="Landroid/content/res/Resources;">
+        </parameter>
+        <parameter name="deferredReleaser" type="com.facebook.drawee.components.DeferredReleaser" jni-type="Lcom/facebook/drawee/components/DeferredReleaser;">
+        </parameter>
+        <parameter name="animatedDrawableFactory" type="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+        <parameter name="uiThreadExecutor" type="java.util.concurrent.Executor" jni-type="Ljava/util/concurrent/Executor;">
+        </parameter>
+        <parameter name="memoryCache" type="com.facebook.imagepipeline.cache.MemoryCache&lt;com.facebook.cache.common.CacheKey, com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/imagepipeline/cache/MemoryCache&lt;Lcom/facebook/cache/common/CacheKey;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+        <parameter name="drawableFactories" type="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-type="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;">
+        </parameter>
+        <parameter name="debugOverlayEnabledSupplier" type="com.facebook.common.internal.Supplier&lt;java.lang.Boolean&gt;" jni-type="Lcom/facebook/common/internal/Supplier&lt;Ljava/lang/Boolean;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="internalCreateController" jni-signature="(Landroid/content/res/Resources;Lcom/facebook/drawee/components/DeferredReleaser;Lcom/facebook/imagepipeline/drawable/DrawableFactory;Ljava/util/concurrent/Executor;Lcom/facebook/imagepipeline/cache/MemoryCache;Lcom/facebook/common/internal/ImmutableList;)Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeController" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="resources" type="android.content.res.Resources" jni-type="Landroid/content/res/Resources;">
+        </parameter>
+        <parameter name="deferredReleaser" type="com.facebook.drawee.components.DeferredReleaser" jni-type="Lcom/facebook/drawee/components/DeferredReleaser;">
+        </parameter>
+        <parameter name="animatedDrawableFactory" type="com.facebook.imagepipeline.drawable.DrawableFactory" jni-type="Lcom/facebook/imagepipeline/drawable/DrawableFactory;">
+        </parameter>
+        <parameter name="uiThreadExecutor" type="java.util.concurrent.Executor" jni-type="Ljava/util/concurrent/Executor;">
+        </parameter>
+        <parameter name="memoryCache" type="com.facebook.imagepipeline.cache.MemoryCache&lt;com.facebook.cache.common.CacheKey, com.facebook.imagepipeline.image.CloseableImage&gt;" jni-type="Lcom/facebook/imagepipeline/cache/MemoryCache&lt;Lcom/facebook/cache/common/CacheKey;Lcom/facebook/imagepipeline/image/CloseableImage;&gt;;">
+        </parameter>
+        <parameter name="drawableFactories" type="com.facebook.common.internal.ImmutableList&lt;com.facebook.imagepipeline.drawable.DrawableFactory&gt;" jni-type="Lcom/facebook/common/internal/ImmutableList&lt;Lcom/facebook/imagepipeline/drawable/DrawableFactory;&gt;;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newController" jni-signature="()Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.PipelineDraweeController" jni-return="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+  </package>
+  <package name="com.facebook.drawee.backends.pipeline.info" jni-name="com/facebook/drawee/backends/pipeline/info">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ForwardingImageOriginListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ForwardingImageOriginListener;">
+      <implements name="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" name-generic-aware="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="ForwardingImageOriginListener" jni-signature="([Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.ForwardingImageOriginListener" synthetic="false" visibility="public">
+        <parameter name="imageOriginListeners" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener..." jni-type="[Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="ForwardingImageOriginListener" jni-signature="(Ljava/util/Set;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.ForwardingImageOriginListener" synthetic="false" visibility="public">
+        <parameter name="imageOriginListeners" type="java.util.Set&lt;com.facebook.drawee.backends.pipeline.info.ImageOriginListener&gt;" jni-type="Ljava/util/Set&lt;Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;&gt;;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addImageOriginListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onImageLoaded" jni-signature="(Ljava/lang/String;IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageOrigin" type="int" jni-type="I">
+        </parameter>
+        <parameter name="successful" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeImageOriginListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="listener" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ImageLoadStatus" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImageLoadStatus;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;">
+      </implements>
+      <field deprecated="not deprecated" final="true" name="CANCELED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="INTERMEDIATE_AVAILABLE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="ORIGIN_AVAILABLE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="REQUESTED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SUCCESS" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="UNKNOWN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+      </field>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ImageOrigin" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImageOrigin;">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation" jni-type="Ljava/lang/annotation/Annotation;">
+      </implements>
+      <field deprecated="not deprecated" final="true" name="DISK" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MEMORY_BITMAP" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MEMORY_ENCODED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NETWORK" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="UNKNOWN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+      </field>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ImageOriginListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onImageLoaded" jni-signature="(Ljava/lang/String;IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.imagepipeline.listener.BaseRequestListener" extends-generic-aware="com.facebook.imagepipeline.listener.BaseRequestListener" jni-extends="Lcom/facebook/imagepipeline/listener/BaseRequestListener;" final="false" name="ImageOriginRequestListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginRequestListener;">
+      <constructor deprecated="not deprecated" final="false" name="ImageOriginRequestListener" jni-signature="(Ljava/lang/String;Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.ImageOriginRequestListener" synthetic="false" visibility="public">
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageOriginLister" type="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ImageOriginUtils" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginUtils;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="mapProducerNameToImageOrigin" jni-signature="(Ljava/lang/String;)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="producerName" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toString" jni-signature="(I)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageOrigin" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ImagePerfData" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfData;">
+      <constructor deprecated="not deprecated" final="false" name="ImagePerfData" jni-signature="(Ljava/lang/String;Ljava/lang/String;Lcom/facebook/imagepipeline/request/ImageRequest;Ljava/lang/Object;Lcom/facebook/imagepipeline/image/ImageInfo;JJJJJJJIZZZ)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.ImagePerfData" synthetic="false" visibility="public">
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="requestId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageRequest" type="com.facebook.imagepipeline.request.ImageRequest" jni-type="Lcom/facebook/imagepipeline/request/ImageRequest;">
+        </parameter>
+        <parameter name="callerContext" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <parameter name="imageInfo" type="com.facebook.imagepipeline.image.ImageInfo" jni-type="Lcom/facebook/imagepipeline/image/ImageInfo;">
+        </parameter>
+        <parameter name="controllerSubmitTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="controllerIntermediateImageSetTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="controllerFinalImageSetTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="controllerFailureTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="controllerCancelTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="imageRequestStartTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="imageRequestEndTimeMs" type="long" jni-type="J">
+        </parameter>
+        <parameter name="imageOrigin" type="int" jni-type="I">
+        </parameter>
+        <parameter name="isCanceled" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="isSuccessful" type="boolean" jni-type="Z">
+        </parameter>
+        <parameter name="isPrefetch" type="boolean" jni-type="Z">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createDebugString" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCallerContext" jni-signature="()Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getControllerFailureTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getControllerFinalImageSetTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getControllerId" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getControllerIntermediateImageSetTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getControllerSubmitTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFinalImageLoadTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageInfo" jni-signature="()Lcom/facebook/imagepipeline/image/ImageInfo;" bridge="false" native="false" return="com.facebook.imagepipeline.image.ImageInfo" jni-return="Lcom/facebook/imagepipeline/image/ImageInfo;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageOrigin" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageRequest" jni-signature="()Lcom/facebook/imagepipeline/request/ImageRequest;" bridge="false" native="false" return="com.facebook.imagepipeline.request.ImageRequest" jni-return="Lcom/facebook/imagepipeline/request/ImageRequest;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageRequestEndTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageRequestStartTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIntermediateImageLoadTimeMs" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestId" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCanceled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isPrefetch" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSuccessful" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="UNSET" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ImagePerfDataListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onImagePerfDataUpdated" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfData;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.facebook.drawee.backends.pipeline.info.ImagePerfData" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfData;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.imagepipeline.listener.BaseRequestListener" extends-generic-aware="com.facebook.imagepipeline.listener.BaseRequestListener" jni-extends="Lcom/facebook/imagepipeline/listener/BaseRequestListener;" final="false" name="ImagePerfMonitor" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfMonitor;">
+      <constructor deprecated="not deprecated" final="false" name="ImagePerfMonitor" jni-signature="(Lcom/facebook/common/time/MonotonicClock;Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.ImagePerfMonitor" synthetic="false" visibility="public">
+        <parameter name="monotonicClock" type="com.facebook.common.time.MonotonicClock" jni-type="Lcom/facebook/common/time/MonotonicClock;">
+        </parameter>
+        <parameter name="pipelineDraweeController" type="com.facebook.drawee.backends.pipeline.PipelineDraweeController" jni-type="Lcom/facebook/drawee/backends/pipeline/PipelineDraweeController;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addImagePerfDataListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imagePerfDataListener" type="com.facebook.drawee.backends.pipeline.info.ImagePerfDataListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clearImagePerfDataListeners" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyListeners" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="state" type="com.facebook.drawee.backends.pipeline.info.ImagePerfState" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;">
+        </parameter>
+        <parameter name="imageLoadStatus" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="removeImagePerfDataListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imagePerfDataListener" type="com.facebook.drawee.backends.pipeline.info.ImagePerfDataListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfDataListener;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reset" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setEnabled" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="enabled" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ImagePerfState" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;">
+      <constructor deprecated="not deprecated" final="false" name="ImagePerfState" jni-signature="()V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.ImagePerfState" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getImageLoadStatus" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reset" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCallerContext" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="callerContext" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCanceled" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="canceled" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setControllerCancelTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerCancelTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setControllerFailureTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerFailureTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setControllerFinalImageSetTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerFinalImageSetTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setControllerId" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setControllerIntermediateImageSetTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerIntermediateImageSetTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setControllerSubmitTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerSubmitTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageInfo" jni-signature="(Lcom/facebook/imagepipeline/image/ImageInfo;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageInfo" type="com.facebook.imagepipeline.image.ImageInfo" jni-type="Lcom/facebook/imagepipeline/image/ImageInfo;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageLoadStatus" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageLoadStatus" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageOrigin" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageOrigin" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageRequest" jni-signature="(Lcom/facebook/imagepipeline/request/ImageRequest;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageRequest" type="com.facebook.imagepipeline.request.ImageRequest" jni-type="Lcom/facebook/imagepipeline/request/ImageRequest;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageRequestEndTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageRequestEndTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setImageRequestStartTimeMs" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageRequestStartTimeMs" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPrefetch" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="prefetch" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRequestId" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="requestId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSuccessful" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="successful" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="snapshot" jni-signature="()Lcom/facebook/drawee/backends/pipeline/info/ImagePerfData;" bridge="false" native="false" return="com.facebook.drawee.backends.pipeline.info.ImagePerfData" jni-return="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfData;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ImagePerfUtils" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfUtils;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="toString" jni-signature="(I)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="imageLoadStatus" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.facebook.drawee.backends.pipeline.info.internal" jni-name="com/facebook/drawee/backends/pipeline/info/internal">
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.drawee.controller.BaseControllerListener" extends-generic-aware="com.facebook.drawee.controller.BaseControllerListener&lt;com.facebook.imagepipeline.image.ImageInfo&gt;" jni-extends="Lcom/facebook/drawee/controller/BaseControllerListener;" final="false" name="ImagePerfControllerListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/internal/ImagePerfControllerListener;">
+      <constructor deprecated="not deprecated" final="false" name="ImagePerfControllerListener" jni-signature="(Lcom/facebook/common/time/MonotonicClock;Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;Lcom/facebook/drawee/backends/pipeline/info/ImagePerfMonitor;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.internal.ImagePerfControllerListener" synthetic="false" visibility="public">
+        <parameter name="clock" type="com.facebook.common.time.MonotonicClock" jni-type="Lcom/facebook/common/time/MonotonicClock;">
+        </parameter>
+        <parameter name="imagePerfState" type="com.facebook.drawee.backends.pipeline.info.ImagePerfState" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;">
+        </parameter>
+        <parameter name="imagePerfMonitor" type="com.facebook.drawee.backends.pipeline.info.ImagePerfMonitor" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfMonitor;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFinalImageSet" jni-signature="(Ljava/lang/String;Lcom/facebook/imagepipeline/image/ImageInfo;Landroid/graphics/drawable/Animatable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="id" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageInfo" type="com.facebook.imagepipeline.image.ImageInfo" jni-type="Lcom/facebook/imagepipeline/image/ImageInfo;">
+        </parameter>
+        <parameter name="animatable" type="android.graphics.drawable.Animatable" jni-type="Landroid/graphics/drawable/Animatable;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onIntermediateImageSet" jni-signature="(Ljava/lang/String;Lcom/facebook/imagepipeline/image/ImageInfo;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="id" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageInfo" type="com.facebook.imagepipeline.image.ImageInfo" jni-type="Lcom/facebook/imagepipeline/image/ImageInfo;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ImagePerfImageOriginListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/internal/ImagePerfImageOriginListener;">
+      <implements name="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" name-generic-aware="com.facebook.drawee.backends.pipeline.info.ImageOriginListener" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImageOriginListener;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="ImagePerfImageOriginListener" jni-signature="(Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;Lcom/facebook/drawee/backends/pipeline/info/ImagePerfMonitor;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.internal.ImagePerfImageOriginListener" synthetic="false" visibility="public">
+        <parameter name="imagePerfState" type="com.facebook.drawee.backends.pipeline.info.ImagePerfState" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;">
+        </parameter>
+        <parameter name="imagePerfMonitor" type="com.facebook.drawee.backends.pipeline.info.ImagePerfMonitor" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfMonitor;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onImageLoaded" jni-signature="(Ljava/lang/String;IZ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="controllerId" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="imageOrigin" type="int" jni-type="I">
+        </parameter>
+        <parameter name="successful" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.facebook.imagepipeline.listener.BaseRequestListener" extends-generic-aware="com.facebook.imagepipeline.listener.BaseRequestListener" jni-extends="Lcom/facebook/imagepipeline/listener/BaseRequestListener;" final="false" name="ImagePerfRequestListener" static="false" visibility="public" jni-signature="Lcom/facebook/drawee/backends/pipeline/info/internal/ImagePerfRequestListener;">
+      <constructor deprecated="not deprecated" final="false" name="ImagePerfRequestListener" jni-signature="(Lcom/facebook/common/time/MonotonicClock;Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;)V" bridge="false" static="false" type="com.facebook.drawee.backends.pipeline.info.internal.ImagePerfRequestListener" synthetic="false" visibility="public">
+        <parameter name="monotonicClock" type="com.facebook.common.time.MonotonicClock" jni-type="Lcom/facebook/common/time/MonotonicClock;">
+        </parameter>
+        <parameter name="imagePerfState" type="com.facebook.drawee.backends.pipeline.info.ImagePerfState" jni-type="Lcom/facebook/drawee/backends/pipeline/info/ImagePerfState;">
+        </parameter>
+      </constructor>
+    </class>
+  </package>
+</api>

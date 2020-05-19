@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Components.DeferredReleaser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Components.DraweeEventTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Components.RetryManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Controller.AbstractDraweeController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Controller.AbstractDraweeControllerBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Controller.BaseControllerListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Controller.ForwardingControllerListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Controller.IControllerListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Controller.IControllerViewportVisibilityListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Debug.DebugControllerOverlayDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Debug.Listener.IImageLoadingTimeListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Debug.Listener.ImageLoadingTimeControllerListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ArrayDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.AutoRotateDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.DrawableProperties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.DrawableUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.FadeDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ForwardingDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ICloneableDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.IDrawableParent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.IRounded.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ITransformAwareDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ITransformCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.IVisibilityAwareDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.IVisibilityCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.MatrixDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.OrientedDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ProgressBarDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.RoundedBitmapDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.RoundedColorDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.RoundedCornersDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.RoundedDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.RoundedNinePatchDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ScaleTypeDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Drawable.ScalingUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Generic.GenericDraweeHierarchy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Generic.GenericDraweeHierarchyBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Generic.GenericDraweeHierarchyInflater.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Generic.RootDrawable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Generic.RoundingParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Generic.WrappingUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Gestures.GestureDetector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Interfaces.IDraweeController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Interfaces.IDraweeHierarchy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Interfaces.ISettableDraweeHierarchy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.Interfaces.ISimpleDraweeControllerBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.AspectRatioMeasure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.DraweeHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.DraweeTransition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.DraweeView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.GenericDraweeView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.MultiDraweeHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Facebook.Drawee.View.SimpleDraweeView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

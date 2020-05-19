@@ -1,0 +1,463 @@
+<api>
+  <package name="okhttp3" jni-name="okhttp3">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="JavaNetAuthenticator" static="false" visibility="public" jni-signature="Lokhttp3/JavaNetAuthenticator;">
+      <implements name="okhttp3.Authenticator" name-generic-aware="okhttp3.Authenticator" jni-type="Lokhttp3/Authenticator;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="JavaNetAuthenticator" jni-signature="()V" bridge="false" static="false" type="okhttp3.JavaNetAuthenticator" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="authenticate" jni-signature="(Lokhttp3/Route;Lokhttp3/Response;)Lokhttp3/Request;" bridge="false" native="false" return="okhttp3.Request" jni-return="Lokhttp3/Request;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="route" type="okhttp3.Route" jni-type="Lokhttp3/Route;">
+        </parameter>
+        <parameter name="response" type="okhttp3.Response" jni-type="Lokhttp3/Response;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="JavaNetCookieJar" static="false" visibility="public" jni-signature="Lokhttp3/JavaNetCookieJar;">
+      <implements name="okhttp3.CookieJar" name-generic-aware="okhttp3.CookieJar" jni-type="Lokhttp3/CookieJar;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="JavaNetCookieJar" jni-signature="(Ljava/net/CookieHandler;)V" bridge="false" static="false" type="okhttp3.JavaNetCookieJar" synthetic="false" visibility="public">
+        <parameter name="cookieHandler" type="java.net.CookieHandler" jni-type="Ljava/net/CookieHandler;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="loadForRequest" jni-signature="(Lokhttp3/HttpUrl;)Ljava/util/List;" bridge="false" native="false" return="java.util.List&lt;okhttp3.Cookie&gt;" jni-return="Ljava/util/List&lt;Lokhttp3/Cookie;&gt;;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="url" type="okhttp3.HttpUrl" jni-type="Lokhttp3/HttpUrl;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveFromResponse" jni-signature="(Lokhttp3/HttpUrl;Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="url" type="okhttp3.HttpUrl" jni-type="Lokhttp3/HttpUrl;">
+        </parameter>
+        <parameter name="cookies" type="java.util.List&lt;okhttp3.Cookie&gt;" jni-type="Ljava/util/List&lt;Lokhttp3/Cookie;&gt;;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="OkUrlFactory" static="false" visibility="public" jni-signature="Lokhttp3/OkUrlFactory;">
+      <implements name="java.lang.Cloneable" name-generic-aware="java.lang.Cloneable" jni-type="Ljava/lang/Cloneable;">
+      </implements>
+      <implements name="java.net.URLStreamHandlerFactory" name-generic-aware="java.net.URLStreamHandlerFactory" jni-type="Ljava/net/URLStreamHandlerFactory;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="OkUrlFactory" jni-signature="(Lokhttp3/OkHttpClient;)V" bridge="false" static="false" type="okhttp3.OkUrlFactory" synthetic="false" visibility="public">
+        <parameter name="client" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="client" jni-signature="()Lokhttp3/OkHttpClient;" bridge="false" native="false" return="okhttp3.OkHttpClient" jni-return="Lokhttp3/OkHttpClient;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clone" jni-signature="()Lokhttp3/OkUrlFactory;" bridge="false" native="false" return="okhttp3.OkUrlFactory" jni-return="Lokhttp3/OkUrlFactory;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createURLStreamHandler" jni-signature="(Ljava/lang/String;)Ljava/net/URLStreamHandler;" bridge="false" native="false" return="java.net.URLStreamHandler" jni-return="Ljava/net/URLStreamHandler;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="protocol" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="open" jni-signature="(Ljava/net/URL;)Ljava/net/HttpURLConnection;" bridge="false" native="false" return="java.net.HttpURLConnection" jni-return="Ljava/net/HttpURLConnection;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="url" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setClient" jni-signature="(Lokhttp3/OkHttpClient;)Lokhttp3/OkUrlFactory;" bridge="false" native="false" return="okhttp3.OkUrlFactory" jni-return="Lokhttp3/OkUrlFactory;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="client" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.net.URLStreamHandler" extends-generic-aware="java.net.URLStreamHandler" jni-extends="Ljava/net/URLStreamHandler;" final="false" name="OkUrlFactory.1" static="false" visibility="" jni-signature="Lokhttp3/OkUrlFactory$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="openConnection" jni-signature="(Ljava/net/URL;)Ljava/net/URLConnection;" bridge="false" native="false" return="java.net.URLConnection" jni-return="Ljava/net/URLConnection;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="url" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="okhttp3.internal" jni-name="okhttp3/internal">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="JavaNetHeaders" static="false" visibility="public" jni-signature="Lokhttp3/internal/JavaNetHeaders;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="toMultimap" jni-signature="(Lokhttp3/Headers;Ljava/lang/String;)Ljava/util/Map;" bridge="false" native="false" return="java.util.Map&lt;java.lang.String, java.util.List&lt;java.lang.String&gt;&gt;" jni-return="Ljava/util/Map&lt;Ljava/lang/String;Ljava/util/List&lt;Ljava/lang/String;&gt;;&gt;;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="headers" type="okhttp3.Headers" jni-type="Lokhttp3/Headers;">
+        </parameter>
+        <parameter name="valueForNullKey" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="JavaNetHeaders.1" static="false" visibility="" jni-signature="Lokhttp3/internal/JavaNetHeaders$1;">
+      <implements name="java.util.Comparator" name-generic-aware="java.util.Comparator&lt;java.lang.String&gt;" jni-type="Ljava/util/Comparator&lt;Ljava/lang/String;&gt;;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="compare" jni-signature="(Ljava/lang/String;Ljava/lang/String;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="a" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="b" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="deprecated" final="false" name="URLFilter" static="false" visibility="public" jni-signature="Lokhttp3/internal/URLFilter;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="checkURLPermitted" jni-signature="(Ljava/net/URL;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </interface>
+  </package>
+  <package name="okhttp3.internal.huc" jni-name="okhttp3/internal/huc">
+    <class abstract="false" deprecated="not deprecated" extends="okhttp3.internal.huc.OutputStreamRequestBody" extends-generic-aware="okhttp3.internal.huc.OutputStreamRequestBody" jni-extends="Lokhttp3/internal/huc/OutputStreamRequestBody;" final="true" name="BufferedRequestBody" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/BufferedRequestBody;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="contentLength" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="prepareToSendRequest" jni-signature="(Lokhttp3/Request;)Lokhttp3/Request;" bridge="false" native="false" return="okhttp3.Request" jni-return="Lokhttp3/Request;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="request" type="okhttp3.Request" jni-type="Lokhttp3/Request;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="javax.net.ssl.HttpsURLConnection" extends-generic-aware="javax.net.ssl.HttpsURLConnection" jni-extends="Ljavax/net/ssl/HttpsURLConnection;" final="false" name="DelegatingHttpsURLConnection" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/DelegatingHttpsURLConnection;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="connect" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="disconnect" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCipherSuite" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getHostnameVerifier" jni-signature="()Ljavax/net/ssl/HostnameVerifier;" bridge="false" native="false" return="javax.net.ssl.HostnameVerifier" jni-return="Ljavax/net/ssl/HostnameVerifier;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLocalCertificates" jni-signature="()[Ljava/security/cert/Certificate;" bridge="false" native="false" return="java.security.cert.Certificate[]" jni-return="[Ljava/security/cert/Certificate;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getSSLSocketFactory" jni-signature="()Ljavax/net/ssl/SSLSocketFactory;" bridge="false" native="false" return="javax.net.ssl.SSLSocketFactory" jni-return="Ljavax/net/ssl/SSLSocketFactory;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getServerCertificates" jni-signature="()[Ljava/security/cert/Certificate;" bridge="false" native="false" return="java.security.cert.Certificate[]" jni-return="[Ljava/security/cert/Certificate;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="SSLPeerUnverifiedException" type="javax.net.ssl.SSLPeerUnverifiedException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="handshake" jni-signature="()Lokhttp3/Handshake;" bridge="false" native="false" return="okhttp3.Handshake" jni-return="Lokhttp3/Handshake;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setHostnameVerifier" jni-signature="(Ljavax/net/ssl/HostnameVerifier;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="javax.net.ssl.HostnameVerifier" jni-type="Ljavax/net/ssl/HostnameVerifier;">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setSSLSocketFactory" jni-signature="(Ljavax/net/ssl/SSLSocketFactory;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="javax.net.ssl.SSLSocketFactory" jni-type="Ljavax/net/ssl/SSLSocketFactory;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="usingProxy" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okhttp3.internal.huc.DelegatingHttpsURLConnection" extends-generic-aware="okhttp3.internal.huc.DelegatingHttpsURLConnection" jni-extends="Lokhttp3/internal/huc/DelegatingHttpsURLConnection;" final="true" name="OkHttpsURLConnection" static="false" visibility="public" jni-signature="Lokhttp3/internal/huc/OkHttpsURLConnection;">
+      <constructor deprecated="not deprecated" final="false" name="OkHttpsURLConnection" jni-signature="(Ljava/net/URL;Lokhttp3/OkHttpClient;)V" bridge="false" static="false" type="okhttp3.internal.huc.OkHttpsURLConnection" synthetic="false" visibility="public">
+        <parameter name="url" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+        <parameter name="client" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="OkHttpsURLConnection" jni-signature="(Ljava/net/URL;Lokhttp3/OkHttpClient;Lokhttp3/internal/URLFilter;)V" bridge="false" static="false" type="okhttp3.internal.huc.OkHttpsURLConnection" synthetic="false" visibility="public">
+        <parameter name="url" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+        <parameter name="client" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;">
+        </parameter>
+        <parameter name="filter" type="okhttp3.internal.URLFilter" jni-type="Lokhttp3/internal/URLFilter;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="OkHttpsURLConnection" jni-signature="(Lokhttp3/internal/huc/OkHttpURLConnection;)V" bridge="false" static="false" type="okhttp3.internal.huc.OkHttpsURLConnection" synthetic="false" visibility="public">
+        <parameter name="delegate" type="okhttp3.internal.huc.OkHttpURLConnection" jni-type="Lokhttp3/internal/huc/OkHttpURLConnection;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addRequestProperty" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="connect" jni-signature="()V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="disconnect" jni-signature="()V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAllowUserInteraction" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCipherSuite" jni-signature="()Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getConnectTimeout" jni-signature="()I" bridge="true" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContent" jni-signature="()Ljava/lang/Object;" bridge="true" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContent" jni-signature="([Ljava/lang/Class;)Ljava/lang/Object;" bridge="true" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.Class[]" jni-type="[Ljava/lang/Class;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContentEncoding" jni-signature="()Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContentLength" jni-signature="()I" bridge="true" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContentLengthLong" jni-signature="()J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContentType" jni-signature="()Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDate" jni-signature="()J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDefaultUseCaches" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDoInput" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDoOutput" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getErrorStream" jni-signature="()Ljava/io/InputStream;" bridge="true" native="false" return="java.io.InputStream" jni-return="Ljava/io/InputStream;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getExpiration" jni-signature="()J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderField" jni-signature="(I)Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderField" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderFieldDate" jni-signature="(Ljava/lang/String;J)J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderFieldInt" jni-signature="(Ljava/lang/String;I)I" bridge="true" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderFieldKey" jni-signature="(I)Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderFieldLong" jni-signature="(Ljava/lang/String;J)J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeaderFields" jni-signature="()Ljava/util/Map;" bridge="true" native="false" return="java.util.Map" jni-return="Ljava/util/Map;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHostnameVerifier" jni-signature="()Ljavax/net/ssl/HostnameVerifier;" bridge="false" native="false" return="javax.net.ssl.HostnameVerifier" jni-return="Ljavax/net/ssl/HostnameVerifier;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIfModifiedSince" jni-signature="()J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInputStream" jni-signature="()Ljava/io/InputStream;" bridge="true" native="false" return="java.io.InputStream" jni-return="Ljava/io/InputStream;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstanceFollowRedirects" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastModified" jni-signature="()J" bridge="true" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLocalCertificates" jni-signature="()[Ljava/security/cert/Certificate;" bridge="true" native="false" return="java.security.cert.Certificate[]" jni-return="[Ljava/security/cert/Certificate;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLocalPrincipal" jni-signature="()Ljava/security/Principal;" bridge="true" native="false" return="java.security.Principal" jni-return="Ljava/security/Principal;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOutputStream" jni-signature="()Ljava/io/OutputStream;" bridge="true" native="false" return="java.io.OutputStream" jni-return="Ljava/io/OutputStream;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPeerPrincipal" jni-signature="()Ljava/security/Principal;" bridge="true" native="false" return="java.security.Principal" jni-return="Ljava/security/Principal;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="SSLPeerUnverifiedException" type="javax.net.ssl.SSLPeerUnverifiedException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPermission" jni-signature="()Ljava/security/Permission;" bridge="true" native="false" return="java.security.Permission" jni-return="Ljava/security/Permission;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getReadTimeout" jni-signature="()I" bridge="true" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestMethod" jni-signature="()Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestProperties" jni-signature="()Ljava/util/Map;" bridge="true" native="false" return="java.util.Map" jni-return="Ljava/util/Map;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestProperty" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResponseCode" jni-signature="()I" bridge="true" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResponseMessage" jni-signature="()Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSSLSocketFactory" jni-signature="()Ljavax/net/ssl/SSLSocketFactory;" bridge="false" native="false" return="javax.net.ssl.SSLSocketFactory" jni-return="Ljavax/net/ssl/SSLSocketFactory;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getServerCertificates" jni-signature="()[Ljava/security/cert/Certificate;" bridge="true" native="false" return="java.security.cert.Certificate[]" jni-return="[Ljava/security/cert/Certificate;" static="false" synchronized="false" synthetic="true" visibility="public">
+        <exception name="SSLPeerUnverifiedException" type="javax.net.ssl.SSLPeerUnverifiedException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getURL" jni-signature="()Ljava/net/URL;" bridge="true" native="false" return="java.net.URL" jni-return="Ljava/net/URL;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUseCaches" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handshake" jni-signature="()Lokhttp3/Handshake;" bridge="false" native="false" return="okhttp3.Handshake" jni-return="Lokhttp3/Handshake;" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAllowUserInteraction" jni-signature="(Z)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setChunkedStreamingMode" jni-signature="(I)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setConnectTimeout" jni-signature="(I)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDefaultUseCaches" jni-signature="(Z)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDoInput" jni-signature="(Z)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDoOutput" jni-signature="(Z)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFixedLengthStreamingMode" jni-signature="(I)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFixedLengthStreamingMode" jni-signature="(J)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setHostnameVerifier" jni-signature="(Ljavax/net/ssl/HostnameVerifier;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="hostnameVerifier" type="javax.net.ssl.HostnameVerifier" jni-type="Ljavax/net/ssl/HostnameVerifier;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIfModifiedSince" jni-signature="(J)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setInstanceFollowRedirects" jni-signature="(Z)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setReadTimeout" jni-signature="(I)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRequestMethod" jni-signature="(Ljava/lang/String;)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <exception name="ProtocolException" type="java.net.ProtocolException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRequestProperty" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSSLSocketFactory" jni-signature="(Ljavax/net/ssl/SSLSocketFactory;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sslSocketFactory" type="javax.net.ssl.SSLSocketFactory" jni-type="Ljavax/net/ssl/SSLSocketFactory;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUseCaches" jni-signature="(Z)V" bridge="true" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="true" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toString" jni-signature="()Ljava/lang/String;" bridge="true" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="usingProxy" jni-signature="()Z" bridge="true" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="true" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.net.HttpURLConnection" extends-generic-aware="java.net.HttpURLConnection" jni-extends="Ljava/net/HttpURLConnection;" final="true" name="OkHttpURLConnection" static="false" visibility="public" jni-signature="Lokhttp3/internal/huc/OkHttpURLConnection;">
+      <implements name="okhttp3.Callback" name-generic-aware="okhttp3.Callback" jni-type="Lokhttp3/Callback;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="OkHttpURLConnection" jni-signature="(Ljava/net/URL;Lokhttp3/OkHttpClient;)V" bridge="false" static="false" type="okhttp3.internal.huc.OkHttpURLConnection" synthetic="false" visibility="public">
+        <parameter name="url" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+        <parameter name="client" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="OkHttpURLConnection" jni-signature="(Ljava/net/URL;Lokhttp3/OkHttpClient;Lokhttp3/internal/URLFilter;)V" bridge="false" static="false" type="okhttp3.internal.huc.OkHttpURLConnection" synthetic="false" visibility="public">
+        <parameter name="url" type="java.net.URL" jni-type="Ljava/net/URL;">
+        </parameter>
+        <parameter name="client" type="okhttp3.OkHttpClient" jni-type="Lokhttp3/OkHttpClient;">
+        </parameter>
+        <parameter name="urlFilter" type="okhttp3.internal.URLFilter" jni-type="Lokhttp3/internal/URLFilter;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="connect" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="disconnect" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Lokhttp3/Call;Ljava/io/IOException;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="call" type="okhttp3.Call" jni-type="Lokhttp3/Call;">
+        </parameter>
+        <parameter name="e" type="java.io.IOException" jni-type="Ljava/io/IOException;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onResponse" jni-signature="(Lokhttp3/Call;Lokhttp3/Response;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="call" type="okhttp3.Call" jni-type="Lokhttp3/Call;">
+        </parameter>
+        <parameter name="response" type="okhttp3.Response" jni-type="Lokhttp3/Response;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="usingProxy" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="RESPONSE_SOURCE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SELECTED_PROTOCOL" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="OkHttpURLConnection.NetworkInterceptor" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/OkHttpURLConnection$NetworkInterceptor;">
+      <implements name="okhttp3.Interceptor" name-generic-aware="okhttp3.Interceptor" jni-type="Lokhttp3/Interceptor;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="intercept" jni-signature="(Lokhttp3/Interceptor$Chain;)Lokhttp3/Response;" bridge="false" native="false" return="okhttp3.Response" jni-return="Lokhttp3/Response;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="chain" type="okhttp3.Interceptor.Chain" jni-type="Lokhttp3/Interceptor$Chain;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="proceed" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.IOException" extends-generic-aware="java.io.IOException" jni-extends="Ljava/io/IOException;" final="true" name="OkHttpURLConnection.UnexpectedException" static="true" visibility="" jni-signature="Lokhttp3/internal/huc/OkHttpURLConnection$UnexpectedException;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="OkHttpURLConnection.UnexpectedException.1" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/OkHttpURLConnection$UnexpectedException$1;">
+      <implements name="okhttp3.Interceptor" name-generic-aware="okhttp3.Interceptor" jni-type="Lokhttp3/Interceptor;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="intercept" jni-signature="(Lokhttp3/Interceptor$Chain;)Lokhttp3/Response;" bridge="false" native="false" return="okhttp3.Response" jni-return="Lokhttp3/Response;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="chain" type="okhttp3.Interceptor.Chain" jni-type="Lokhttp3/Interceptor$Chain;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="okhttp3.RequestBody" extends-generic-aware="okhttp3.RequestBody" jni-extends="Lokhttp3/RequestBody;" final="false" name="OutputStreamRequestBody" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/OutputStreamRequestBody;">
+      <method abstract="false" deprecated="not deprecated" final="true" name="contentType" jni-signature="()Lokhttp3/MediaType;" bridge="false" native="false" return="okhttp3.MediaType" jni-return="Lokhttp3/MediaType;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="isClosed" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="outputStream" jni-signature="()Ljava/io/OutputStream;" bridge="false" native="false" return="java.io.OutputStream" jni-return="Ljava/io/OutputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="prepareToSendRequest" jni-signature="(Lokhttp3/Request;)Lokhttp3/Request;" bridge="false" native="false" return="okhttp3.Request" jni-return="Lokhttp3/Request;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="request" type="okhttp3.Request" jni-type="Lokhttp3/Request;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.OutputStream" extends-generic-aware="java.io.OutputStream" jni-extends="Ljava/io/OutputStream;" final="false" name="OutputStreamRequestBody.1" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/OutputStreamRequestBody$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okhttp3.internal.huc.OutputStreamRequestBody" extends-generic-aware="okhttp3.internal.huc.OutputStreamRequestBody" jni-extends="Lokhttp3/internal/huc/OutputStreamRequestBody;" final="true" name="StreamedRequestBody" static="false" visibility="" jni-signature="Lokhttp3/internal/huc/StreamedRequestBody;">
+      <implements name="okhttp3.internal.http.UnrepeatableRequestBody" name-generic-aware="okhttp3.internal.http.UnrepeatableRequestBody" jni-type="Lokhttp3/internal/http/UnrepeatableRequestBody;">
+      </implements>
+    </class>
+  </package>
+</api>

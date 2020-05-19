@@ -1,0 +1,7 @@
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\obj\Debug\OkioBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\bin\Debug\OkioBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\bin\Debug\OkioBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\obj\Debug\OkioBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\obj\Debug\OkioBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okio\okio\1.9.0\OkioBinding\OkioBinding\obj\Debug\OkioBinding.csprojAssemblyReference.cache

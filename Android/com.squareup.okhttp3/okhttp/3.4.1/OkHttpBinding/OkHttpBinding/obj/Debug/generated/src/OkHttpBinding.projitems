@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Address.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Cache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.CacheControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.CertificatePinner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Challenge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.CipherSuite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.ConnectionPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.ConnectionSpec.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Cookie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Credentials.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Dispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.FormBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Handshake.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Headers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.HttpUrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.IAuthenticator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.ICall.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.ICallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.IConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.ICookieJar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.IDns.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.IInterceptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Cache.CacheInterceptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Cache.CacheStrategy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Cache.DiskLruCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Cache.ICacheRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Cache.IInternalCache.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.ConnectInterceptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.ConnectionSpecSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.RealConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.RouteDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.RouteException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.RouteSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Connection.StreamAllocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.ErrorCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.FramedConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.FramedStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.Header.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.HeadersMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.Http2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.IFrameReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.IFrameWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.IPushObserver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.IVariant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.Ping.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.Spdy3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Framed.StreamResetException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.BridgeInterceptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.CallServerInterceptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.Http1xStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.Http2xStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.HttpDate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.HttpHeaders.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.HttpMethod.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.IHttpStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.IUnrepeatableRequestBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.RealInterceptorChain.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.RealResponseBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.RequestLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.RetryAndFollowUpInterceptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Http.StatusLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Internal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.IO.IFileSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.NamedRunnable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Platform.Platform.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Tls.BasicCertificateChainCleaner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Tls.CertificateChainCleaner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Tls.OkHostnameVerifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Tls.TrustRootIndex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Internal.Version.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.MediaType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.MultipartBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.OkHttpClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Protocol.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Request.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.RequestBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Response.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.ResponseBody.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.Route.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okhttp3.TlsVersion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

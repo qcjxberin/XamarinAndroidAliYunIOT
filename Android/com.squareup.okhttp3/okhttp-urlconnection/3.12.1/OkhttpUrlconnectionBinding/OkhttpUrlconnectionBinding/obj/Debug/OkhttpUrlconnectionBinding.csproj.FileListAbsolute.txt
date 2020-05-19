@@ -1,0 +1,8 @@
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\obj\Debug\OkhttpUrlconnectionBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\bin\Debug\OkhttpUrlconnectionBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\bin\Debug\OkhttpUrlconnectionBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\bin\Debug\OkHttpBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\obj\Debug\OkhttpUrlconnectionBinding.csproj.CopyComplete
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\obj\Debug\OkhttpUrlconnectionBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp-urlconnection\3.12.1\OkhttpUrlconnectionBinding\OkhttpUrlconnectionBinding\obj\Debug\OkhttpUrlconnectionBinding.pdb

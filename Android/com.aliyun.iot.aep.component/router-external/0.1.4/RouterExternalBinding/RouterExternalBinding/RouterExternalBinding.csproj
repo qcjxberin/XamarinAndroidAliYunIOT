@@ -61,11 +61,14 @@
       <Version>1.2.68</Version>
     </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.ApiClient">
-      <Version>0.1.0.3</Version>
+      <Version>0.1.0.4</Version>
     </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Router">
       <Version>0.0.7</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AboutAdditions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,12 @@
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\obj\Debug\DraweeBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\DraweeBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\DraweeBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\FbCoreBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\ImagePipelineBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\ImagepipelineBaseBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\SoloaderBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\bin\Debug\BoltsTasksBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\obj\Debug\DraweeBinding.csproj.CopyComplete
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\obj\Debug\DraweeBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\drawee\1.10.0\DraweeBinding\DraweeBinding\obj\Debug\DraweeBinding.pdb

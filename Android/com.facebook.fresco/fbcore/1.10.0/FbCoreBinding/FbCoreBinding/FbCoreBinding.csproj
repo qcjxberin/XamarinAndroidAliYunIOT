@@ -50,6 +50,7 @@
     <Compile Include="Additions\IHandlerExecutorService.cs" />
     <Compile Include="Additions\IncreasingQualityDataSourceSupplier.cs" />
     <Compile Include="Additions\ISerialExecutorService.cs" />
+    <Compile Include="Additions\RetainingDataSourceSupplier.cs" />
     <Compile Include="Additions\ScheduledFutureImpl.cs" />
     <Compile Include="Additions\UiThreadImmediateExecutorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,12 +58,15 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\fbcore-1.1.0.aar" />
+    <LibraryProjectZip Include="Jars\fbcore-1.10.0.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AboutAdditions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

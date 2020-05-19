@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XR9KxXJL2wjmN3ObzrDyEtYKdq8Mf9LJvBLszKecVYYW5rZPm+VL6YD6vTIbrlT9elbFox0s71yadr1irB56RQ==",
+  "success": true,
+  "projectFilePath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.squareup.okhttp3\\okhttp\\3.12.0\\OkHttpBinding\\OkHttpBinding\\OkHttpBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.squareup.okio.okio\\1.15.0\\xamarinlibrary.xamarin.android.squareup.okio.okio.1.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}
