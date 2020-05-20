@@ -1,0 +1,28 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeControllerBuilder']/method[@name='setUri' and count(parameter)=1 and parameter[1][@type='android.net.Uri']]"
+        name="managedName">RawSetUri</attr>
+  <attr path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeControllerBuilder']/method[@name='setUri' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+        name="managedName">RawSetUri</attr>
+  <remove-node path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeControllerBuilder']/method[@name='getDataSourceForRequest' and count(parameter)=5 and parameter[1][@type='com.facebook.drawee.interfaces.DraweeController'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='com.facebook.imagepipeline.request.ImageRequest'] and parameter[4][@type='java.lang.Object'] and parameter[5][@type='com.facebook.drawee.controller.AbstractDraweeControllerBuilder.CacheLevel']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeControllerBuilder']/method[@name='obtainController' and count(parameter)=0]"
+               />
+  <attr path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeControllerBuilderSupplier']/method[@name='get' and count(parameter)=0]"
+        name="managedName">RawGet</attr>
+  <remove-node path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeController']/method[@name='getImageInfo' and count(parameter)=1 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeController']/method[@name='createDrawable' and count(parameter)=1 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.drawee.backends.pipeline']/class[@name='PipelineDraweeController']/method[@name='releaseImage' and count(parameter)=1 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.drawee.backends.pipeline.info']/class[@name='ImagePerfData']/constructor[@name='ImagePerfData' and count(parameter)=16]"
+               />  
+  
+</metadata>

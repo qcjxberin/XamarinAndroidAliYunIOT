@@ -16,18 +16,8 @@
                />
   <remove-node path="/api/package[@name='com.facebook.imagepipeline.datasource']/class[@name='BaseListBitmapDataSubscriber']/method[@name='onNewResultImpl' and count(parameter)=1 and parameter[1][@type='com.facebook.datasource.DataSource&lt;java.util.List&lt;com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;&gt;&gt;']]"
                />
-  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='GingerbreadPurgeableDecoder']/method[@name='decodeFromEncodedImage' and count(parameter)=3 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect']]"
-        name="name">DecodeFromEncodedImage1</attr>
-  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']/method[@name='decodeFromEncodedImage' and count(parameter)=3 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect']]"
-        name="name">DecodeFromEncodedImage2</attr>
-  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='GingerbreadPurgeableDecoder']/method[@name='decodeJPEGFromEncodedImage' and count(parameter)=4 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect'] and parameter[4][@type='int']]"
-        name="name">DecodeJPEGFromEncodedImage1</attr>
-  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']/method[@name='decodeJPEGFromEncodedImage' and count(parameter)=4 and parameter[1][@type='com.facebook.imagepipeline.image.EncodedImage'] and parameter[2][@type='android.graphics.Bitmap.Config'] and parameter[3][@type='android.graphics.Rect'] and parameter[4][@type='int']]"
-        name="name">DecodeJPEGFromEncodedImage2</attr>
-  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='GingerbreadPurgeableDecoder']/method[@name='pinBitmap' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
-        name="name">PinBitmap1</attr>
-  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']/method[@name='pinBitmap' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
-        name="name">PinBitmap2</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.platform']/class[@name='DalvikPurgeableDecoder']"
+        name="visibility">public</attr>  
   <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheKeyMultiplexProducer']/method[@name='cloneOrNull' and count(parameter)=1 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;']]"
         name="managedName">RawCloneOrNull</attr>
   <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='BitmapMemoryCacheKeyMultiplexProducer']/method[@name='getKey' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.producers.ProducerContext']]"
@@ -45,6 +35,43 @@
   <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='PostprocessorProducer.RepeatedPostprocessorConsumer']/method[@name='onNewResultImpl' and count(parameter)=2 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;'] and parameter[2][@type='int']]"
         name="managedName">RawOnNewResultImpl</attr>
   <attr path="/api/package[@name='com.facebook.imagepipeline.producers']/class[@name='PostprocessorProducer.SingleUsePostprocessorConsumer']/method[@name='onNewResultImpl' and count(parameter)=2 and parameter[1][@type='com.facebook.common.references.CloseableReference&lt;com.facebook.imagepipeline.image.CloseableImage&gt;'] and parameter[2][@type='int']]"
-        name="managedName">RawOnNewResultImpl</attr>  
-
+        name="managedName">RawOnNewResultImpl</attr>
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='BitmapPool']/method[@name='getBucketedSizeForValue' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='BitmapPool']/method[@name='free' and count(parameter)=1 and parameter[1][@type='android.graphics.Bitmap']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='BitmapPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferOutputStream']/method[@name='toByteBuffer' and count(parameter)=0]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativeMemoryChunkPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativeMemoryChunkPool']/method[@name='free' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.memory.NativeMemoryChunk']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativeMemoryChunkPool']/method[@name='getBucketedSizeForValue' and count(parameter)=1 and parameter[1][@type='com.facebook.imagepipeline.memory.NativeMemoryChunk']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='GenericByteArrayPool']/method[@name='free' and count(parameter)=1 and parameter[1][@type='byte[]']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='GenericByteArrayPool']/method[@name='alloc' and count(parameter)=1 and parameter[1][@type='int']]"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='GenericByteArrayPool']/method[@name='getBucketedSizeForValue' and count(parameter)=1 and parameter[1][@type='byte[]']]"
+               />
+  <attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferFactory']/method[@name='newByteBuffer' and count(parameter)=1 and parameter[1][@type='byte[]']]"
+        name="managedName">RawNewByteBuffer</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferFactory']/method[@name='newByteBuffer' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewByteBuffer</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferFactory']/method[@name='newByteBuffer' and count(parameter)=1 and parameter[1][@type='java.io.InputStream']]"
+        name="managedName">RawNewByteBuffer</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferFactory']/method[@name='newByteBuffer' and count(parameter)=2 and parameter[1][@type='java.io.InputStream'] and parameter[2][@type='int']]"
+        name="managedName">RawNewByteBuffer</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferFactory']/method[@name='newOutputStream' and count(parameter)=0]"
+        name="managedName">RawNewOutputStream</attr>
+  <attr path="/api/package[@name='com.facebook.imagepipeline.memory']/class[@name='NativePooledByteBufferFactory']/method[@name='newOutputStream' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawNewOutputStream</attr>
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.core']/class[@name='ProducerFactory']/constructor[@name='ProducerFactory' and count(parameter)=18]"
+               />  
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.core']/interface[@name='ImagePipelineExperiments.ProducerFactoryMethod']/method[@name='createProducerFactory']"
+               />
+  <remove-node path="/api/package[@name='com.facebook.imagepipeline.core']/class[@name='ImagePipelineExperiments.DefaultProducerFactoryMethod']/method[@name='createProducerFactory']"
+               />
 </metadata>

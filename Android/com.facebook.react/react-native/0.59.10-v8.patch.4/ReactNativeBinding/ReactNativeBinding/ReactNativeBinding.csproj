@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FD0BFD9-F94E-4EB1-8459-E2F37E24BB2C}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReactNativeBinding</RootNamespace>
+    <AssemblyName>ReactNativeBinding</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>True</Deterministic>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidClassParser>class-parse</AndroidClassParser>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Additions\ARTRenderableViewManager.cs" />
+    <Compile Include="Additions\ARTSurfaceViewManager.cs" />
+    <Compile Include="Additions\EagerModuleProvider.cs" />
+    <Compile Include="Additions\ForwardingCookieHandler.cs" />
+    <Compile Include="Additions\FrescoBasedReactTextInlineImageViewManager.cs" />
+    <Compile Include="Additions\GuardedAsyncTask.cs" />
+    <Compile Include="Additions\ICookieJarContainer.cs" />
+    <Compile Include="Additions\JavaOnlyArray.cs" />
+    <Compile Include="Additions\JavaOnlyMap.cs" />
+    <Compile Include="Additions\ReactActivity.cs" />
+    <Compile Include="Additions\ReactCheckBoxManager.cs" />
+    <Compile Include="Additions\ReactDialogPickerManager.cs" />
+    <Compile Include="Additions\ReactDrawerLayoutManager.cs" />
+    <Compile Include="Additions\ReactDropdownPickerManager.cs" />
+    <Compile Include="Additions\ReactHorizontalScrollContainerViewManager.cs" />
+    <Compile Include="Additions\ReactHorizontalScrollViewManager.cs" />
+    <Compile Include="Additions\ReactImageManager.cs" />
+    <Compile Include="Additions\ReactModalHostManager.cs" />
+    <Compile Include="Additions\ReactProgressBarViewManager.cs" />
+    <Compile Include="Additions\ReactRawTextManager.cs" />
+    <Compile Include="Additions\ReactScrollViewManager.cs" />
+    <Compile Include="Additions\ReactSliderManager.cs" />
+    <Compile Include="Additions\ReactSwitchManager.cs" />
+    <Compile Include="Additions\ReactTextInputManager.cs" />
+    <Compile Include="Additions\ReactTextViewManager.cs" />
+    <Compile Include="Additions\ReactToolbarManager.cs" />
+    <Compile Include="Additions\ReactViewManager.cs" />
+    <Compile Include="Additions\ReactViewPagerManager.cs" />
+    <Compile Include="Additions\ReactVirtualTextViewManager.cs" />
+    <Compile Include="Additions\ReactWebViewManager.cs" />
+    <Compile Include="Additions\ReadableNativeArray.cs" />
+    <Compile Include="Additions\ReadableNativeMap.cs" />
+    <Compile Include="Additions\RootViewManager.cs" />
+    <Compile Include="Additions\SwipeRefreshLayoutManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\react-native-0.59.10-v8.patch.4.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat">
+      <Version>1.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Facebook.Fresco.Fresco">
+      <Version>1.10.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineOkhttp3">
+      <Version>1.10.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Facebook.Infer.Annotation.InferAnnotation">
+      <Version>0.11.2</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader">
+      <Version>0.6.0</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Google.Code.Findbugs.Jsr305">
+      <Version>3.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Javax.Inject.JavaxInject">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp">
+      <Version>3.12.1</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkhttpUrlconnection">
+      <Version>3.12.1</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okio.Okio">
+      <Version>1.15.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nuget.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

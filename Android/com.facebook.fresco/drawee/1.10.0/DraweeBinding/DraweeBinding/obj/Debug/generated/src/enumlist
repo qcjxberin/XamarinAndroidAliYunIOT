@@ -1,0 +1,4 @@
+com.facebook.drawee.components.DraweeEventTracker$Event:Com.Facebook.Drawee.Components:DraweeEventTracker.Event
+com.facebook.drawee.controller.AbstractDraweeControllerBuilder$CacheLevel:Com.Facebook.Drawee.Controller:AbstractDraweeControllerBuilder.CacheLevel
+com.facebook.drawee.drawable.RoundedCornersDrawable$Type:Com.Facebook.Drawee.Drawable:RoundedCornersDrawable.Type
+com.facebook.drawee.generic.RoundingParams$RoundingMethod:Com.Facebook.Drawee.Generic:RoundingParams.RoundingMethod

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.CheckForNullAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.CheckForSignedAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.CheckReturnValueAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.GuardedByAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.IGuardedBy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.IImmutable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.ImmutableAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.INotThreadSafe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.IThreadSafe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.NotThreadSafeAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Concurrent.ThreadSafeAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.DetaintedAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ICheckForNull.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ICheckForSigned.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ICheckReturnValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IDetainted.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IMatchesPattern.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.INonnegative.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.INonnull.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.INullable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IOverridingMethodsMustInvokeSuper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IParametersAreNonnullByDefault.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IParametersAreNullableByDefault.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IPropertyKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IRegEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ISigned.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ISyntax.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ITainted.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IUntainted.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IWillClose.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IWillCloseWhenClosed.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.IWillNotClose.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.MatchesPatternAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.ExclusiveAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.ExhaustiveAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.IExclusive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.IExhaustive.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.ITypeQualifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.ITypeQualifierDefault.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.ITypeQualifierNickname.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.ITypeQualifierValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.TypeQualifierAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.TypeQualifierDefaultAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.TypeQualifierNicknameAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.Meta.When.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.NonnegativeAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.NonnullAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.NullableAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.OverridingMethodsMustInvokeSuperAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ParametersAreNonnullByDefaultAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.ParametersAreNullableByDefaultAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.PropertyKeyAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.RegExAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.SignedAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.SyntaxAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.TaintedAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.UntaintedAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.WillCloseAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.WillCloseWhenClosedAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Javax.Annotation.WillNotCloseAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

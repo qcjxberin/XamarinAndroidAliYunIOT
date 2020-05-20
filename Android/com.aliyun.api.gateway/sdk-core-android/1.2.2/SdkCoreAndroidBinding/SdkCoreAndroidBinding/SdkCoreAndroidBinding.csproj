@@ -58,12 +58,15 @@
     <EmbeddedJar Include="Jars\sdk-core-android-1.2.2.jar" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Square.OkHttp3">
-      <Version>4.2.2</Version>
-    </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Alibaba.FastJson">
       <Version>1.2.68</Version>
     </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp">
+      <Version>3.12.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AboutAdditions.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

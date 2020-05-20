@@ -1,0 +1,1026 @@
+<api
+  api-source="class-parse">
+  <package
+    name="javax.annotation"
+    jni-name="javax/annotation">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="CheckForNull"
+      jni-signature="Ljavax/annotation/CheckForNull;"
+      source-file-name="CheckForNull.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="CheckForSigned"
+      jni-signature="Ljavax/annotation/CheckForSigned;"
+      source-file-name="CheckForSigned.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="CheckReturnValue"
+      jni-signature="Ljavax/annotation/CheckReturnValue;"
+      source-file-name="CheckReturnValue.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Detainted"
+      jni-signature="Ljavax/annotation/Detainted;"
+      source-file-name="Detainted.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="MatchesPattern"
+      jni-signature="Ljavax/annotation/MatchesPattern;"
+      source-file-name="MatchesPattern.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="flags"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="value"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="MatchesPattern.Checker"
+      jni-signature="Ljavax/annotation/MatchesPattern$Checker;"
+      source-file-name="MatchesPattern.java"
+      static="true"
+      visibility="public">
+      <implements
+        name="javax.annotation.meta.TypeQualifierValidator"
+        name-generic-aware="javax.annotation.meta.TypeQualifierValidator&lt;javax.annotation.MatchesPattern&gt;"
+        jni-type="Ljavax/annotation/meta/TypeQualifierValidator&lt;Ljavax/annotation/MatchesPattern;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="MatchesPattern.Checker"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/annotation/Annotation;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="p0"
+          type="java.lang.annotation.Annotation"
+          jni-type="Ljava/lang/annotation/Annotation;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljavax/annotation/MatchesPattern;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="annotation"
+          type="javax.annotation.MatchesPattern"
+          jni-type="Ljavax/annotation/MatchesPattern;" />
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Nonnegative"
+      jni-signature="Ljavax/annotation/Nonnegative;"
+      source-file-name="Nonnegative.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Nonnegative.Checker"
+      jni-signature="Ljavax/annotation/Nonnegative$Checker;"
+      source-file-name="Nonnegative.java"
+      static="true"
+      visibility="public">
+      <implements
+        name="javax.annotation.meta.TypeQualifierValidator"
+        name-generic-aware="javax.annotation.meta.TypeQualifierValidator&lt;javax.annotation.Nonnegative&gt;"
+        jni-type="Ljavax/annotation/meta/TypeQualifierValidator&lt;Ljavax/annotation/Nonnegative;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Nonnegative.Checker"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/annotation/Annotation;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="p0"
+          type="java.lang.annotation.Annotation"
+          jni-type="Ljava/lang/annotation/Annotation;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljavax/annotation/Nonnegative;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="annotation"
+          type="javax.annotation.Nonnegative"
+          jni-type="Ljavax/annotation/Nonnegative;" />
+        <parameter
+          name="v"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Nonnull"
+      jni-signature="Ljavax/annotation/Nonnull;"
+      source-file-name="Nonnull.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Nonnull.Checker"
+      jni-signature="Ljavax/annotation/Nonnull$Checker;"
+      source-file-name="Nonnull.java"
+      static="true"
+      visibility="public">
+      <implements
+        name="javax.annotation.meta.TypeQualifierValidator"
+        name-generic-aware="javax.annotation.meta.TypeQualifierValidator&lt;javax.annotation.Nonnull&gt;"
+        jni-type="Ljavax/annotation/meta/TypeQualifierValidator&lt;Ljavax/annotation/Nonnull;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Nonnull.Checker"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/annotation/Annotation;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="p0"
+          type="java.lang.annotation.Annotation"
+          jni-type="Ljava/lang/annotation/Annotation;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljavax/annotation/Nonnull;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="qualifierArgument"
+          type="javax.annotation.Nonnull"
+          jni-type="Ljavax/annotation/Nonnull;" />
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Nullable"
+      jni-signature="Ljavax/annotation/Nullable;"
+      source-file-name="Nullable.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="OverridingMethodsMustInvokeSuper"
+      jni-signature="Ljavax/annotation/OverridingMethodsMustInvokeSuper;"
+      source-file-name="OverridingMethodsMustInvokeSuper.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ParametersAreNonnullByDefault"
+      jni-signature="Ljavax/annotation/ParametersAreNonnullByDefault;"
+      source-file-name="ParametersAreNonnullByDefault.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ParametersAreNullableByDefault"
+      jni-signature="Ljavax/annotation/ParametersAreNullableByDefault;"
+      source-file-name="ParametersAreNullableByDefault.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="PropertyKey"
+      jni-signature="Ljavax/annotation/PropertyKey;"
+      source-file-name="PropertyKey.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="RegEx"
+      jni-signature="Ljavax/annotation/RegEx;"
+      source-file-name="RegEx.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="RegEx.Checker"
+      jni-signature="Ljavax/annotation/RegEx$Checker;"
+      source-file-name="RegEx.java"
+      static="true"
+      visibility="public">
+      <implements
+        name="javax.annotation.meta.TypeQualifierValidator"
+        name-generic-aware="javax.annotation.meta.TypeQualifierValidator&lt;javax.annotation.RegEx&gt;"
+        jni-type="Ljavax/annotation/meta/TypeQualifierValidator&lt;Ljavax/annotation/RegEx;&gt;;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="RegEx.Checker"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/annotation/Annotation;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="p0"
+          type="java.lang.annotation.Annotation"
+          jni-type="Ljava/lang/annotation/Annotation;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljavax/annotation/RegEx;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="annotation"
+          type="javax.annotation.RegEx"
+          jni-type="Ljavax/annotation/RegEx;" />
+        <parameter
+          name="value"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Signed"
+      jni-signature="Ljavax/annotation/Signed;"
+      source-file-name="Signed.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Syntax"
+      jni-signature="Ljavax/annotation/Syntax;"
+      source-file-name="Syntax.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="value"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Tainted"
+      jni-signature="Ljavax/annotation/Tainted;"
+      source-file-name="Tainted.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Untainted"
+      jni-signature="Ljavax/annotation/Untainted;"
+      source-file-name="Untainted.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="when"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljavax/annotation/meta/When;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="WillClose"
+      jni-signature="Ljavax/annotation/WillClose;"
+      source-file-name="WillClose.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="WillCloseWhenClosed"
+      jni-signature="Ljavax/annotation/WillCloseWhenClosed;"
+      source-file-name="WillCloseWhenClosed.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="WillNotClose"
+      jni-signature="Ljavax/annotation/WillNotClose;"
+      source-file-name="WillNotClose.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+  </package>
+  <package
+    name="javax.annotation.concurrent"
+    jni-name="javax/annotation/concurrent">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="GuardedBy"
+      jni-signature="Ljavax/annotation/concurrent/GuardedBy;"
+      source-file-name="GuardedBy.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="value"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Immutable"
+      jni-signature="Ljavax/annotation/concurrent/Immutable;"
+      source-file-name="Immutable.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="NotThreadSafe"
+      jni-signature="Ljavax/annotation/concurrent/NotThreadSafe;"
+      source-file-name="NotThreadSafe.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="ThreadSafe"
+      jni-signature="Ljavax/annotation/concurrent/ThreadSafe;"
+      source-file-name="ThreadSafe.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+  </package>
+  <package
+    name="javax.annotation.meta"
+    jni-name="javax/annotation/meta">
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Exclusive"
+      jni-signature="Ljavax/annotation/meta/Exclusive;"
+      source-file-name="Exclusive.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="Exhaustive"
+      jni-signature="Ljavax/annotation/meta/Exhaustive;"
+      source-file-name="Exhaustive.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="TypeQualifier"
+      jni-signature="Ljavax/annotation/meta/TypeQualifier;"
+      source-file-name="TypeQualifier.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="applicableTo"
+        native="false"
+        return="java.lang.Class&lt;?&gt;"
+        jni-return="Ljava/lang/Class&lt;*&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Class;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="TypeQualifierDefault"
+      jni-signature="Ljavax/annotation/meta/TypeQualifierDefault;"
+      source-file-name="TypeQualifierDefault.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="value"
+        native="false"
+        return="java.lang.annotation.ElementType[]"
+        jni-return="[Ljava/lang/annotation/ElementType;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Ljava/lang/annotation/ElementType;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="TypeQualifierNickname"
+      jni-signature="Ljavax/annotation/meta/TypeQualifierNickname;"
+      source-file-name="TypeQualifierNickname.java"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.annotation.Annotation"
+        name-generic-aware="java.lang.annotation.Annotation"
+        jni-type="Ljava/lang/annotation/Annotation;" />
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="TypeQualifierValidator"
+      jni-signature="Ljavax/annotation/meta/TypeQualifierValidator;"
+      source-file-name="TypeQualifierValidator.java"
+      static="false"
+      visibility="public">
+      <typeParameters>
+        <typeParameter
+          name="A"
+          jni-classBound=""
+          classBound=""
+          interfaceBounds="java.lang.annotation.Annotation"
+          jni-interfaceBounds="Ljava/lang/annotation/Annotation;" />
+      </typeParameters>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="forConstantValue"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/annotation/Annotation;Ljava/lang/Object;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="p0"
+          type="A"
+          jni-type="TA;" />
+        <parameter
+          name="p1"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;javax.annotation.meta.When&gt;"
+      final="true"
+      name="When"
+      jni-signature="Ljavax/annotation/meta/When;"
+      source-file-name="When.java"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="javax.annotation.meta.When"
+        jni-return="Ljavax/annotation/meta/When;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Ljavax/annotation/meta/When;">
+        <parameter
+          name="name"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="javax.annotation.meta.When[]"
+        jni-return="[Ljavax/annotation/meta/When;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Ljavax/annotation/meta/When;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="ALWAYS"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="javax.annotation.meta.When"
+        type-generic-aware="javax.annotation.meta.When"
+        jni-signature="Ljavax/annotation/meta/When;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="MAYBE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="javax.annotation.meta.When"
+        type-generic-aware="javax.annotation.meta.When"
+        jni-signature="Ljavax/annotation/meta/When;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="NEVER"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="javax.annotation.meta.When"
+        type-generic-aware="javax.annotation.meta.When"
+        jni-signature="Ljavax/annotation/meta/When;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="UNKNOWN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="javax.annotation.meta.When"
+        type-generic-aware="javax.annotation.meta.When"
+        jni-signature="Ljavax/annotation/meta/When;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+</api>

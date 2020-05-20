@@ -1,0 +1,7 @@
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\bin\Debug\Jsr305Binding.dll
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\bin\Debug\Jsr305Binding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\obj\Debug\Jsr305Binding.csprojAssemblyReference.cache
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\obj\Debug\Jsr305Binding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\obj\Debug\Jsr305Binding.dll
+E:\GithubWorkspace\AliIOT\Android\com.google.code.findbugs\jsr305\3.0.2\Jsr305Binding\Jsr305Binding\obj\Debug\Jsr305Binding.pdb

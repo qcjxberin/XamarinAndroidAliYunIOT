@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee</id>
+    <version>1.10.0.1</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui/XamarinAndroidAliYunIOT</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.facebook.fresco:drawee for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.facebook.fresco:drawee.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Drawee XamarinAndroidDrawee AndroidDrawee XamarinDrawee</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore" version="1.10.0.1" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline" version="1.10.0.1" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="DraweeBinding.dll" target="lib\MonoAndroid10\DraweeBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

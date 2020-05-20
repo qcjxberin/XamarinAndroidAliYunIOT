@@ -1,0 +1,446 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline": "1.10.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore/1.10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win": {
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline": "1.10.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore/1.10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x64": {
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline": "1.10.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore/1.10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x86": {
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline": "1.10.0.1"
+        },
+        "compile": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/DraweeBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore/1.10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FbCoreBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagePipelineBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase/1.10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": "1.10.0.1",
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": "0.5.0",
+          "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks": "1.4.0"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ImagepipelineBaseBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/SoloaderBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/BoltsTasksBinding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee/1.10.0.1": {
+      "sha512": "G4OV27hdm1FCp+RXQlwpNvGQjr4y7J6KwxEAu0tCgsWve2mO/bFGGeg1zj0wRSFnleXvBGWwX2gvdT1cvgytsA==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.facebook.fresco.drawee/1.10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/DraweeBinding.dll",
+        "xamarinlibrary.xamarin.android.facebook.fresco.drawee.1.10.0.1.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.facebook.fresco.drawee.nuspec"
+      ]
+    },
+    "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore/1.10.0.1": {
+      "sha512": "PmS5gwRG1RUU22zfWL5lVTMAHCc+dU6f5aBu3OhETcje/Ec+mQhLNjT/Cf/OdH2Qh/SQCr8/bDFlJtvvxrM4ZQ==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.facebook.fresco.fbcore/1.10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/FbCoreBinding.dll",
+        "xamarinlibrary.xamarin.android.facebook.fresco.fbcore.1.10.0.1.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.facebook.fresco.fbcore.nuspec"
+      ]
+    },
+    "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline/1.10.0.1": {
+      "sha512": "zRieEmjlyLcSSt9Rb0lef/l4cAf8MnovJ7FO1P8n4G/HIYwoCswebU+cf7xnnyhxhLx7hDPv7ldSpW40QkDDKQ==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline/1.10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/ImagePipelineBinding.dll",
+        "xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline.1.10.0.1.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline.nuspec"
+      ]
+    },
+    "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase/1.10.0.1": {
+      "sha512": "OaTwiCAHJcWTHdIDvEsemkcCnr6Cranm0CkkeSjG4XO17lhSibdO+qx7XatCpOGoOg6L5pAy6qQmVEdXxK7Kqw==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase/1.10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/ImagepipelineBaseBinding.dll",
+        "xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase.1.10.0.1.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase.nuspec"
+      ]
+    },
+    "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader/0.5.0": {
+      "sha512": "mLc9l8GjJcPPHdj/GBjKhw+r3pJCpeVGF3vRgAhxoXJJH5U4KBIC43Kbec+XvEOSkWqNVRZh8uQaMIki5Wpxxw==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.facebook.soloader.soloader/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/SoloaderBinding.dll",
+        "xamarinlibrary.xamarin.android.facebook.soloader.soloader.0.5.0.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.facebook.soloader.soloader.nuspec"
+      ]
+    },
+    "XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks/1.4.0": {
+      "sha512": "ah+aAKxzsA7/L3NlEB0N1Jr4AFAw9JfAx3jS32U3Q0LPdMiC9V9Y6SGbSSmBigKQqa7j+JyDD9yh5T2uL/Cx+Q==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.parse.bolts.boltstasks/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/BoltsTasksBinding.dll",
+        "xamarinlibrary.xamarin.android.parse.bolts.boltstasks.1.4.0.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.parse.bolts.boltstasks.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee >= 1.10.0.1",
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore >= 1.10.0.1",
+      "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline >= 1.10.0.1",
+      "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader >= 0.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ericc\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\fresco\\1.10.0\\FrescoBinding\\FrescoBinding\\FrescoBinding.csproj",
+      "projectName": "FrescoBinding",
+      "projectPath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\fresco\\1.10.0\\FrescoBinding\\FrescoBinding\\FrescoBinding.csproj",
+      "packagesPath": "C:\\Users\\ericc\\.nuget\\packages\\",
+      "outputPath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\fresco\\1.10.0\\FrescoBinding\\FrescoBinding\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ericc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.Drawee": {
+            "target": "Package",
+            "version": "[1.10.0.1, )"
+          },
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore": {
+            "target": "Package",
+            "version": "[1.10.0.1, )"
+          },
+          "XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagePipeline": {
+            "target": "Package",
+            "version": "[1.10.0.1, )"
+          },
+          "XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader": {
+            "target": "Package",
+            "version": "[0.5.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

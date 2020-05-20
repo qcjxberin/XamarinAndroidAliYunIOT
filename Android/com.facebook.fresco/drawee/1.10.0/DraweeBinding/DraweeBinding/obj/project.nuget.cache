@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dcxj5a056rofoTTRtxA5ikqhcoutCXXc3z0lLNjyLXvXTa5/UR9gR7SqjyTW2dQHUwR3PTFICFSUST3UQXLATQ==",
+  "success": true,
+  "projectFilePath": "E:\\GithubWorkspace\\AliIOT\\Android\\com.facebook.fresco\\drawee\\1.10.0\\DraweeBinding\\DraweeBinding\\DraweeBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.fbcore\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.fbcore.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipeline.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase\\1.10.0.1\\xamarinlibrary.xamarin.android.facebook.fresco.imagepipelinebase.1.10.0.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.facebook.soloader.soloader\\0.5.0\\xamarinlibrary.xamarin.android.facebook.soloader.soloader.0.5.0.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.parse.bolts.boltstasks\\1.4.0\\xamarinlibrary.xamarin.android.parse.bolts.boltstasks.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

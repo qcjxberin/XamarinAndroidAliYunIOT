@@ -1,48 +1,28 @@
-﻿Additions allow you to add arbitrary C# to the generated classes
-before they are compiled.  This can be helpful for providing convenience
-methods or adding pure C# classes.
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.ApiClient</id>
+    <version>0.1.0.4</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui/XamarinAndroidAliYunIOT</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.iot.aep.sdk:apiclient for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.iot.aep.sdk:apiclient.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>ApiClient XamarinAndroidApiClient AndroidApiClient XamarinApiClient</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">
+            <dependency id="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp" version="3.12.8" />
+            <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.External.SecurityGuard" version="5.4.191" />
+            <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Api.Gateway.SdkCoreAndroid" version="1.2.2.1" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="ApiClientBinding.dll" target="lib\MonoAndroid10\ApiClientBinding.dll" />
 
-== Adding Methods to Generated Classes ==
-
-Let's say the library being bound has a Rectangle class with a constructor
-that takes an x and y position, and a width and length size.  It will look like
-this:
-
-public partial class Rectangle
-{
-    public Rectangle (int x, int y, int width, int height)
-    {
-        // JNI bindings
-    }
-}
-
-Imagine we want to add a constructor to this class that takes a Point and
-Size structure instead of 4 ints.  We can add a new file called Rectangle.cs
-with a partial class containing our new method:
-
-public partial class Rectangle
-{
-    public Rectangle (Point location, Size size) :
-        this (location.X, location.Y, size.Width, size.Height)
-    {
-    }
-}
-
-At compile time, the additions class will be added to the generated class
-and the final assembly will a Rectangle class with both constructors.
-
-
-== Adding C# Classes ==
-
-Another thing that can be done is adding fully C# managed classes to the
-generated library.  In the above example, let's assume that there isn't a
-Point class available in Java or our library.  The one we create doesn't need
-to interact with Java, so we'll create it like a normal class in C#.
-
-By adding a Point.cs file with this class, it will end up in the binding library:
-
-public class Point
-{
-    public int X { get; set; }
-    public int Y { get; set; }
-}
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

@@ -1,0 +1,13 @@
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\FrescoBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\FrescoBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\obj\Debug\FrescoBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\obj\Debug\FrescoBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\obj\Debug\FrescoBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\DraweeBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\FbCoreBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\ImagePipelineBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\ImagepipelineBaseBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\SoloaderBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\bin\Debug\BoltsTasksBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\fresco\1.10.0\FrescoBinding\FrescoBinding\obj\Debug\FrescoBinding.csproj.CopyComplete

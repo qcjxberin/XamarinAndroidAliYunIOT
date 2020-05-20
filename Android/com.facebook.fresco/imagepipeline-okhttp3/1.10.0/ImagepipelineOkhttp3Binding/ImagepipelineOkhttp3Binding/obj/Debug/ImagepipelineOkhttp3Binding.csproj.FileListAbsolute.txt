@@ -1,0 +1,13 @@
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\ImagepipelineOkhttp3Binding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\ImagepipelineOkhttp3Binding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\FbCoreBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\ImagePipelineBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\ImagepipelineBaseBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\SoloaderBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\BoltsTasksBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\bin\Debug\OkHttpBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\obj\Debug\ImagepipelineOkhttp3Binding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\obj\Debug\ImagepipelineOkhttp3Binding.csproj.CopyComplete
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\obj\Debug\ImagepipelineOkhttp3Binding.dll
+E:\GithubWorkspace\AliIOT\Android\com.facebook.fresco\imagepipeline-okhttp3\1.10.0\ImagepipelineOkhttp3Binding\ImagepipelineOkhttp3Binding\obj\Debug\ImagepipelineOkhttp3Binding.pdb

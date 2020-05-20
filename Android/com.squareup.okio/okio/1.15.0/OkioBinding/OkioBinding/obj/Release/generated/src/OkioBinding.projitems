@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.AsyncTimeout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.Buffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.ByteString.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.DeflaterSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.ForwardingSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.ForwardingSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.ForwardingTimeout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.GzipSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.GzipSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.HashingSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.HashingSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.IBufferedSink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.IBufferedSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.InflaterSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.ISink.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.ISource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.Okio.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.Options.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.Pipe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.Timeout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Okio.Utf8.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

@@ -1,0 +1,21 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.aliyun.alink.alirn.preload.wrapper']/class[@name='ReactInstanceManagerWrapper.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.alirn.preload']/interface[@name='JSSDKManager.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.alirn.rnpackage.alinkcore.nativemodules.bone']/interface[@name='BoneBootStrap.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.alirn.preload']/interface[@name='OnGetBaseJSListener']/method[@name='onSuccess' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+        name="managedName">OnGetBaseJSListenerSuccess</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.alirn.preload']/interface[@name='BuildCompletionListener']/method[@name='onSuccess' and count(parameter)=3 and parameter[1][@type='com.facebook.react.ReactInstanceManager'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String']]"
+        name="managedName">OnBuildCompletionListenerSuccess</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.alirn.rnpackage.alinkcore']/class[@name='ALinkCorePackage']/method[@name='getNativeModules' and count(parameter)=1 and parameter[1][@type='com.facebook.react.bridge.ReactApplicationContext']]"
+        name="visibility">protected</attr>  
+</metadata>

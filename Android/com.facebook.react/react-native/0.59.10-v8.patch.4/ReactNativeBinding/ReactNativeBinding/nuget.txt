@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Facebook.React.ReactNative</id>
+    <version>0.59.10.84</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.facebook.react.react-native for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.facebook.react.react-native.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>ReactNative XamarinAndroidReactNative AndroidReactNative XamarinReactNative</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <dependency id="Xamarin.Android.Support.v7.AppCompat" version="28.0.0.3" />
+          <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.Fresco" version="1.10.0.2" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineOkhttp3" version="1.10.0.1" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Infer.Annotation.InferAnnotation" version="0.11.2" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader" version="0.6.0" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Google.Code.Findbugs.Jsr305" version="3.0.2" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Javax.Inject.JavaxInject" version="1.0.0" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp" version="3.12.1" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkhttpUrlconnection" version="3.12.1" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Squareup.Okio.Okio" version="1.15.0" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="ReactNativeBinding.dll" target="lib\MonoAndroid10\ReactNativeBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

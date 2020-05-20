@@ -1,0 +1,7 @@
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\obj\Debug\OkHttpBinding.csproj.CoreCompileInputs.cache
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\bin\Debug\OkHttpBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\bin\Debug\OkHttpBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\obj\Debug\OkHttpBinding.dll
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\obj\Debug\OkHttpBinding.pdb
+E:\GithubWorkspace\AliIOT\Android\com.squareup.okhttp3\okhttp\3.12.1\OkHttpBinding\OkHttpBinding\obj\Debug\OkHttpBinding.csprojAssemblyReference.cache

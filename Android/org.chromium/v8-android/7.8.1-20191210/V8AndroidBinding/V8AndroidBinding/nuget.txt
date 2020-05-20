@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Chromium.V8Android</id>
+    <version>7.8.1</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android org.chromium.v8-android for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android org.chromium.v8-android.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>V8Android XamarinAndroidV8Android AndroidV8Android XamarinV8Android</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <!--<dependency id="Xamarin.Android.Support.v7.AppCompat" version="28.0.0.3" />-->
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="V8AndroidBinding.dll" target="lib\MonoAndroid10\V8AndroidBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

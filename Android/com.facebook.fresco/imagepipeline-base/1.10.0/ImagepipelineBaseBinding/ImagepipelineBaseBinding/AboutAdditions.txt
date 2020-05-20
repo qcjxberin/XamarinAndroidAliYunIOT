@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Facebook.Fresco.ImagepipelineBase</id>
+    <version>1.10.0.1</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui/XamarinAndroidAliYunIOT</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.facebook.fresco:imagepipeline-base for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.facebook.fresco:imagepipeline-base.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>ImagepipelineBase XamarinImagepipelineBase AndroidImagepipelineBase XamarinImagepipelineBase</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">  
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Fresco.FbCore" version="1.10.0.1" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Facebook.Soloader.Soloader" version="0.5.0" />
+        <dependency id="XamarinLibrary.Xamarin.Android.Parse.Bolts.BoltsTasks" version="1.4.0" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="ImagepipelineBaseBinding.dll" target="lib\MonoAndroid10\ImagepipelineBaseBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

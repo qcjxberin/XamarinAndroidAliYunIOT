@@ -1,0 +1,1952 @@
+<api>
+  <package name="okio" jni-name="okio">
+    <class abstract="false" deprecated="not deprecated" extends="okio.Timeout" extends-generic-aware="okio.Timeout" jni-extends="Lokio/Timeout;" final="false" name="AsyncTimeout" static="false" visibility="public" jni-signature="Lokio/AsyncTimeout;">
+      <constructor deprecated="not deprecated" final="false" name="AsyncTimeout" jni-signature="()V" bridge="false" static="false" type="okio.AsyncTimeout" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="enter" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="exit" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newTimeoutException" jni-signature="(Ljava/io/IOException;)Ljava/io/IOException;" bridge="false" native="false" return="java.io.IOException" jni-return="Ljava/io/IOException;" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="cause" type="java.io.IOException" jni-type="Ljava/io/IOException;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="sink" jni-signature="(Lokio/Sink;)Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="source" jni-signature="(Lokio/Source;)Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timedOut" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AsyncTimeout.1" static="false" visibility="" jni-signature="Lokio/AsyncTimeout$1;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AsyncTimeout.2" static="false" visibility="" jni-signature="Lokio/AsyncTimeout$2;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" jni-extends="Ljava/lang/Thread;" final="true" name="AsyncTimeout.Watchdog" static="true" visibility="private" jni-signature="Lokio/AsyncTimeout$Watchdog;">
+      <constructor deprecated="not deprecated" final="false" name="AsyncTimeout.Watchdog" jni-signature="()V" bridge="false" static="false" type="okio.AsyncTimeout.Watchdog" synthetic="false" visibility="public">
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Base64" static="false" visibility="" jni-signature="Lokio/Base64;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="decode" jni-signature="(Ljava/lang/String;)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encode" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encodeUrl" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Buffer" static="false" visibility="public" jni-signature="Lokio/Buffer;">
+      <implements name="java.lang.Cloneable" name-generic-aware="java.lang.Cloneable" jni-type="Ljava/lang/Cloneable;">
+      </implements>
+      <implements name="okio.BufferedSink" name-generic-aware="okio.BufferedSink" jni-type="Lokio/BufferedSink;">
+      </implements>
+      <implements name="okio.BufferedSource" name-generic-aware="okio.BufferedSource" jni-type="Lokio/BufferedSource;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="Buffer" jni-signature="()V" bridge="false" static="false" type="okio.Buffer" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="buffer" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clear" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clone" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="completeSegmentByteCount" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="copyTo" jni-signature="(Ljava/io/OutputStream;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="copyTo" jni-signature="(Ljava/io/OutputStream;JJ)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;">
+        </parameter>
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="copyTo" jni-signature="(Lokio/Buffer;JJ)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="emit" jni-signature="()Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="emitCompleteSegments" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="exhausted" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getByte" jni-signature="(J)B" bridge="false" native="false" return="byte" jni-return="B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="pos" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(B)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="byte" jni-type="B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(BJ)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="byte" jni-type="B">
+        </parameter>
+        <parameter name="fromIndex" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(Lokio/ByteString;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(Lokio/ByteString;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="fromIndex" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOfElement" jni-signature="(Lokio/ByteString;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="targetBytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOfElement" jni-signature="(Lokio/ByteString;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="targetBytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="fromIndex" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="inputStream" jni-signature="()Ljava/io/InputStream;" bridge="false" native="false" return="java.io.InputStream" jni-return="Ljava/io/InputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="md5" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="outputStream" jni-signature="()Ljava/io/OutputStream;" bridge="false" native="false" return="java.io.OutputStream" jni-return="Ljava/io/OutputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(JLokio/ByteString;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(JLokio/ByteString;II)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="bytesOffset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="([B)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="([BII)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readAll" jni-signature="(Lokio/Sink;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByte" jni-signature="()B" bridge="false" native="false" return="byte" jni-return="B" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteArray" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteArray" jni-signature="(J)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteString" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteString" jni-signature="(J)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readDecimalLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readFrom" jni-signature="(Ljava/io/InputStream;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="java.io.InputStream" jni-type="Ljava/io/InputStream;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readFrom" jni-signature="(Ljava/io/InputStream;J)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="java.io.InputStream" jni-type="Ljava/io/InputStream;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readFully" jni-signature="([B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readFully" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readHexadecimalUnsignedLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readInt" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readIntLe" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readLongLe" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readShort" jni-signature="()S" bridge="false" native="false" return="short" jni-return="S" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readShortLe" jni-signature="()S" bridge="false" native="false" return="short" jni-return="S" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readString" jni-signature="(Ljava/nio/charset/Charset;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readString" jni-signature="(JLjava/nio/charset/Charset;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8" jni-signature="(J)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8CodePoint" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8Line" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8LineStrict" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="request" jni-signature="(J)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="require" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="select" jni-signature="(Lokio/Options;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="options" type="okio.Options" jni-type="Lokio/Options;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha1" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha256" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="size" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="skip" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="EOFException" type="java.io.EOFException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="snapshot" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="snapshot" jni-signature="(I)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="([B)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="([BII)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/ByteString;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteString" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Source;J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeAll" jni-signature="(Lokio/Source;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeByte" jni-signature="(I)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeDecimalLong" jni-signature="(J)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeHexadecimalUnsignedLong" jni-signature="(J)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeInt" jni-signature="(I)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeIntLe" jni-signature="(I)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeLong" jni-signature="(J)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeLongLe" jni-signature="(J)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeShort" jni-signature="(I)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="s" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeShortLe" jni-signature="(I)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="s" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeString" jni-signature="(Ljava/lang/String;IILjava/nio/charset/Charset;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="beginIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="endIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeString" jni-signature="(Ljava/lang/String;Ljava/nio/charset/Charset;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/io/OutputStream;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeTo" jni-signature="(Ljava/io/OutputStream;J)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeUtf8" jni-signature="(Ljava/lang/String;)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeUtf8" jni-signature="(Ljava/lang/String;II)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="beginIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="endIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeUtf8CodePoint" jni-signature="(I)Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="codePoint" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.OutputStream" extends-generic-aware="java.io.OutputStream" jni-extends="Ljava/io/OutputStream;" final="false" name="Buffer.1" static="false" visibility="" jni-signature="Lokio/Buffer$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.InputStream" extends-generic-aware="java.io.InputStream" jni-extends="Ljava/io/InputStream;" final="false" name="Buffer.2" static="false" visibility="" jni-signature="Lokio/Buffer$2;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="BufferedSink" static="false" visibility="public" jni-signature="Lokio/BufferedSink;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="buffer" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="emit" jni-signature="()Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="emitCompleteSegments" jni-signature="()Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="outputStream" jni-signature="()Ljava/io/OutputStream;" bridge="false" native="false" return="java.io.OutputStream" jni-return="Ljava/io/OutputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="write" jni-signature="([B)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="write" jni-signature="([BII)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/ByteString;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Source;J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeAll" jni-signature="(Lokio/Source;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeByte" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeDecimalLong" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeHexadecimalUnsignedLong" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeInt" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeIntLe" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeLong" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeLongLe" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeShort" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeShortLe" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeString" jni-signature="(Ljava/lang/String;IILjava/nio/charset/Charset;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeString" jni-signature="(Ljava/lang/String;Ljava/nio/charset/Charset;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeUtf8" jni-signature="(Ljava/lang/String;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeUtf8" jni-signature="(Ljava/lang/String;II)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="writeUtf8CodePoint" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="BufferedSource" static="false" visibility="public" jni-signature="Lokio/BufferedSource;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="buffer" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="exhausted" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(B)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte" jni-type="B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(BJ)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte" jni-type="B">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(Lokio/ByteString;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(Lokio/ByteString;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="indexOfElement" jni-signature="(Lokio/ByteString;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="indexOfElement" jni-signature="(Lokio/ByteString;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="inputStream" jni-signature="()Ljava/io/InputStream;" bridge="false" native="false" return="java.io.InputStream" jni-return="Ljava/io/InputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(JLokio/ByteString;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(JLokio/ByteString;II)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p3" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="read" jni-signature="([B)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="read" jni-signature="([BII)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="p1" type="int" jni-type="I">
+        </parameter>
+        <parameter name="p2" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readAll" jni-signature="(Lokio/Sink;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readByte" jni-signature="()B" bridge="false" native="false" return="byte" jni-return="B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readByteArray" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readByteArray" jni-signature="(J)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readByteString" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readByteString" jni-signature="(J)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readDecimalLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readFully" jni-signature="([B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readFully" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readHexadecimalUnsignedLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readInt" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readIntLe" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readLongLe" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readShort" jni-signature="()S" bridge="false" native="false" return="short" jni-return="S" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readShortLe" jni-signature="()S" bridge="false" native="false" return="short" jni-return="S" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readString" jni-signature="(Ljava/nio/charset/Charset;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readString" jni-signature="(JLjava/nio/charset/Charset;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <parameter name="p1" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readUtf8" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readUtf8" jni-signature="(J)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readUtf8CodePoint" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readUtf8Line" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="readUtf8LineStrict" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="request" jni-signature="(J)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="require" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="select" jni-signature="(Lokio/Options;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Options" jni-type="Lokio/Options;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="skip" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ByteString" static="false" visibility="public" jni-signature="Lokio/ByteString;">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable" jni-type="Ljava/io/Serializable;">
+      </implements>
+      <implements name="java.lang.Comparable" name-generic-aware="java.lang.Comparable&lt;okio.ByteString&gt;" jni-type="Ljava/lang/Comparable&lt;Lokio/ByteString;&gt;;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asByteBuffer" jni-signature="()Ljava/nio/ByteBuffer;" bridge="false" native="false" return="java.nio.ByteBuffer" jni-return="Ljava/nio/ByteBuffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="base64" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="base64Url" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="compareTo" jni-signature="(Lokio/ByteString;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteString" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decodeBase64" jni-signature="(Ljava/lang/String;)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="base64" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="decodeHex" jni-signature="(Ljava/lang/String;)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="hex" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="encodeUtf8" jni-signature="(Ljava/lang/String;)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="s" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="endsWith" jni-signature="([B)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="prefix" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="endsWith" jni-signature="(Lokio/ByteString;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="prefix" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getByte" jni-signature="(I)B" bridge="false" native="false" return="byte" jni-return="B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="pos" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hex" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="indexOf" jni-signature="([B)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="([BI)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="fromIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="indexOf" jni-signature="(Lokio/ByteString;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="indexOf" jni-signature="(Lokio/ByteString;I)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="fromIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="lastIndexOf" jni-signature="([B)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="lastIndexOf" jni-signature="([BI)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="fromIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="lastIndexOf" jni-signature="(Lokio/ByteString;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="lastIndexOf" jni-signature="(Lokio/ByteString;I)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="other" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="fromIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="md5" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="of" jni-signature="([B)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="data" type="byte..." jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="of" jni-signature="([BII)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="data" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(I[BII)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="other" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="otherOffset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(ILokio/ByteString;II)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="other" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="otherOffset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Ljava/io/InputStream;I)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="java.io.InputStream" jni-type="Ljava/io/InputStream;">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha1" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha256" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="size" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="startsWith" jni-signature="([B)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="prefix" type="byte[]" jni-type="[B">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="startsWith" jni-signature="(Lokio/ByteString;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="prefix" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="substring" jni-signature="(I)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="beginIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="substring" jni-signature="(II)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="beginIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="endIndex" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toAsciiLowercase" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toAsciiUppercase" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="toByteArray" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="utf8" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Ljava/io/OutputStream;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <field deprecated="not deprecated" final="true" name="EMPTY" jni-signature="Lokio/ByteString;" static="true" transient="false" type="okio.ByteString" type-generic-aware="okio.ByteString" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="DeflaterSink" static="false" visibility="public" jni-signature="Lokio/DeflaterSink;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="DeflaterSink" jni-signature="(Lokio/Sink;Ljava/util/zip/Deflater;)V" bridge="false" static="false" type="okio.DeflaterSink" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+        <parameter name="deflater" type="java.util.zip.Deflater" jni-type="Ljava/util/zip/Deflater;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ForwardingSink" static="false" visibility="public" jni-signature="Lokio/ForwardingSink;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="ForwardingSink" jni-signature="(Lokio/Sink;)V" bridge="false" static="false" type="okio.ForwardingSink" synthetic="false" visibility="public">
+        <parameter name="delegate" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="delegate" jni-signature="()Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ForwardingSource" static="false" visibility="public" jni-signature="Lokio/ForwardingSource;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="ForwardingSource" jni-signature="(Lokio/Source;)V" bridge="false" static="false" type="okio.ForwardingSource" synthetic="false" visibility="public">
+        <parameter name="delegate" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="delegate" jni-signature="()Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okio.Timeout" extends-generic-aware="okio.Timeout" jni-extends="Lokio/Timeout;" final="false" name="ForwardingTimeout" static="false" visibility="public" jni-signature="Lokio/ForwardingTimeout;">
+      <constructor deprecated="not deprecated" final="false" name="ForwardingTimeout" jni-signature="(Lokio/Timeout;)V" bridge="false" static="false" type="okio.ForwardingTimeout" synthetic="false" visibility="public">
+        <parameter name="delegate" type="okio.Timeout" jni-type="Lokio/Timeout;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="delegate" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setDelegate" jni-signature="(Lokio/Timeout;)Lokio/ForwardingTimeout;" bridge="false" native="false" return="okio.ForwardingTimeout" jni-return="Lokio/ForwardingTimeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="delegate" type="okio.Timeout" jni-type="Lokio/Timeout;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GzipSink" static="false" visibility="public" jni-signature="Lokio/GzipSink;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="GzipSink" jni-signature="(Lokio/Sink;)V" bridge="false" static="false" type="okio.GzipSink" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="GzipSource" static="false" visibility="public" jni-signature="Lokio/GzipSource;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="GzipSource" jni-signature="(Lokio/Source;)V" bridge="false" static="false" type="okio.GzipSource" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okio.ForwardingSink" extends-generic-aware="okio.ForwardingSink" jni-extends="Lokio/ForwardingSink;" final="true" name="HashingSink" static="false" visibility="public" jni-signature="Lokio/HashingSink;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="hash" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="md5" jni-signature="(Lokio/Sink;)Lokio/HashingSink;" bridge="false" native="false" return="okio.HashingSink" jni-return="Lokio/HashingSink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha1" jni-signature="(Lokio/Sink;)Lokio/HashingSink;" bridge="false" native="false" return="okio.HashingSink" jni-return="Lokio/HashingSink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha256" jni-signature="(Lokio/Sink;)Lokio/HashingSink;" bridge="false" native="false" return="okio.HashingSink" jni-return="Lokio/HashingSink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okio.ForwardingSource" extends-generic-aware="okio.ForwardingSource" jni-extends="Lokio/ForwardingSource;" final="true" name="HashingSource" static="false" visibility="public" jni-signature="Lokio/HashingSource;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="hash" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="md5" jni-signature="(Lokio/Source;)Lokio/HashingSource;" bridge="false" native="false" return="okio.HashingSource" jni-return="Lokio/HashingSource;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha1" jni-signature="(Lokio/Source;)Lokio/HashingSource;" bridge="false" native="false" return="okio.HashingSource" jni-return="Lokio/HashingSource;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sha256" jni-signature="(Lokio/Source;)Lokio/HashingSource;" bridge="false" native="false" return="okio.HashingSource" jni-return="Lokio/HashingSource;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="InflaterSource" static="false" visibility="public" jni-signature="Lokio/InflaterSource;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="InflaterSource" jni-signature="(Lokio/Source;Ljava/util/zip/Inflater;)V" bridge="false" static="false" type="okio.InflaterSource" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <parameter name="inflater" type="java.util.zip.Inflater" jni-type="Ljava/util/zip/Inflater;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="refill" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Okio" static="false" visibility="public" jni-signature="Lokio/Okio;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="appendingSink" jni-signature="(Ljava/io/File;)Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="file" type="java.io.File" jni-type="Ljava/io/File;">
+        </parameter>
+        <exception name="FileNotFoundException" type="java.io.FileNotFoundException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="buffer" jni-signature="(Lokio/Sink;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="buffer" jni-signature="(Lokio/Source;)Lokio/BufferedSource;" bridge="false" native="false" return="okio.BufferedSource" jni-return="Lokio/BufferedSource;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sink" jni-signature="(Ljava/io/File;)Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="file" type="java.io.File" jni-type="Ljava/io/File;">
+        </parameter>
+        <exception name="FileNotFoundException" type="java.io.FileNotFoundException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sink" jni-signature="(Ljava/io/OutputStream;)Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="out" type="java.io.OutputStream" jni-type="Ljava/io/OutputStream;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sink" jni-signature="(Ljava/net/Socket;)Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="socket" type="java.net.Socket" jni-type="Ljava/net/Socket;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sink" jni-signature="(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="path" type="java.nio.file.Path" jni-type="Ljava/nio/file/Path;">
+        </parameter>
+        <parameter name="options" type="java.nio.file.OpenOption..." jni-type="[Ljava/nio/file/OpenOption;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="source" jni-signature="(Ljava/io/File;)Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="file" type="java.io.File" jni-type="Ljava/io/File;">
+        </parameter>
+        <exception name="FileNotFoundException" type="java.io.FileNotFoundException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="source" jni-signature="(Ljava/io/InputStream;)Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="in" type="java.io.InputStream" jni-type="Ljava/io/InputStream;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="source" jni-signature="(Ljava/net/Socket;)Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="socket" type="java.net.Socket" jni-type="Ljava/net/Socket;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="source" jni-signature="(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="path" type="java.nio.file.Path" jni-type="Ljava/nio/file/Path;">
+        </parameter>
+        <parameter name="options" type="java.nio.file.OpenOption..." jni-type="[Ljava/nio/file/OpenOption;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Okio.1" static="true" visibility="" jni-signature="Lokio/Okio$1;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Okio.2" static="true" visibility="" jni-signature="Lokio/Okio$2;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okio.AsyncTimeout" extends-generic-aware="okio.AsyncTimeout" jni-extends="Lokio/AsyncTimeout;" final="true" name="Okio.3" static="true" visibility="" jni-signature="Lokio/Okio$3;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.AbstractList" extends-generic-aware="java.util.AbstractList&lt;okio.ByteString&gt;" jni-extends="Ljava/util/AbstractList;" final="true" name="Options" static="false" visibility="public" jni-signature="Lokio/Options;">
+      <implements name="java.util.RandomAccess" name-generic-aware="java.util.RandomAccess" jni-type="Ljava/util/RandomAccess;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="get" jni-signature="(I)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="of" jni-signature="([Lokio/ByteString;)Lokio/Options;" bridge="false" native="false" return="okio.Options" jni-return="Lokio/Options;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteStrings" type="okio.ByteString..." jni-type="[Lokio/ByteString;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="size" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Pipe" static="false" visibility="public" jni-signature="Lokio/Pipe;">
+      <constructor deprecated="not deprecated" final="false" name="Pipe" jni-signature="(J)V" bridge="false" static="false" type="okio.Pipe" synthetic="false" visibility="public">
+        <parameter name="maxBufferSize" type="long" jni-type="J">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sink" jni-signature="()Lokio/Sink;" bridge="false" native="false" return="okio.Sink" jni-return="Lokio/Sink;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="source" jni-signature="()Lokio/Source;" bridge="false" native="false" return="okio.Source" jni-return="Lokio/Source;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Pipe.PipeSink" static="false" visibility="" jni-signature="Lokio/Pipe$PipeSink;">
+      <implements name="okio.Sink" name-generic-aware="okio.Sink" jni-type="Lokio/Sink;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Pipe.PipeSource" static="false" visibility="" jni-signature="Lokio/Pipe$PipeSource;">
+      <implements name="okio.Source" name-generic-aware="okio.Source" jni-type="Lokio/Source;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="RealBufferedSink" static="false" visibility="" jni-signature="Lokio/RealBufferedSink;">
+      <implements name="okio.BufferedSink" name-generic-aware="okio.BufferedSink" jni-type="Lokio/BufferedSink;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="buffer" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="emit" jni-signature="()Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="emitCompleteSegments" jni-signature="()Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="outputStream" jni-signature="()Ljava/io/OutputStream;" bridge="false" native="false" return="java.io.OutputStream" jni-return="Ljava/io/OutputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="([B)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="([BII)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/ByteString;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteString" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Source;J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeAll" jni-signature="(Lokio/Source;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="source" type="okio.Source" jni-type="Lokio/Source;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeByte" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeDecimalLong" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeHexadecimalUnsignedLong" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeInt" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeIntLe" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeLong" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeLongLe" jni-signature="(J)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeShort" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="s" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeShortLe" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="s" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeString" jni-signature="(Ljava/lang/String;IILjava/nio/charset/Charset;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="beginIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="endIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeString" jni-signature="(Ljava/lang/String;Ljava/nio/charset/Charset;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeUtf8" jni-signature="(Ljava/lang/String;)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeUtf8" jni-signature="(Ljava/lang/String;II)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="string" type="java.lang.String" jni-type="Ljava/lang/String;">
+        </parameter>
+        <parameter name="beginIndex" type="int" jni-type="I">
+        </parameter>
+        <parameter name="endIndex" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="writeUtf8CodePoint" jni-signature="(I)Lokio/BufferedSink;" bridge="false" native="false" return="okio.BufferedSink" jni-return="Lokio/BufferedSink;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="codePoint" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <field deprecated="not deprecated" final="true" name="buffer" jni-signature="Lokio/Buffer;" static="false" transient="false" type="okio.Buffer" type-generic-aware="okio.Buffer" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="sink" jni-signature="Lokio/Sink;" static="false" transient="false" type="okio.Sink" type-generic-aware="okio.Sink" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.OutputStream" extends-generic-aware="java.io.OutputStream" jni-extends="Ljava/io/OutputStream;" final="false" name="RealBufferedSink.1" static="false" visibility="" jni-signature="Lokio/RealBufferedSink$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="RealBufferedSource" static="false" visibility="" jni-signature="Lokio/RealBufferedSource;">
+      <implements name="okio.BufferedSource" name-generic-aware="okio.BufferedSource" jni-type="Lokio/BufferedSource;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="buffer" jni-signature="()Lokio/Buffer;" bridge="false" native="false" return="okio.Buffer" jni-return="Lokio/Buffer;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="exhausted" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(B)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="byte" jni-type="B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(BJ)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="b" type="byte" jni-type="B">
+        </parameter>
+        <parameter name="fromIndex" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(Lokio/ByteString;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOf" jni-signature="(Lokio/ByteString;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="fromIndex" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOfElement" jni-signature="(Lokio/ByteString;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="targetBytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="indexOfElement" jni-signature="(Lokio/ByteString;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="targetBytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="fromIndex" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="inputStream" jni-signature="()Ljava/io/InputStream;" bridge="false" native="false" return="java.io.InputStream" jni-return="Ljava/io/InputStream;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(JLokio/ByteString;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="rangeEquals" jni-signature="(JLokio/ByteString;II)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="bytes" type="okio.ByteString" jni-type="Lokio/ByteString;">
+        </parameter>
+        <parameter name="bytesOffset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="([B)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="([BII)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="offset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readAll" jni-signature="(Lokio/Sink;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Sink" jni-type="Lokio/Sink;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByte" jni-signature="()B" bridge="false" native="false" return="byte" jni-return="B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteArray" jni-signature="()[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteArray" jni-signature="(J)[B" bridge="false" native="false" return="byte[]" jni-return="[B" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteString" jni-signature="()Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readByteString" jni-signature="(J)Lokio/ByteString;" bridge="false" native="false" return="okio.ByteString" jni-return="Lokio/ByteString;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readDecimalLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readFully" jni-signature="([B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="byte[]" jni-type="[B">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readFully" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="sink" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readHexadecimalUnsignedLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readInt" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readIntLe" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readLong" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readLongLe" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readShort" jni-signature="()S" bridge="false" native="false" return="short" jni-return="S" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readShortLe" jni-signature="()S" bridge="false" native="false" return="short" jni-return="S" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readString" jni-signature="(Ljava/nio/charset/Charset;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readString" jni-signature="(JLjava/nio/charset/Charset;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <parameter name="charset" type="java.nio.charset.Charset" jni-type="Ljava/nio/charset/Charset;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8" jni-signature="(J)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8CodePoint" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8Line" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="readUtf8LineStrict" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="request" jni-signature="(J)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="require" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="select" jni-signature="(Lokio/Options;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="options" type="okio.Options" jni-type="Lokio/Options;">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="skip" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="buffer" jni-signature="Lokio/Buffer;" static="false" transient="false" type="okio.Buffer" type-generic-aware="okio.Buffer" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="source" jni-signature="Lokio/Source;" static="false" transient="false" type="okio.Source" type-generic-aware="okio.Source" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.InputStream" extends-generic-aware="java.io.InputStream" jni-extends="Ljava/io/InputStream;" final="false" name="RealBufferedSource.1" static="false" visibility="" jni-signature="Lokio/RealBufferedSource$1;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Segment" static="false" visibility="" jni-signature="Lokio/Segment;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="compact" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="pop" jni-signature="()Lokio/Segment;" bridge="false" native="false" return="java.lang.Object" jni-return="Lokio/Segment;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="split" jni-signature="(I)Lokio/Segment;" bridge="false" native="false" return="java.lang.Object" jni-return="Lokio/Segment;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okio.ByteString" extends-generic-aware="okio.ByteString" jni-extends="Lokio/ByteString;" final="true" name="SegmentedByteString" static="false" visibility="" jni-signature="Lokio/SegmentedByteString;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="SegmentPool" static="false" visibility="" jni-signature="Lokio/SegmentPool;"></class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Sink" static="false" visibility="public" jni-signature="Lokio/Sink;">
+      <implements name="java.io.Closeable" name-generic-aware="java.io.Closeable" jni-type="Ljava/io/Closeable;">
+      </implements>
+      <implements name="java.io.Flushable" name-generic-aware="java.io.Flushable" jni-type="Ljava/io/Flushable;">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="flush" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="write" jni-signature="(Lokio/Buffer;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="Source" static="false" visibility="public" jni-signature="Lokio/Source;">
+      <implements name="java.io.Closeable" name-generic-aware="java.io.Closeable" jni-type="Ljava/io/Closeable;">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="close" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="read" jni-signature="(Lokio/Buffer;J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="okio.Buffer" jni-type="Lokio/Buffer;">
+        </parameter>
+        <parameter name="p1" type="long" jni-type="J">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="timeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Timeout" static="false" visibility="public" jni-signature="Lokio/Timeout;">
+      <constructor deprecated="not deprecated" final="false" name="Timeout" jni-signature="()V" bridge="false" static="false" type="okio.Timeout" synthetic="false" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clearDeadline" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clearTimeout" jni-signature="()Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="deadline" jni-signature="(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="duration" type="long" jni-type="J">
+        </parameter>
+        <parameter name="unit" type="java.util.concurrent.TimeUnit" jni-type="Ljava/util/concurrent/TimeUnit;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="deadlineNanoTime" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="deadlineNanoTime" jni-signature="(J)Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="deadlineNanoTime" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasDeadline" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="throwIfReached" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeout" jni-signature="(JLjava/util/concurrent/TimeUnit;)Lokio/Timeout;" bridge="false" native="false" return="okio.Timeout" jni-return="Lokio/Timeout;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="timeout" type="long" jni-type="J">
+        </parameter>
+        <parameter name="unit" type="java.util.concurrent.TimeUnit" jni-type="Ljava/util/concurrent/TimeUnit;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="timeoutNanos" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="waitUntilNotified" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="monitor" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+        </parameter>
+        <exception name="InterruptedIOException" type="java.io.InterruptedIOException">
+        </exception>
+      </method>
+      <field deprecated="not deprecated" final="true" name="NONE" jni-signature="Lokio/Timeout;" static="true" transient="false" type="okio.Timeout" type-generic-aware="okio.Timeout" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="okio.Timeout" extends-generic-aware="okio.Timeout" jni-extends="Lokio/Timeout;" final="true" name="Timeout.1" static="true" visibility="" jni-signature="Lokio/Timeout$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="Util" static="false" visibility="" jni-signature="Lokio/Util;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="arrayRangeEquals" jni-signature="([BI[BII)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="a" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="aOffset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="b" type="byte[]" jni-type="[B">
+        </parameter>
+        <parameter name="bOffset" type="int" jni-type="I">
+        </parameter>
+        <parameter name="byteCount" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="checkOffsetAndCount" jni-signature="(JJJ)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="size" type="long" jni-type="J">
+        </parameter>
+        <parameter name="offset" type="long" jni-type="J">
+        </parameter>
+        <parameter name="byteCount" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reverseBytesInt" jni-signature="(I)I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="i" type="int" jni-type="I">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reverseBytesLong" jni-signature="(J)J" bridge="false" native="false" return="long" jni-return="J" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="v" type="long" jni-type="J">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="reverseBytesShort" jni-signature="(S)S" bridge="false" native="false" return="short" jni-return="S" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="s" type="short" jni-type="S">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sneakyRethrow" jni-signature="(Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="t" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="UTF_8" jni-signature="Ljava/nio/charset/Charset;" static="true" transient="false" type="java.nio.charset.Charset" type-generic-aware="java.nio.charset.Charset" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+</api>
