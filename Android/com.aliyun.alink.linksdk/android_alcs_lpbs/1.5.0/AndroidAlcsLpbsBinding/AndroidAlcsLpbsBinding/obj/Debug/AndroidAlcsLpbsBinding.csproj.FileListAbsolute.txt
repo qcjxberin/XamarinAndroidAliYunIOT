@@ -1,0 +1,11 @@
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\bin\Debug\AndroidAlcsLpbsBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\bin\Debug\AndroidAlcsLpbsBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\obj\Debug\AndroidAlcsLpbsBinding.csproj.CoreCompileInputs.cache
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\obj\Debug\AndroidAlcsLpbsBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\obj\Debug\AndroidAlcsLpbsBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\bin\Debug\FastJsonBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\bin\Debug\CoapSdkBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\bin\Debug\ToolsBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\bin\Debug\RhinoBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alcs_lpbs\1.5.0\AndroidAlcsLpbsBinding\AndroidAlcsLpbsBinding\obj\Debug\AndroidAlcsLpbsBinding.csproj.CopyComplete

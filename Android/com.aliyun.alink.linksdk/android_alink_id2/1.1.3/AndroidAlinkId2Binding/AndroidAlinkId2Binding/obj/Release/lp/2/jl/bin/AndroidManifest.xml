@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aliyun.alink.linksdk.tools"
+    android:allowBackup="false"
+    android:versionCode="4"
+    android:versionName="0.0.4-SNAPSHOT"
+    tools:replace="android:allowBackup" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <application />
+
+</manifest>

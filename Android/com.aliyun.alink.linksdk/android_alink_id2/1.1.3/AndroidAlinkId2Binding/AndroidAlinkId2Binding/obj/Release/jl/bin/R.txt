@@ -1,0 +1,4 @@
+int mipmap ic_launcher 0x7f110001
+int mipmap ic_launcher_round 0x7f110002
+int raw version 0x7f140001
+int string app_name 0x7f150001

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aliyun.alink.linksdk.paho"
+    android:allowBackup="false"
+    android:versionCode="9001"
+    android:versionName="1.2.0.3-SNAPSHOT"
+    tools:replace="android:allowBackup" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application />
+
+</manifest>

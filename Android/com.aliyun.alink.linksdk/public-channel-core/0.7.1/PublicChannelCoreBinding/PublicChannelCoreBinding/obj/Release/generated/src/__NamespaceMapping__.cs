@@ -1,0 +1,6 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.aliyun.alink.linksdk.channel.core.base", Managed="Com.Aliyun.Alink.Linksdk.Channel.Core.Base")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.aliyun.alink.linksdk.channel.core.persistent", Managed="Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.aliyun.alink.linksdk.channel.core.persistent.event", Managed="Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent.Event")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.aliyun.alink.linksdk.channel.core.persistent.mqtt", Managed="Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent.Mqtt")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request", Managed="Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent.Mqtt.Request")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send", Managed="Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent.Mqtt.Send")]

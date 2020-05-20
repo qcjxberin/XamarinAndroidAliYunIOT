@@ -1,0 +1,10 @@
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\bin\Debug\AndroidAlinkId2Binding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\bin\Debug\AndroidAlinkId2Binding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\bin\Debug\FastJsonBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\bin\Debug\ToolsBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\obj\Debug\AndroidAlinkId2Binding.csprojAssemblyReference.cache
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\obj\Debug\AndroidAlinkId2Binding.csproj.CoreCompileInputs.cache
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\obj\Debug\AndroidAlinkId2Binding.csproj.CopyComplete
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\obj\Debug\AndroidAlinkId2Binding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\android_alink_id2\1.1.3\AndroidAlinkId2Binding\AndroidAlinkId2Binding\obj\Debug\AndroidAlinkId2Binding.pdb

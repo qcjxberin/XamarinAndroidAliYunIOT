@@ -1,0 +1,5 @@
+com.aliyun.alink.linksdk.alcs.coap.AlcsCoAPConstant$Code:Com.Aliyun.Alink.Linksdk.Alcs.Coap:AlcsCoAPConstant.Code
+com.aliyun.alink.linksdk.alcs.coap.AlcsCoAPConstant$CodeClass:Com.Aliyun.Alink.Linksdk.Alcs.Coap:AlcsCoAPConstant.CodeClass
+com.aliyun.alink.linksdk.alcs.coap.AlcsCoAPConstant$ResponseCode:Com.Aliyun.Alink.Linksdk.Alcs.Coap:AlcsCoAPConstant.ResponseCode
+com.aliyun.alink.linksdk.alcs.coap.AlcsCoAPConstant$Type:Com.Aliyun.Alink.Linksdk.Alcs.Coap:AlcsCoAPConstant.Type
+com.aliyun.alink.linksdk.alcs.coap.option.OptionNumberRegistry$optionFormats:Com.Aliyun.Alink.Linksdk.Alcs.Coap.Option:OptionNumberRegistry.optionFormats

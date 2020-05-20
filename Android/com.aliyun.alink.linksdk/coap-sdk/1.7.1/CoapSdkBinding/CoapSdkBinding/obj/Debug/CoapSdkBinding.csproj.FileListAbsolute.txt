@@ -1,0 +1,7 @@
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\bin\Debug\CoapSdkBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\bin\Debug\CoapSdkBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\obj\Debug\CoapSdkBinding.csproj.CoreCompileInputs.cache
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\obj\Debug\CoapSdkBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\obj\Debug\CoapSdkBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\coap-sdk\1.7.1\CoapSdkBinding\CoapSdkBinding\obj\Debug\CoapSdkBinding.csprojAssemblyReference.cache

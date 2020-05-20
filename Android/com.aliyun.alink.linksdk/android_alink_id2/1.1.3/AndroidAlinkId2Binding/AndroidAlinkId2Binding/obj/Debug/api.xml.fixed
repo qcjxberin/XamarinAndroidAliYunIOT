@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.aliyun.alink.linksdk.id2" jni-name="com/aliyun/alink/linksdk/id2">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Id2Itls" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/id2/Id2Itls;">
+      <constructor deprecated="not deprecated" final="false" name="Id2Itls" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.id2.Id2Itls" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroyItls" jni-signature="(J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="establishItls" jni-signature="(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAlertType" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getID2Id" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTimestampAuthCode" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initItlsSo" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="protected"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="itlsRead" jni-signature="(J[BII)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="itlsWrite" jni-signature="(J[BII)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setItlsDebugLevel" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setJniDebugLevel" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="Id2ItlsSdk" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/id2/Id2ItlsSdk;">
+      <constructor deprecated="not deprecated" final="false" name="Id2ItlsSdk" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.id2.Id2ItlsSdk" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/content/Context;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Lcom/aliyun/alink/linksdk/id2/InitParams;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.id2.InitParams" jni-type="Lcom/aliyun/alink/linksdk/id2/InitParams;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="DEBUGLEVEL_ERROR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUGLEVEL_INFOR" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUGLEVEL_NODEBUG" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUGLEVEL_STATECHANGE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUGLEVEL_VERBOSE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mContext" jni-signature="Landroid/content/Context;" static="true" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mSoPath" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="InitParams" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/id2/InitParams;">
+      <constructor deprecated="not deprecated" final="false" name="InitParams" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.id2.InitParams" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="context" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="soPath" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+</api>

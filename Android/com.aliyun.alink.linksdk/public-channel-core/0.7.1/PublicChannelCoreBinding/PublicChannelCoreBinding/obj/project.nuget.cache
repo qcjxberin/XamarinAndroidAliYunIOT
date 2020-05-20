@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "C+KP/XQL1Xf+nG7KOPgemC1mbfYGrd1Nfuh+xvgDPy95dtm0tRW5pe/pC2DUa1Zm0+Jq6vToK7u5ggeh3deWXA==",
+  "success": true,
+  "projectFilePath": "E:\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.alink.linksdk\\public-channel-core\\0.7.1\\PublicChannelCoreBinding\\PublicChannelCoreBinding\\PublicChannelCoreBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.alibaba.fastjson\\1.2.68\\xamarinlibrary.xamarin.android.alibaba.fastjson.1.2.68.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.androidalinkid2\\1.1.3\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.androidalinkid2.1.1.3.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.opensourcepaho\\1.2.0.3\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.opensourcepaho.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools\\1.3.5.1\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools.1.3.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

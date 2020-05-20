@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UZ61uasgDD6zYeb2PQdrqN+JcIapzlCT+mg+OthVDacSI0L/8fMixGanXJGRha8IWZvaf/Ib7GfhQw2y4zjZ5Q==",
+  "success": true,
+  "projectFilePath": "E:\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.alink.linksdk\\android_alcs_lpbs\\1.5.0\\AndroidAlcsLpbsBinding\\AndroidAlcsLpbsBinding\\AndroidAlcsLpbsBinding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.alibaba.fastjson\\1.2.68\\xamarinlibrary.xamarin.android.alibaba.fastjson.1.2.68.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.coapsdk\\1.7.1\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.coapsdk.1.7.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools\\1.3.5.1\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools.1.3.5.1.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.mozilla.rhino\\1.7.9\\xamarinlibrary.xamarin.android.mozilla.rhino.1.7.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eRlDyrV8HddbK6qWKLsu/23gEfduUdWglII8h+ymgy22FDDLK4VWt838BZquKmG/yuKOdQ///PidJn5DsPeixw==",
+  "success": true,
+  "projectFilePath": "E:\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.alink.linksdk\\android_alink_id2\\1.1.3\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.alibaba.fastjson\\1.2.68\\xamarinlibrary.xamarin.android.alibaba.fastjson.1.2.68.nupkg.sha512",
+    "C:\\Users\\ericc\\.nuget\\packages\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools\\1.3.5.1\\xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools.1.3.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

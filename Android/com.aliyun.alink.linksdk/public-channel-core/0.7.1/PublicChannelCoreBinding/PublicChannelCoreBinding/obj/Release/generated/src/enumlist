@@ -1,0 +1,3 @@
+com.aliyun.alink.linksdk.channel.core.base.ASendStatus:Com.Aliyun.Alink.Linksdk.Channel.Core.Base:ASendStatus
+com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus:Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent.Mqtt.Send:MqttSendStatus
+com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState:Com.Aliyun.Alink.Linksdk.Channel.Core.Persistent:PersistentConnectState

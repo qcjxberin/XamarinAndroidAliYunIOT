@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v9.0": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools/1.3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Alibaba.FastJson": "1.2.68"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools/1.3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Alibaba.FastJson": "1.2.68"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x64": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools/1.3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Alibaba.FastJson": "1.2.68"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        }
+      }
+    },
+    "MonoAndroid,Version=v9.0/win-x86": {
+      "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FastJsonBinding.dll": {}
+        }
+      },
+      "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools/1.3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Alibaba.FastJson": "1.2.68"
+        },
+        "compile": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/ToolsBinding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XamarinLibrary.Xamarin.Android.Alibaba.FastJson/1.2.68": {
+      "sha512": "yhp3jEGlK7cCB+Ar725RDewDJPxz9w821v1szL/O3sjTHrVwslQk2Z1tcxzwim4YA9TAelVBlpi2QA6IN8CmSA==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.alibaba.fastjson/1.2.68",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/FastJsonBinding.dll",
+        "xamarinlibrary.xamarin.android.alibaba.fastjson.1.2.68.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.alibaba.fastjson.nuspec"
+      ]
+    },
+    "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools/1.3.5.1": {
+      "sha512": "B//VbosMIAiy68176sYKdfS3bOgTouY6A0omjoABd5NsqbdFoT4gijsRU6giDHp0ZWxFWTM9vCAGhhOuXxY0SA==",
+      "type": "package",
+      "path": "xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools/1.3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10/ToolsBinding.dll",
+        "xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools.1.3.5.1.nupkg.sha512",
+        "xamarinlibrary.xamarin.android.aliyun.alink.linksdk.tools.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v9.0": [
+      "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools >= 1.3.5.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ericc\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.alink.linksdk\\android_alink_id2\\1.1.3\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding.csproj",
+      "projectName": "AndroidAlinkId2Binding",
+      "projectPath": "E:\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.alink.linksdk\\android_alink_id2\\1.1.3\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding.csproj",
+      "packagesPath": "C:\\Users\\ericc\\.nuget\\packages\\",
+      "outputPath": "E:\\XamarinAndroidAliYunIOT\\Android\\com.aliyun.alink.linksdk\\android_alink_id2\\1.1.3\\AndroidAlinkId2Binding\\AndroidAlinkId2Binding\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\ericc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid90"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid90": {
+        "dependencies": {
+          "XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools": {
+            "target": "Package",
+            "version": "[1.3.5.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

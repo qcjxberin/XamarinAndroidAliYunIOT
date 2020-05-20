@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.AlcsCoAPSdk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Client.AlcsClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Client.AlcsClientConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Client.ClientAuthHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Client.IDeviceHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Client.IDeviceStateListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Client.IHeartBeatHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.ICAConnectListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.ICADisconnectListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.ICAMsgListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.ICAProbeListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Server.AlcsServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Server.AlcsServerConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Server.PrefixSecretNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Utils.AlcsConstUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Utils.ErrorCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Utils.ErrorInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Api.Utils.LogCat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.AlcsCoAP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.AlcsCoAPConstant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.AlcsCoAPContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.AlcsCoAPMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.AlcsCoAPRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.AlcsCoAPResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.IAlcsCoAPReqHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.IAlcsCoAPResHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.IAuthHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.MediaTypeRegistry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.MessageFormatException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Option.BlockOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Option.Option.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Option.OptionNumberRegistry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Option.OptionSet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Resources.AlcsCoAPResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Resources.IResource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Resources.LinkFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Resources.ResourceAttributes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Coap.Utils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAAuthPairs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAAuthParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAAuthServerParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAConnectParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICADeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICADiscoveryDeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAGroupReqMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAInitData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICANotifyMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAReqMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICARspMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICASubMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAUTConnectListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Data.Ica.ICAUTPointEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Pal.Ica.ICAAlcsNative.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Pal.Ica.ICADiscoveryListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Linksdk.Coap.BuildConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

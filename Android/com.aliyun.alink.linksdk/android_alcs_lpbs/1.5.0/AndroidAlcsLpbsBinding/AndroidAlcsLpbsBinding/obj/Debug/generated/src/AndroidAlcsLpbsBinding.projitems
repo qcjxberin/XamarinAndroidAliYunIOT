@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);ANDROID_1;ANDROID_2;ANDROID_3;ANDROID_4;ANDROID_5;ANDROID_6;ANDROID_7;ANDROID_8;ANDROID_9;ANDROID_10;ANDROID_11;ANDROID_12;ANDROID_13;ANDROID_14;ANDROID_15;ANDROID_16;ANDROID_17;ANDROID_18;ANDROID_19;ANDROID_20;ANDROID_21;ANDROID_22;ANDROID_23;ANDROID_24;ANDROID_25;ANDROID_26;ANDROID_27;ANDROID_28</DefineConstants>
+  </PropertyGroup>
+  <!-- Classes -->
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Jsengine.RhinoJsEngine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Jsengine.V8JsEngine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Api.AlcsPalConst.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Api.AlcsPalSdk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Api.IAlcsPal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Api.PluginHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Api.PluginMgr.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Api.PluginMgrConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Bridge.IPalAuthRegister.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Bridge.IPalBridge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Bridge.IPalConnect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Bridge.IPalDiscovery.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Bridge.IPalGroupConnect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Bridge.IPalProbe.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Auth.IAuthProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Auth.IAuthProviderListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Cloud.ICloudChannelFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Cloud.IDataDownListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Cloud.IDevInfoTrans.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Cloud.IJsProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Cloud.IJsQeuryCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Cloud.IThingCloudChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Component.Jsengine.IJSEngine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.Group.PalGroupInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.Group.PalGroupReqMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.Group.PalGroupRspMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.Ica.Group.ICAGroupOption.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.Ica.ICAPalDiscoveryDevInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.Ica.ICASetupRequestPayload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalConnectParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalDeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalDiscoveryConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalDiscoveryDeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalInitData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalNotifyMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalProbeResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalReqMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalRspMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Data.PalSubMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Listener.IPalConnectListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Listener.IPalDeviceStateListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Listener.IPalDiscoveryListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Listener.IPalMsgListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Listener.IPalProbeListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Plugin.ICAPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Plugin.IPlugin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Com.Aliyun.Alink.Linksdk.Alcs.Lpbs.Plugin.PluginConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Java.Interop.__TypeRegistrations.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)__NamespaceMapping__.cs" />
+  </ItemGroup>
+  <!-- Enums -->
+  <ItemGroup />
+</Project>

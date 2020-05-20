@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.aliyun.iot.aep.sdk.credential" jni-name="com/aliyun/iot/aep/sdk/credential">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.aliyun.iot.aep.sdk.credential.BuildConfig" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.aliyun.iot.aep.sdk.credential&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialProviderImpl.1" static="false" visibility="" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IoTCredentialProviderImpl$1;">
+      <implements name="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialListener" name-generic-aware="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRefreshIoTCredentialFailed" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManageError" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRefreshIoTCredentialSuccess" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-type="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialProviderImpl.2" static="false" visibility="" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IoTCredentialProviderImpl$2;">
+      <implements name="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialListener" name-generic-aware="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRefreshIoTCredentialFailed" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManageError" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRefreshIoTCredentialSuccess" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-type="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.aliyun.iot.aep.sdk.credential.data" jni-name="com/aliyun/iot/aep/sdk/credential/data">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CompanyData" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/data/CompanyData;">
+      <constructor deprecated="not deprecated" final="false" name="CompanyData" jni-signature="()V" bridge="false" static="false" type="com.aliyun.iot.aep.sdk.credential.data.CompanyData" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="companyId" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="companyName" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialData" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;">
+      <constructor deprecated="not deprecated" final="false" name="IoTCredentialData" jni-signature="()V" bridge="false" static="false" type="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clear" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isIotTokenExpire" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isRefreshTokenExpire" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="update" jni-signature="(Lorg/json/JSONObject;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.json.JSONObject" jni-type="Lorg/json/JSONObject;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="identity" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="iotToken" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="iotTokenCreateTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="iotTokenExpireTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="refreshToken" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="refreshTokenCreateTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="refreshTokenExpireTime" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.aliyun.iot.aep.sdk.credential.IotCredentialManager" jni-name="com/aliyun/iot/aep/sdk/credential/IotCredentialManager">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IoTCredentialListener" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onRefreshIoTCredentialFailed" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManageError" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onRefreshIoTCredentialSuccess" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-type="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IoTCredentialManage" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManage;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="asyncRefreshIoTCredential" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIoTCredential" jni-signature="()Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;" bridge="false" native="false" return="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-return="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIoTIdentity" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIoTRefreshToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIoTToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isIoTRefreshTokenExpired" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="isIoTTokenExpired" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialManageError" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageError;">
+      <constructor deprecated="not deprecated" final="false" name="IoTCredentialManageError" jni-signature="(ILjava/lang/Object;)V" bridge="false" static="false" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManageError" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_ACCOUNT_TYPE_INVALID" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_AUTHCODE_CHECK_FAILED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_AUTHCODE_INVALID" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_COMPANYID_PARAMS_CHECK_FAILED" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_NOT_LOGIN" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_OHTER" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_REFRESHTOKEN_INVALID" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="RESULT_CODE_WRONG_RESPONSE_FORMAT" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="detail" jni-signature="Ljava/lang/Object;" static="false" transient="false" type="java.lang.Object" type-generic-aware="java.lang.Object" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="errorCode" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialManageImpl" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageImpl;">
+      <implements name="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManage" name-generic-aware="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManage" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManage;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asyncRefreshIoTCredential" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="clearIoTTokenInfo" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAccountType" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" jni-signature="(Landroid/app/Application;)Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageImpl;" bridge="false" native="false" return="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialManageImpl" jni-return="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageImpl;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIoTCredential" jni-signature="()Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;" bridge="false" native="false" return="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-return="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIoTIdentity" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIoTRefreshToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIoTToken" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isIoTRefreshTokenExpired" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isIoTTokenExpired" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerIotTokenCreatedListener" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenCreatedListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.listener.IoTTokenCreatedListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenCreatedListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="requestCompanyList" jni-signature="(Ljava/lang/String;Lcom/aliyun/iot/aep/sdk/credential/listener/OnReqCompanyCallback;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.iot.aep.sdk.credential.listener.OnReqCompanyCallback" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/OnReqCompanyCallback;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAccountType" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAccountTypeCompany" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAuthCode" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCompanyId" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIotCredentialListenerList" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenInvalidListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.listener.IoTTokenInvalidListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenInvalidListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setIotTokenInvalidListener" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenInvalidListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.listener.IoTTokenInvalidListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenInvalidListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnReqCompanyCallback" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/listener/OnReqCompanyCallback;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.listener.OnReqCompanyCallback" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/OnReqCompanyCallback;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unRegisterIotTokenCreatedListener" jni-signature="(Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenCreatedListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.iot.aep.sdk.credential.listener.IoTTokenCreatedListener" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenCreatedListener;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="APP_DATA_FILE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;APP_DATA_FILE&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="COMPANY_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;company&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="DefaultDailyALiYunCreateIotTokenRequestHost" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="KEY_ACCOUNT_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;KEY_ACCOUNT_TYPE&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="appKey" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialManageImpl.1" static="false" visibility="" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialManageImpl$1;">
+      <implements name="com.aliyun.iot.aep.sdk.credential.listener.OnReqCompanyCallback" name-generic-aware="com.aliyun.iot.aep.sdk.credential.listener.OnReqCompanyCallback" jni-type="Lcom/aliyun/iot/aep/sdk/credential/listener/OnReqCompanyCallback;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(ILjava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.aliyun.iot.aep.sdk.credential.data.CompanyData&gt;" jni-type="Ljava/util/List&lt;Lcom/aliyun/iot/aep/sdk/credential/data/CompanyData;&gt;;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="IoTCredentialUtils" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/IotCredentialManager/IoTCredentialUtils;">
+      <constructor deprecated="not deprecated" final="false" name="IoTCredentialUtils" jni-signature="()V" bridge="false" static="false" type="com.aliyun.iot.aep.sdk.credential.IotCredentialManager.IoTCredentialUtils" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dataEncrypt" jni-signature="(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIoTCredentialData" jni-signature="(Landroid/content/Context;)Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;" bridge="false" native="false" return="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-return="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveIoTCredentialData" jni-signature="(Landroid/content/Context;Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="com.aliyun.iot.aep.sdk.credential.data.IoTCredentialData" jni-type="Lcom/aliyun/iot/aep/sdk/credential/data/IoTCredentialData;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="CREATE_IOTTOKEN_REQUEST_PATH_ARRAY" jni-signature="[Ljava/lang/String;" static="true" transient="false" type="java.lang.String[]" type-generic-aware="java.lang.String[]" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.aliyun.iot.aep.sdk.credential.listener" jni-name="com/aliyun/iot/aep/sdk/credential/listener">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IoTTokenCreatedListener" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenCreatedListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onIoTTokenCreated" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IoTTokenInvalidListener" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/listener/IoTTokenInvalidListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onIoTTokenInvalid" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="OnReqCompanyCallback" static="false" visibility="public" jni-signature="Lcom/aliyun/iot/aep/sdk/credential/listener/OnReqCompanyCallback;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(ILjava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.util.List&lt;com.aliyun.iot.aep.sdk.credential.data.CompanyData&gt;" jni-type="Ljava/util/List&lt;Lcom/aliyun/iot/aep/sdk/credential/data/CompanyData;&gt;;"></parameter>
+      </method>
+    </interface>
+  </package>
+</api>

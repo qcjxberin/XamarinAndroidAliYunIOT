@@ -1,0 +1,6 @@
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\opensource-paho\1.2.0.3\OpenSourcePahoBinding\OpenSourcePahoBinding\bin\Debug\OpenSourcePahoBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\opensource-paho\1.2.0.3\OpenSourcePahoBinding\OpenSourcePahoBinding\bin\Debug\OpenSourcePahoBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\opensource-paho\1.2.0.3\OpenSourcePahoBinding\OpenSourcePahoBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\opensource-paho\1.2.0.3\OpenSourcePahoBinding\OpenSourcePahoBinding\obj\Debug\OpenSourcePahoBinding.csproj.CoreCompileInputs.cache
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\opensource-paho\1.2.0.3\OpenSourcePahoBinding\OpenSourcePahoBinding\obj\Debug\OpenSourcePahoBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\opensource-paho\1.2.0.3\OpenSourcePahoBinding\OpenSourcePahoBinding\obj\Debug\OpenSourcePahoBinding.pdb

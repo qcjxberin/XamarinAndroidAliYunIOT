@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="com.aliyun.alink.linksdk.channel.core.a" jni-name="com/aliyun/alink/linksdk/channel/core/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/a/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.a.a" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.InputStream" extends-generic-aware="java.io.InputStream" jni-extends="Ljava/io/InputStream;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/a/b;">
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(Lcom/aliyun/alink/linksdk/id2/Id2Itls;J)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.a.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.id2.Id2Itls" jni-type="Lcom/aliyun/alink/linksdk/id2/Id2Itls;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="read" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="true" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/a/c;">
+      <implements name="org.eclipse.paho.client.mqttv3.internal.NetworkModule" name-generic-aware="org.eclipse.paho.client.mqttv3.internal.NetworkModule" jni-type="Lorg/eclipse/paho/client/mqttv3/internal/NetworkModule;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/a/a;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.a.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.a.a" jni-type="Lcom/aliyun/alink/linksdk/channel/core/a/a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInputStream" jni-signature="()Ljava/io/InputStream;" bridge="false" native="false" return="java.io.InputStream" jni-return="Ljava/io/InputStream;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOutputStream" jni-signature="()Ljava/io/OutputStream;" bridge="false" native="false" return="java.io.OutputStream" jni-return="Ljava/io/OutputStream;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getServerURI" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="start" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stop" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.io.OutputStream" extends-generic-aware="java.io.OutputStream" jni-extends="Ljava/io/OutputStream;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/a/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(Lcom/aliyun/alink/linksdk/id2/Id2Itls;J)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.a.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.id2.Id2Itls" jni-type="Lcom/aliyun/alink/linksdk/id2/Id2Itls;"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="write" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="true" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="org.eclipse.paho.client.mqttv3.MqttAsyncClient" extends-generic-aware="org.eclipse.paho.client.mqttv3.MqttAsyncClient" jni-extends="Lorg/eclipse/paho/client/mqttv3/MqttAsyncClient;" final="false" name="e" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/a/e;">
+      <constructor deprecated="not deprecated" final="false" name="e" jni-signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/paho/client/mqttv3/MqttClientPersistence;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.a.e" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.eclipse.paho.client.mqttv3.MqttClientPersistence" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttClientPersistence;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="e" jni-signature="(Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/paho/client/mqttv3/MqttClientPersistence;Lorg/eclipse/paho/client/mqttv3/MqttPingSender;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.a.e" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="org.eclipse.paho.client.mqttv3.MqttClientPersistence" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttClientPersistence;"></parameter>
+        <parameter name="p3" type="org.eclipse.paho.client.mqttv3.MqttPingSender" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttPingSender;"></parameter>
+      </constructor>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.b" jni-name="com/aliyun/alink/linksdk/channel/core/b">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/b/a;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.base" jni-name="com/aliyun/alink/linksdk/channel/core/base">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AError" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/AError;">
+      <constructor deprecated="not deprecated" final="false" name="AError" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.base.AError" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getCode" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDomain" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMsg" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOriginResponseObject" jni-signature="()Ljava/lang/Object;" bridge="false" native="false" return="java.lang.Object" jni-return="Ljava/lang/Object;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSubCode" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSubDomain" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSubMsg" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCode" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDomain" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setMsg" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOriginResponseObject" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSubCode" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSubDomain" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSubMsg" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="AKErrorInvokeNetError" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4101" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="AKErrorInvokeServerError" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4102" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="AKErrorLoginTokenIllegalError" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4001" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="AKErrorServerBusinessError" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4103" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="AKErrorSuccess" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="AKErrorUnknownError" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="4201" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="ERR_DOMAIN_NAME_ALINK" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;alinkErrorDomain&quot;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ARequest" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;">
+      <constructor deprecated="not deprecated" final="false" name="ARequest" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" synthetic="false" visibility="public"></constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="AResponse" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable" jni-type="Ljava/io/Serializable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="AResponse" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.base.AResponse" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="data" jni-signature="Ljava/lang/Object;" static="false" transient="false" type="java.lang.Object" type-generic-aware="java.lang.Object" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ASend" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;">
+      <constructor deprecated="not deprecated" final="false" name="ASend" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.base.ASend" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getListener" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequest" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getResponse" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.AResponse" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStatus" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/base/ISendStatus;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/ISendStatus;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="listener" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;" static="false" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="request" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;" static="false" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ARequest" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="response" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;" static="false" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.AResponse" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.AResponse" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="status" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ISendStatus;" static="false" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" visibility="protected" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.aliyun.alink.linksdk.channel.core.base.ASendStatus&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="ASendStatus" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" name-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ISendStatus;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ASendStatus[]" jni-return="[Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="completed" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="waitingToComplete" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="waitingToSend" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ASendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ASendStatus" visibility="public" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="INet" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/INet;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="asyncSend" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;)Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="retry" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ASend;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IOnCallListener" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="needUISafety" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFailed" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/AError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AError" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AError;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AResponse" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ISendStatus" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/base/ISendStatus;"></interface>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.persistent" jni-name="com/aliyun/alink/linksdk/channel/core/persistent">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" jni-extends="Ljava/lang/Exception;" final="false" name="BadNetworkException" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/BadNetworkException;">
+      <constructor deprecated="not deprecated" final="false" name="BadNetworkException" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.BadNetworkException" synthetic="false" visibility="public"></constructor>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IOnRrpcResponseHandle" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnRrpcResponseHandle;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onRrpcResponse" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AResponse" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IOnSubscribeListener" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="needUISafety" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" managedName="IOnSubscribeListenerNeedUISafety"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFailed" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/base/AError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AError" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AError;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IOnSubscribeRrpcListener" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="needUISafety" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" managedName="IOnSubscribeRrpcListenerNeedUISafety"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onReceived" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentRequest;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnRrpcResponseHandle;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentRequest;"></parameter>
+        <parameter name="p2" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnRrpcResponseHandle" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnRrpcResponseHandle;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onResponseFailed" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/base/AError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AError" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AError;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onResponseSuccess" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSubscribeFailed" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/base/AError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AError" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AError;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSubscribeSuccess" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IPersisitentNet" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/IPersisitentNet;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.base.INet" name-generic-aware="com.aliyun.alink.linksdk.channel.core.base.INet" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/INet;"></implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="destroy" jni-signature="(JLjava/lang/Object;Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p2" type="org.eclipse.paho.client.mqttv3.IMqttActionListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getConnectState" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="openLog" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="subscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="subscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.PersisitentNetParams" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;"></parameter>
+        <parameter name="p2" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="subscribeRrpc" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeRrpcListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="unSubscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ISendExecutor" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/ISendExecutor;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="asyncSend" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ASend;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="PersistentConnectState" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState[]" jni-return="[Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="CONNECTED" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CONNECTFAIL" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="CONNECTING" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DISCONNECTED" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentInitParams" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;">
+      <constructor deprecated="not deprecated" final="false" name="PersistentInitParams" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" synthetic="false" visibility="public"></constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentNet" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentNet;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.persistent.IPersisitentNet" name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.IPersisitentNet" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IPersisitentNet;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="PersistentNet" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentNet" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asyncSend" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;)Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="(JLjava/lang/Object;Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p2" type="org.eclipse.paho.client.mqttv3.IMqttActionListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getConnectState" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDefaultProtocol" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInitParams" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentNet;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentNet" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentNet;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSDKVersion" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="openLog" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="retry" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ASend;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDefaultProtocol" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setReportVersion" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="subscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="subscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.PersisitentNetParams" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;"></parameter>
+        <parameter name="p2" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="subscribeRrpc" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeRrpcListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unSubscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentNet.InstanceHolder" static="true" visibility="private" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentNet$InstanceHolder;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.base.ARequest" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;" final="false" name="PersistentRequest" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentRequest;">
+      <constructor deprecated="not deprecated" final="false" name="PersistentRequest" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="context" jni-signature="Ljava/lang/Object;" static="false" transient="false" type="java.lang.Object" type-generic-aware="java.lang.Object" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="payloadObj" jni-signature="Ljava/lang/Object;" static="false" transient="false" type="java.lang.Object" type-generic-aware="java.lang.Object" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.persistent.event" jni-name="com/aliyun/alink/linksdk/channel/core/persistent/event">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IConnectionStateListener" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IConnectionStateListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onConnectFail" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onConnected" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onDisconnect" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="INetSessionStateListener" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/INetSessionStateListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onNeedLogin" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSessionEffective" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onSessionInvalid" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IOnPushListener" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCommand" jni-signature="(Ljava/lang/String;[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="shouldHandle" jni-signature="(Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentEventDispatcher" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="broadcastMessage" jni-signature="(ILjava/lang/String;[BILjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+        <parameter name="p4" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.event.PersistentEventDispatcher" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerNetSessionStateListener" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/event/INetSessionStateListener;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.event.INetSessionStateListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/INetSessionStateListener;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerOnPushListener" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerOnTunnelStateListener" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IConnectionStateListener;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.event.IConnectionStateListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IConnectionStateListener;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unregisterNetSessionStateListener" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/event/INetSessionStateListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.event.INetSessionStateListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/INetSessionStateListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unregisterOnPushListener" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IOnPushListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unregisterOnTunnelStateListener" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IConnectionStateListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.event.IConnectionStateListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/IConnectionStateListener;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Ljava/util/HashMap;" static="false" transient="false" type="java.util.HashMap" type-generic-aware="java.util.HashMap&lt;com.aliyun.alink.linksdk.channel.core.persistent.event.IOnPushListener, java.lang.Boolean&gt;" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Ljava/util/HashMap;" static="false" transient="false" type="java.util.HashMap" type-generic-aware="java.util.HashMap&lt;com.aliyun.alink.linksdk.channel.core.persistent.event.IConnectionStateListener, java.lang.Boolean&gt;" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Ljava/util/HashMap;" static="false" transient="false" type="java.util.HashMap" type-generic-aware="java.util.HashMap&lt;com.aliyun.alink.linksdk.channel.core.persistent.event.INetSessionStateListener, java.lang.Boolean&gt;" visibility="protected" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher$b;" static="false" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.event.PersistentEventDispatcher.b" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.event.PersistentEventDispatcher.b" visibility="protected" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentEventDispatcher.1" static="true" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher$1;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentEventDispatcher.a" static="true" visibility="private" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher$a;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" jni-extends="Landroid/os/Handler;" final="false" name="PersistentEventDispatcher.b" static="true" visibility="private" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher$b;">
+      <constructor deprecated="not deprecated" final="false" name="PersistentEventDispatcher.b" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.event.PersistentEventDispatcher.b" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(ILjava/lang/Object;ILjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(ILjava/lang/Object;Ljava/lang/String;[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="byte[]" jni-type="[B"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersistentEventDispatcher.b.a" static="true" visibility="private" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/event/PersistentEventDispatcher$b$a;">
+      <constructor deprecated="not deprecated" final="false" name="PersistentEventDispatcher.b.a" jni-signature="(Ljava/lang/Object;ILjava/lang/String;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.event.PersistentEventDispatcher.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="PersistentEventDispatcher.b.a" jni-signature="(Ljava/lang/Object;Ljava/lang/String;[B)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.event.PersistentEventDispatcher.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="byte[]" jni-type="[B"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Ljava/lang/Object;" static="false" transient="false" type="java.lang.Object" type-generic-aware="java.lang.Object" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="[B" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.persistent.mqtt" jni-name="com/aliyun/alink/linksdk/channel/core/persistent/mqtt">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a;">
+      <implements name="org.eclipse.paho.client.mqttv3.MqttCallbackExtended" name-generic-aware="org.eclipse.paho.client.mqttv3.MqttCallbackExtended" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttCallbackExtended;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeRrpcListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="connectComplete" jni-signature="(ZLjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="connectionLost" jni-signature="(Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="deliveryComplete" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttDeliveryToken;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttDeliveryToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttDeliveryToken;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="messageArrived" jni-signature="(Ljava/lang/String;Lorg/eclipse/paho/client/mqttv3/MqttMessage;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.eclipse.paho.client.mqttv3.MqttMessage" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttMessage;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.1" static="false" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a$1;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.2" static="false" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a$2;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.a" static="false" visibility="private" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a$a;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.persistent.IOnRrpcResponseHandle" name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.IOnRrpcResponseHandle" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnRrpcResponseHandle;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.a" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a;Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.a.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeRrpcListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRrpcResponse" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AResponse" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.a.1" static="false" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a$a$1;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" name-generic-aware="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="needUISafety" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailed" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/AError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AError" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AError;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AResponse" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AResponse;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.persistent.IPersisitentNet" name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.IPersisitentNet" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IPersisitentNet;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.b" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.b" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="([B)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asyncSend" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;)Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-return="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()Lorg/eclipse/paho/client/mqttv3/IMqttAsyncClient;" bridge="false" native="false" return="org.eclipse.paho.client.mqttv3.IMqttAsyncClient" jni-return="Lorg/eclipse/paho/client/mqttv3/IMqttAsyncClient;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="(JLjava/lang/Object;Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+        <parameter name="p2" type="org.eclipse.paho.client.mqttv3.IMqttActionListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()Landroid/content/Context;" bridge="false" native="false" return="android.content.Context" jni-return="Landroid/content/Context;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getConnectState" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.PersistentConnectState" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentConnectState;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/content/Context;Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="openLog" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="retry" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ASend;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="subscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="subscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.PersisitentNetParams" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;"></parameter>
+        <parameter name="p2" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="subscribeRrpc" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeRrpcListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeRrpcListener;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unSubscribe" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.1" static="false" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b$1;">
+      <implements name="org.eclipse.paho.client.mqttv3.IMqttActionListener" name-generic-aware="org.eclipse.paho.client.mqttv3.IMqttActionListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttToken;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttToken;"></parameter>
+        <parameter name="p1" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttToken;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttToken;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.2" static="false" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b$2;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="needUISafety" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailed" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/base/AError;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.AError" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/AError;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.3" static="false" visibility="" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b$3;">
+      <implements name="org.eclipse.paho.client.mqttv3.IMqttActionListener" name-generic-aware="org.eclipse.paho.client.mqttv3.IMqttActionListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttToken;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttToken;"></parameter>
+        <parameter name="p1" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttToken;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttToken;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.a" static="true" visibility="private" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/b$a;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="MqttConfigure" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/MqttConfigure;">
+      <constructor deprecated="not deprecated" final="false" name="MqttConfigure" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.MqttConfigure" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getKeepAliveInterval" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setKeepAliveInterval" jni-signature="(I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_HOST" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;${productKey}.iot-as-mqtt.cn-shanghai.aliyuncs.com:1883&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_ITLS_HOST" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;${productKey}.itls.cn-shanghai.aliyuncs.com:1883&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="DEFAULT_ROOTCRT" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;root.crt&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="MQTT_SECURE_MODE_ITLS" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="MQTT_SECURE_MODE_TCP" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="MQTT_SECURE_MODE_TLS" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="SECURE_MODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="SIGN_METHOD" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;hmacsha1&quot;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="automaticReconnect" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="cleanSession" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="clientId" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="deviceName" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="deviceSecret" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="disableNetworkCheckBeforeSend" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="isCheckRootCrt" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="itlsLogLevel" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="itlsReadTimeout" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="itlsWriteTimeout" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="maxInflight" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mqttClientId" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mqttHost" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mqttPassWord" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mqttRootCrtFile" jni-signature="Ljava/io/InputStream;" static="true" transient="false" type="java.io.InputStream" type-generic-aware="java.io.InputStream" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="mqttUserName" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="pingSender" jni-signature="Lorg/eclipse/paho/client/mqttv3/MqttPingSender;" static="true" transient="false" type="org.eclipse.paho.client.mqttv3.MqttPingSender" type-generic-aware="org.eclipse.paho.client.mqttv3.MqttPingSender" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="pingSenderType" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="productKey" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="productSecret" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentInitParams" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentInitParams;" final="false" name="MqttInitParams" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/MqttInitParams;">
+      <constructor deprecated="not deprecated" final="false" name="MqttInitParams" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.MqttInitParams" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="MqttInitParams" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.MqttInitParams" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p4" type="int" jni-type="I"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="checkValid" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="false" name="deviceName" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="deviceSecret" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="productKey" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="productSecret" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="receiveOfflineMsg" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="secureMode" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.a" jni-name="com/aliyun/alink/linksdk/channel/core/persistent/mqtt/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a/a;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a/b;">
+      <implements name="org.eclipse.paho.client.mqttv3.logging.Logger" name-generic-aware="org.eclipse.paho.client.mqttv3.logging.Logger" jni-type="Lorg/eclipse/paho/client/mqttv3/logging/Logger;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.a.b" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="config" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="config" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="config" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dumpTrace" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fine" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fine" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fine" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="finer" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="finer" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="finer" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="finest" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="finest" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="finest" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="formatMessage" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="initialise" jni-signature="(Ljava/util/ResourceBundle;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.ResourceBundle" jni-type="Ljava/util/ResourceBundle;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isLoggable" jni-signature="(I)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="log" jni-signature="(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p4" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p5" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setResourceName" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="severe" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="severe" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="severe" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="trace" jni-signature="(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p4" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p5" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warning" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warning" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warning" jni-signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;"></parameter>
+        <parameter name="p4" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a/c;">
+      <implements name="javax.net.ssl.X509TrustManager" name-generic-aware="javax.net.ssl.X509TrustManager" jni-type="Ljavax/net/ssl/X509TrustManager;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Ljava/io/InputStream;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.a.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.io.InputStream" jni-type="Ljava/io/InputStream;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="checkClientTrusted" jni-signature="([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.security.cert.X509Certificate[]" jni-type="[Ljava/security/cert/X509Certificate;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="checkServerTrusted" jni-signature="([Ljava/security/cert/X509Certificate;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.security.cert.X509Certificate[]" jni-type="[Ljava/security/cert/X509Certificate;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAcceptedIssuers" jni-signature="()[Ljava/security/cert/X509Certificate;" bridge="false" native="false" return="java.security.cert.X509Certificate[]" jni-return="[Ljava/security/cert/X509Certificate;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/a/d;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/util/Map;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;" jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"></parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request" jni-name="com/aliyun/alink/linksdk/channel/core/persistent/mqtt/request">
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentRequest;" final="false" name="MqttPublishRequest" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/MqttPublishRequest;">
+      <constructor deprecated="not deprecated" final="false" name="MqttPublishRequest" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.MqttPublishRequest" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="isRPC" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="msgId" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="qos" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="replyTopic" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="topic" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentRequest;" final="false" name="MqttRrpcRequest" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/MqttRrpcRequest;">
+      <constructor deprecated="not deprecated" final="false" name="MqttRrpcRequest" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.MqttRrpcRequest" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTopic" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="replyTopic" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="topic" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.PersistentRequest" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/persistent/PersistentRequest;" final="false" name="MqttSubscribeRequest" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/MqttSubscribeRequest;">
+      <constructor deprecated="not deprecated" final="false" name="MqttSubscribeRequest" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.MqttSubscribeRequest" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="isSubscribe" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="subscribeRequestParams" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/MqttSubscribeRequestParams;" static="false" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.MqttSubscribeRequestParams" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.MqttSubscribeRequestParams" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="topic" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.PersisitentNetParams" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.PersisitentNetParams" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;" final="false" name="MqttSubscribeRequestParams" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/MqttSubscribeRequestParams;">
+      <constructor deprecated="not deprecated" final="false" name="MqttSubscribeRequestParams" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.MqttSubscribeRequestParams" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="false" name="qos" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="PersisitentNetParams" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/request/PersisitentNetParams;">
+      <constructor deprecated="not deprecated" final="false" name="PersisitentNetParams" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.request.PersisitentNetParams" synthetic="false" visibility="public"></constructor>
+    </class>
+  </package>
+  <package name="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send" jni-name="com/aliyun/alink/linksdk/channel/core/persistent/mqtt/send">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/a;">
+      <implements name="org.eclipse.paho.client.mqttv3.IMqttMessageListener" name-generic-aware="org.eclipse.paho.client.mqttv3.IMqttMessageListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttMessageListener;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/b;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.b" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/b;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="messageArrived" jni-signature="(Ljava/lang/String;Lorg/eclipse/paho/client/mqttv3/MqttMessage;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.eclipse.paho.client.mqttv3.MqttMessage" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttMessage;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="com.aliyun.alink.linksdk.channel.core.base.ASend" extends-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-extends="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;" final="false" name="b" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/b;">
+      <implements name="org.eclipse.paho.client.mqttv3.IMqttActionListener" name-generic-aware="org.eclipse.paho.client.mqttv3.IMqttActionListener" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttActionListener;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.base.IOnCallListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/IOnCallListener;"></parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ARequest" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ARequest;"></parameter>
+        <parameter name="p1" type="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Lorg/eclipse/paho/client/mqttv3/MqttMessage;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="org.eclipse.paho.client.mqttv3.MqttMessage" jni-type="Lorg/eclipse/paho/client/mqttv3/MqttMessage;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.IOnSubscribeListener" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/IOnSubscribeListener;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttToken;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttToken;"></parameter>
+        <parameter name="p1" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Lorg/eclipse/paho/client/mqttv3/IMqttToken;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="org.eclipse.paho.client.mqttv3.IMqttToken" jni-type="Lorg/eclipse/paho/client/mqttv3/IMqttToken;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/c;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.persistent.ISendExecutor" name-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.ISendExecutor" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/ISendExecutor;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="()V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.c" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="asyncSend" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/base/ASend;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.base.ASend" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ASend;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/d;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/b;BLjava/lang/String;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.b" jni-type="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/b;"></parameter>
+        <parameter name="p1" type="byte" jni-type="B"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="MqttSendStatus" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;">
+      <implements name="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" name-generic-aware="com.aliyun.alink.linksdk.channel.core.base.ISendStatus" jni-type="Lcom/aliyun/alink/linksdk/channel/core/base/ISendStatus;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" jni-return="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" bridge="false" native="false" return="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus[]" jni-return="[Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="completed" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="published" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="subReplyed" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="waitingToComplete" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="waitingToPublish" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="waitingToSend" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="waitingToSubReply" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttSendStatus;" static="true" transient="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" type-generic-aware="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttSendStatus" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Throwable" extends-generic-aware="java.lang.Throwable" jni-extends="Ljava/lang/Throwable;" final="false" name="MqttThrowable" static="false" visibility="public" jni-signature="Lcom/aliyun/alink/linksdk/channel/core/persistent/mqtt/send/MqttThrowable;">
+      <constructor deprecated="not deprecated" final="false" name="MqttThrowable" jni-signature="(Ljava/lang/String;)V" bridge="false" static="false" type="com.aliyun.alink.linksdk.channel.core.persistent.mqtt.send.MqttThrowable" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="message" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+</api>

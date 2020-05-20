@@ -1,0 +1,12 @@
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\obj\Debug\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\obj\Debug\PublicChannelCoreBinding.csproj.CoreCompileInputs.cache
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\bin\Debug\PublicChannelCoreBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\bin\Debug\PublicChannelCoreBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\obj\Debug\PublicChannelCoreBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\obj\Debug\PublicChannelCoreBinding.pdb
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\bin\Debug\FastJsonBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\bin\Debug\AndroidAlinkId2Binding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\bin\Debug\OpenSourcePahoBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\bin\Debug\ToolsBinding.dll
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\obj\Debug\PublicChannelCoreBinding.csproj.CopyComplete
+E:\XamarinAndroidAliYunIOT\Android\com.aliyun.alink.linksdk\public-channel-core\0.7.1\PublicChannelCoreBinding\PublicChannelCoreBinding\obj\Debug\PublicChannelCoreBinding.csprojAssemblyReference.cache
