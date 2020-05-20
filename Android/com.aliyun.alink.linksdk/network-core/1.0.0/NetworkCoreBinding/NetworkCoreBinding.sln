@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkCoreBinding", "NetworkCoreBinding\NetworkCoreBinding.csproj", "{961C41DE-2BEB-4064-8338-D2127F15526C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{961C41DE-2BEB-4064-8338-D2127F15526C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961C41DE-2BEB-4064-8338-D2127F15526C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961C41DE-2BEB-4064-8338-D2127F15526C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961C41DE-2BEB-4064-8338-D2127F15526C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {324F9DD1-B4A4-4A04-A9BE-314A511E0493}
+	EndGlobalSection
+EndGlobal

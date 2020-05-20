@@ -1,0 +1,28 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.cmp.connect.channel']/class[@name='PersistentConnect']/method[@name='onAuth' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+          name="managedName">RawOnAuth</attr>
+  -->
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.cmp.core.listener']/interface[@name='IDiscoveryListener']/method[@name='onFailure' and count(parameter)=1 and parameter[1][@type='com.aliyun.alink.linksdk.tools.AError']]"
+        name="managedName">OnIDiscoveryListenerFailure</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.cmp.core.listener']/interface[@name='IConnectPublishResourceListener']"
+        name="managedName">OnIConnectPublishResourceListenerFailure</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.cmp.core.listener']/interface[@name='IConnectSendListener']/method[@name='onFailure' and count(parameter)=2 and parameter[1][@type='com.aliyun.alink.linksdk.cmp.core.base.ARequest'] and parameter[2][@type='com.aliyun.alink.linksdk.tools.AError']]"
+        name="managedName">OnIConnectSendListenerFailure</attr>
+
+  
+  <remove-node path="/api/package[@name='com.aliyun.alink.linksdk.cmp.core.listener']/interface[@name='IConnectAuth']/method[@name='onAuth' and count(parameter)=1 and parameter[1][@type='T']]"
+               />
+  <remove-node path="/api/package[@name='com.aliyun.alink.linksdk.cmp.connect.alcs']/class[@name='AlcsConnect']/method[@name='onAuth' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.aliyun.alink.linksdk.cmp.connect.alcs']/class[@name='AlcsServerConnect']/method[@name='onAuth' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+               />
+  <remove-node path="/api/package[@name='com.aliyun.alink.linksdk.cmp.connect.channel']/class[@name='PersistentConnect']/method[@name='onAuth' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;']]"
+               />
+  
+
+</metadata>

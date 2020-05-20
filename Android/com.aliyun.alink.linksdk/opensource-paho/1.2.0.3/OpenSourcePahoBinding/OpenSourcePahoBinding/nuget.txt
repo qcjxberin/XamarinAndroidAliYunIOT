@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.OpensourcePaho</id>
+    <version>1.2.0.3</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.alink.linksdk.opensource-paho for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.alink.linksdk.opensource-paho.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>AndroidAlinkId2 XamarinAndroidAndroidAlinkId2 AndroidAndroidAlinkId2 XamarinAndroidAlinkId2</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <!--<dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools" version="1.3.5.1" /> -->         
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="OpenSourcePahoBinding.dll" target="lib\MonoAndroid10\OpenSourcePahoBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

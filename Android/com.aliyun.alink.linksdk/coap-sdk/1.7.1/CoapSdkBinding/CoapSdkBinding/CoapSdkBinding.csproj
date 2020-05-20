@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4F3EE905-8480-423A-9DFA-115676D98DAC}</ProjectGuid>
+    <ProjectGuid>{1AF04AEC-028A-4FD9-83B9-1058DCCA9B68}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OssAndroidSdkBinding</RootNamespace>
-    <AssemblyName>OssAndroidSdkBinding</AssemblyName>
+    <RootNamespace>CoapSdkBinding</RootNamespace>
+    <AssemblyName>CoapSdkBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -41,18 +41,15 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\HttpdnsMini.cs" />
-    <Compile Include="Additions\ResumableUploadTask.cs" />
-    <Compile Include="Additions\SequenceUploadTask.cs" />
+    <Compile Include="Additions\Option.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\oss-android-sdk-2.7.0.aar" />
+    <LibraryProjectZip Include="Jars\coap-sdk-1.7.1.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -60,12 +57,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp">
-      <Version>3.4.1</Version>
-    </PackageReference>
-    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okio.Okio">
-      <Version>1.9.0</Version>
-    </PackageReference>
+    <None Include="nuget.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

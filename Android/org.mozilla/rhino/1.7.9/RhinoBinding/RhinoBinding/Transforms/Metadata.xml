@@ -1,0 +1,62 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='JavaMembers']"
+        name="visibility">public</attr>
+
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='NativeObject']/method[@name='values' and count(parameter)=0]"
+        name="managedName">RawValues</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='NativeObject']/method[@name='entrySet' and count(parameter)=0]"
+        name="managedName">RawEntrySet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='NativeObject']/method[@name='keySet' and count(parameter)=0]"
+        name="managedName">RawKeySet</attr>    
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='NativeObject.EntrySet']"
+        name="managedName">ClassEntrySet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='NativeObject.KeySet']"
+        name="managedName">ClasskeySet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript']/class[@name='Node.NodeIterator']/method[@name='next' and count(parameter)=0]"
+        name="managedName">RawNext</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint8Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint8Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Integer']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeFloat32Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Float']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeFloat32Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeFloat64Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Double']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeFloat64Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>    
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeInt16Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Short']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeInt16Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>    
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeInt32Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Integer']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeInt32Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeInt8Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Byte']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeInt8Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint16Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Integer']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint16Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint32Array']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Long']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint32Array']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint8ClampedArray']/method[@name='set' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='java.lang.Integer']]"
+        name="managedName">RawSet</attr>
+  <attr path="/api/package[@name='org.mozilla.javascript.typedarrays']/class[@name='NativeUint8ClampedArray']/method[@name='get' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">RawGet</attr>
+  
+  
+</metadata>
