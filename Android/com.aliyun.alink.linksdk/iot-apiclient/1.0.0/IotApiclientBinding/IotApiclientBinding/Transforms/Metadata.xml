@@ -6,12 +6,4 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-
-  <attr path="/api/package[@name='com.aliyun.alink.linksdk.alcs.api.utils']/class[@name='ErrorCode']/field[@name='ERROR_CODE']"
-        name="managedName">TheErrorCode</attr>
-
-  <attr path="/api/package[@name='com.aliyun.alink.linksdk.alcs.coap.option']/class[@name='Option']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.aliyun.alink.linksdk.alcs.coap.option.Option']]"
-        name="managedName">RawCompareTo</attr>
-
-  
 </metadata>

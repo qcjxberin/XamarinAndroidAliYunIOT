@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D7648F64-608D-492B-950F-1FCC446A4216}</ProjectGuid>
+    <ProjectGuid>{961C41DE-2BEB-4064-8338-D2127F15526C}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AndroidAlcsLpbsBinding</RootNamespace>
-    <AssemblyName>AndroidAlcsLpbsBinding</AssemblyName>
+    <RootNamespace>NetworkCoreBinding</RootNamespace>
+    <AssemblyName>NetworkCoreBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -41,7 +41,6 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -49,7 +48,6 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\android_alcs_lpbs-1.5.0.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -57,17 +55,11 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="XamarinLibrary.Xamarin.Android.Alibaba.FastJson">
-      <Version>1.2.68</Version>
-    </PackageReference>
-    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.CoapSdk">
-      <Version>1.7.1</Version>
-    </PackageReference>
-    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools">
-      <Version>1.3.5.1</Version>
-    </PackageReference>
-    <PackageReference Include="XamarinLibrary.Xamarin.Android.Mozilla.Rhino">
-      <Version>1.7.9</Version>
+    <EmbeddedJar Include="Jars\network-core-1.0.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp">
+      <Version>3.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
