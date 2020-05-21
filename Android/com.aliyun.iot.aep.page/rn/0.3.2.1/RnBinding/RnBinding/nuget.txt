@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Page.Rn</id>
+    <version>0.3.2.1</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.iot.aep.page.rn for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.iot.aep.page.rn.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Rn XamarinAndroidRn AndroidRn XamarinRn</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Router" version="0.0.7" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.RnExternalJsbridge" version="0.0.5" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.RnExternal" version="0.59.8" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.RnContainer" version="0.59.10.20200022" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.JsbridgeExternal" version="0.1.4" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Jsbridge" version="0.1.2" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.External.ReactNativeSvg" version="9.5.3" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Component.RouterExternal" version="0.1.4.2" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Component.BundleManager" version="0.1.5.2" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="RnBinding.dll" target="lib\MonoAndroid10\RnBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

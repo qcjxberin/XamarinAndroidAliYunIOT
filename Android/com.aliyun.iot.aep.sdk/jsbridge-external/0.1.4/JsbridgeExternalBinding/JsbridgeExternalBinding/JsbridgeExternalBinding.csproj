@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7099A669-F2D8-44B8-9D3C-15FA914B9EAA}</ProjectGuid>
+    <ProjectGuid>{2E0FD8CB-3829-4BEC-A283-C42CF44A5175}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JsBridgeAnnotationBinding</RootNamespace>
-    <AssemblyName>JsBridgeAnnotationBinding</AssemblyName>
+    <RootNamespace>JsbridgeExternalBinding</RootNamespace>
+    <AssemblyName>JsbridgeExternalBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -41,6 +41,7 @@
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -48,6 +49,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\jsbridge-external-0.1.4.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -55,7 +57,15 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jsbridge-annotation-0.0.1.jar" />
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Tools">
+      <Version>1.3.5.1</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.ApiClient">
+      <Version>0.1.0.4</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.JsbridgeCore">
+      <Version>0.0.5</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="nuget.txt" />

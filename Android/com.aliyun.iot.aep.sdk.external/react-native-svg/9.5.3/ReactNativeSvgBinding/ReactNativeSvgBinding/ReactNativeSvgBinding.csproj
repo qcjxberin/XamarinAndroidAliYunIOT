@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7099A669-F2D8-44B8-9D3C-15FA914B9EAA}</ProjectGuid>
+    <ProjectGuid>{04F4A4A0-EE2E-4305-B9C9-F7A476693396}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JsBridgeAnnotationBinding</RootNamespace>
-    <AssemblyName>JsBridgeAnnotationBinding</AssemblyName>
+    <RootNamespace>ReactNativeSvgBinding</RootNamespace>
+    <AssemblyName>ReactNativeSvgBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -48,6 +48,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\react-native-svg-9.5.3.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -55,7 +56,9 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jsbridge-annotation-0.0.1.jar" />
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Facebook.React.ReactNative">
+      <Version>0.59.10.84</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="nuget.txt" />

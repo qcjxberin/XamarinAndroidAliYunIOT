@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7099A669-F2D8-44B8-9D3C-15FA914B9EAA}</ProjectGuid>
+    <ProjectGuid>{0D82DE1C-C749-489C-886B-95ECB236FFAA}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JsBridgeAnnotationBinding</RootNamespace>
-    <AssemblyName>JsBridgeAnnotationBinding</AssemblyName>
+    <RootNamespace>RnBinding</RootNamespace>
+    <AssemblyName>RnBinding</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -43,11 +43,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\RNActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="Jars\rn-0.3.2.1.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
@@ -55,10 +57,36 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\jsbridge-annotation-0.0.1.jar" />
+    <None Include="nuget.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="nuget.txt" />
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Component.BundleManager">
+      <Version>0.1.5.2</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Component.RouterExternal">
+      <Version>0.1.4.2</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.External.ReactNativeSvg">
+      <Version>9.5.3</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Jsbridge">
+      <Version>0.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.JsbridgeExternal">
+      <Version>0.1.4</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.RnContainer">
+      <Version>0.59.10.20200022</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.RnExternal">
+      <Version>0.59.8</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.RnExternalJsbridge">
+      <Version>0.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Router">
+      <Version>0.0.7</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
