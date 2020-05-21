@@ -4,7 +4,7 @@ com.aliyun.ams:alicloud-android-utdid:1.1.5.3 💯💯💯💯💯
 com.aliyun.alink.linksdk:api-client-biz:1.0.2 💯💯💯💯💯
 com.aliyun.iot.aep.page:rn:0.3.2.1 💯💯💯💯💯
 com.aliyun.iot.aep.sdk:connectchannel:0.1.2
-com.aliyun.iot.aep.sdk:iot-credential:0.0.2.8
+com.aliyun.iot.aep.sdk:iot-credential:0.0.2.8 💯💯💯💯💯
 com.aliyun.iot.sdk:account-oa-ui:0.1.6
 com.aliyun.iot.aep.sdk:push:1.0.4
 com.aliyun.alink.linksdk:public-tmp-ext-boneplugin:1.7.1.2
