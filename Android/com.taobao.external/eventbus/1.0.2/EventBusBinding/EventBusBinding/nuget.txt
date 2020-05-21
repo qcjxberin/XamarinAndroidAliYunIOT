@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Taobao.External.EventBus</id>
+    <version>1.0.2</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.taobao.external.eventbus for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.taobao.external.eventbus.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>EventBus XamarinAndroidEventBus AndroidEventBus XamarinEventBus</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <!--<dependency id="Xamarin.Google.Android.Material" version="1.0.0" />-->
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="EventBus.dll" target="lib\MonoAndroid10\EventBus.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>
