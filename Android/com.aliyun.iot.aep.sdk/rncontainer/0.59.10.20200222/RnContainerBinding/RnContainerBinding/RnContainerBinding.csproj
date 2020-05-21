@@ -57,7 +57,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AboutAdditions.txt" />
+    <None Include="nuget.txt" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.UserTracker">
