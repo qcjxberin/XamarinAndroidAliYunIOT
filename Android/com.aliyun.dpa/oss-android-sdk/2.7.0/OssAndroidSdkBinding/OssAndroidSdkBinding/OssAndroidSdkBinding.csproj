@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\HttpdnsMini.cs" />
     <Compile Include="Additions\ResumableUploadTask.cs" />
     <Compile Include="Additions\SequenceUploadTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,11 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okhttp3.OkHttp">
-      <Version>3.4.1</Version>
+      <Version>3.12.8</Version>
     </PackageReference>
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Squareup.Okio.Okio">
-      <Version>1.9.0</Version>
+      <Version>1.15.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nuget.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
