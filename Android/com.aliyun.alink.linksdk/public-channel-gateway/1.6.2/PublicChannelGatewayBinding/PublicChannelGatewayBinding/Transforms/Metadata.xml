@@ -6,4 +6,8 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.channel.gateway.api.subdevice']/interface[@name='ISubDeviceActionListener']/method[@name='onFailed' and count(parameter)=1 and parameter[1][@type='com.aliyun.alink.linksdk.tools.AError']]"
+        name="managedName">OnSubDeviceActionListenerFailed</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.channel.gateway.api.subdevice']/interface[@name='ISubDeviceRemoveListener']"
+        name="managedName">OnSubDeviceRemoveListenerFailed</attr>
 </metadata>

@@ -56,6 +56,14 @@
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.PublicCmp">
+      <Version>1.7.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nuget.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
