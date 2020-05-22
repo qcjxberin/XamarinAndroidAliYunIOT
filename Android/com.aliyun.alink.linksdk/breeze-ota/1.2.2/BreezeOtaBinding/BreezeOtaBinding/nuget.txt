@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.BreezeOta</id>
+    <version>1.2.2</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.alink.linksdk.breeze-ota for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.alink.linksdk.breeze-ota.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>BreezeOta XamarinAndroidBreezeOta AndroidBreezeOta XamarinBreezeOta</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.BleLibrary" version="1.2.4" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.Breeze" version="1.2.12" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="BreezeOtaBinding.dll" target="lib\MonoAndroid10\BreezeOtaBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>
