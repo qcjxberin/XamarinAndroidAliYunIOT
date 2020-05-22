@@ -1,0 +1,80 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.d']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.d']/class[@name='c']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect']/class[@name='d']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device']/class[@name='a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.resource']/interface[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect']/interface[@name='c']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect']/class[@name='e']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect.b.a']/class[@name='m']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect.b.a']/class[@name='n']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect.c']/interface[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.b']/interface[@name='a.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.resource']/class[@name='ResDescpt.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.b']/interface[@name='a.a']"
+        name="managedName">interfacea</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.b']/class[@name='a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect']/class[@name='b']"
+        name="managedName">TheB</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.connect']/class[@name='d']/field[@name='d']"
+        name="managedName">LittleD</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.resource']/class[@name='ResDescpt.a']/field[@name='a']"
+        name="managedName">LittleA</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.utils']/class[@name='ErrorCode']/field[@name='ERROR_CODE']"
+        name="managedName">The_Error_Code</attr>  
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.listener']/interface[@name='IDevListener']/method[@name='onFail' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.aliyun.alink.linksdk.tmp.utils.ErrorInfo']]"
+        name="managedName">OnDevListenerFail</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.listener']/interface[@name='IProcessListener']/method[@name='onFail' and count(parameter)=1 and parameter[1][@type='com.aliyun.alink.linksdk.tmp.utils.ErrorInfo']]"
+        name="managedName">OnProcessListenerFail</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.listener']/interface[@name='IDevRawDataListener']/method[@name='onFail' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.aliyun.alink.linksdk.tmp.utils.ErrorInfo']]"
+        name="managedName">OnDevRawDataListenerFail</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.listener']/interface[@name='IDevRawDataListener']/method[@name='onSuccess' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='java.lang.Object']]"
+        name="managedName">OnDevRawDataListenerSuccess</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.listener']/interface[@name='IPublishResourceListener']/method[@name='onSuccess' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.Object']]"
+        name="managedName">OnPublishResourceListenerSuccess</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.listener']/interface[@name='IDevListener']/method[@name='onSuccess' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.aliyun.alink.linksdk.tmp.api.OutputParams']]"
+        name="managedName">OnDevListenerSuccess</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device']/class[@name='a']/field[@name='a']"
+        name="managedName">LittleA</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.devicemodel']/class[@name='DataType.DataTypeJsonDeSerializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.devicemodel']/class[@name='Service.ServiceJsonDeSerializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.payload']/class[@name='ArgPair.ArgPairJsonDeSerializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.payload']/class[@name='CommonRequestPayload.CommonRequestPayloadJsonDeSerializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.payload.discovery']/class[@name='DiscoveryResponsePayload.DiscoveryResponseDataDeserializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.payload']/class[@name='KeyValuePair.KeyValuePairJsonDeSerializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.device.payload']/class[@name='ValueWrapper.ValueWrapperJsonDeSerializer']/method[@name='deserialize' and count(parameter)=3 and parameter[1][@type='com.google.gson.JsonElement'] and parameter[2][@type='java.lang.reflect.Type'] and parameter[3][@type='com.google.gson.JsonDeserializationContext']]"
+        name="managedName">RawDeserialize</attr>  
+  <attr path="/api/package[@name='com.aliyun.alink.linksdk.tmp.devicemodel.loader']/class[@name='SingleExtendSerializer.DeserializeTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.lang.String...']]"
+        name="managedName">RawDoInBackground</attr>
+  
+</metadata>
