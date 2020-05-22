@@ -14,5 +14,5 @@ com.aliyun.alink.linksdk:lpbs-plugin-breeze:1.1.0.1
 com.aliyun.alink.linksdk:breeze:1.2.12 💯💯💯💯💯
 com.aliyun.alink.linksdk:breeze-biz:1.1.3
 com.aliyun.alink.linksdk:ble-library:1.2.4 💯💯💯💯💯
-com.aliyun.alink.linksdk:breeze-ota:1.2.2
+com.aliyun.alink.linksdk:breeze-ota:1.2.2 💯💯💯💯💯
 com.aliyun.alink.linksdk:public-channel-gateway:1.6.2 💯💯💯💯💯
