@@ -6,4 +6,10 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+  <add-node path="/api/package[@name='com.aliyun.iot.aep.sdk.framework.base']/class[@name='ApiDataCallBack']">
+    <method abstract="true" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+      <parameter name="p0" type="T" jni-type="TT;">
+      </parameter>
+    </method>
+  </add-node>
 </metadata>
