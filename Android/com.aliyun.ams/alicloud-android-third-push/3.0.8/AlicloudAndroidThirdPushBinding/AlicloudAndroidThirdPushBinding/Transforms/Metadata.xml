@@ -1,0 +1,17 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.coloros.mcssdk.mode']/class[@name='Message']/field[@name='MESSAGE']"
+        name="managedName">RawMESSAGE</attr>
+  <attr path="/api/package[@name='com.xiaomi.push.service']/class[@name='XMPushService']/method[@name='a' and count(parameter)=1 and parameter[1][@type='int']]"
+        name="managedName">InvokeAReturnBool</attr>  
+  <remove-node path="/api/package[@name='com.xiaomi.mipush.sdk']/class[@name='PushMessageHandler']/method[@name='a' and count(parameter)=0]"
+               />
+  <remove-node path="/api/package[@name='com.xiaomi.push.service']/class[@name='XMPushService']/method[@name='a' and count(parameter)=1 and parameter[1][@type='int']]"
+               />
+</metadata>
