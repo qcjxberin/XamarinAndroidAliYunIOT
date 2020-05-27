@@ -297,7 +297,7 @@ releaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant
 |    +--- com.aliyun.ams:alicloud-android-push-iot:3.1.8 💯💯💯💯💯 uploaded to nuget and github ✅but will miss class
 |    +--- com.aliyun.iot.aep.sdk:apiclient:0.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅
 |    +--- com.aliyun.alink.linksdk:tools:1.3.5.1 (*) 💯💯💯💯💯 uploaded to nuget and github ✅1.3.5.1now
-|    +--- com.aliyun.ams:alicloud-android-third-push:3.0.8
+|    +--- com.aliyun.ams:alicloud-android-third-push:3.0.8 💯💯💯💯💯 uploaded to nuget and github ✅but will miss class
 |    +--- com.aliyun.ams:alicloud-android-beacon:1.0.1
 |    +--- com.aliyun.ams:alicloud-android-utils:1.1.5
 |    +--- com.aliyun.ams:huawei-push:2.6.3.305
