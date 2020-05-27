@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Ams.AlicloudAndroidPushIot</id>
+    <version>3.1.8</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.ams.alicloud-android-push-iot for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.ams.alicloud-android-push-iot.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>AlicloudAndroidPushIot XamarinAndroidAlicloudAndroidPushIot AndroidAlicloudAndroidPushIot XamarinAlicloudAndroidPushIot</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">
+          <!--<dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Alog" version="0.0.5.1" />-->
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="AlicloudAndroidPushIotBinding.dll" target="lib\MonoAndroid10\AlicloudAndroidPushIotBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlicloudAndroidPushIotBinding", "AlicloudAndroidPushIotBinding\AlicloudAndroidPushIotBinding.csproj", "{063A32E5-BF43-4802-B20E-9525D860BD67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{063A32E5-BF43-4802-B20E-9525D860BD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063A32E5-BF43-4802-B20E-9525D860BD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063A32E5-BF43-4802-B20E-9525D860BD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063A32E5-BF43-4802-B20E-9525D860BD67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {431B0B54-4451-41CB-895B-9247ED1EB90A}
+	EndGlobalSection
+EndGlobal
