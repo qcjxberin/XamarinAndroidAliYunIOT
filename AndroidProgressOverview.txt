@@ -6,7 +6,7 @@ com.aliyun.iot.aep.page:rn:0.3.2.1 💯💯💯💯💯
 com.aliyun.iot.aep.sdk:connectchannel:0.1.2 💯💯💯💯💯
 com.aliyun.iot.aep.sdk:iot-credential:0.0.2.8 💯💯💯💯💯
 com.aliyun.iot.sdk:account-oa-ui:0.1.6 💯💯💯💯💯but will miss class
-com.aliyun.iot.aep.sdk:push:1.0.4
+com.aliyun.iot.aep.sdk:push:1.0.4 💯💯💯💯💯
 com.aliyun.alink.linksdk:public-tmp-ext-boneplugin:1.7.1.2 💯💯💯💯💯but will miss class
 com.aliyun.alink.linksdk:ilop-devicecenter-ext-boneplugin:1.5.1 💯💯💯💯💯but will miss class
 com.aliyun.alink.linksdk:ilop-devicecenter:1.7.6 💯💯💯💯💯
