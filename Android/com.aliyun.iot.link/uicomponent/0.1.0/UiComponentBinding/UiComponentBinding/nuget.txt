@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Iot.Link.UiComponent</id>
+    <version>0.1.0</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.iot.link.uicomponent for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.iot.link.uicomponent.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>UiComponent XamarinAndroidUiComponent AndroidUiComponent XamarinUiComponent</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <dependency id="Xamarin.Google.Android.Material" version="1.0.0" />
+          <dependency id="Xamarin.AndroidX.RecyclerView" version="1.1.0" />
+          <dependency id="Xamarin.AndroidX.MultiDex" version="2.0.1" />
+          <dependency id="Xamarin.AndroidX.Fragment" version="1.1.0" />
+          <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+          <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="28.0.0.3" />
+          <dependency id="Xamarin.Android.Support.v7.AppCompat" version="28.0.0.3" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="UiComponentBinding.dll" target="lib\MonoAndroid10\UiComponentBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

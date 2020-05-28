@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LpbsPluginBreezeBinding", "LpbsPluginBreezeBinding\LpbsPluginBreezeBinding.csproj", "{F8D2BBE2-D235-4CFD-8672-91C01A0DF433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8D2BBE2-D235-4CFD-8672-91C01A0DF433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D2BBE2-D235-4CFD-8672-91C01A0DF433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D2BBE2-D235-4CFD-8672-91C01A0DF433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D2BBE2-D235-4CFD-8672-91C01A0DF433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBF3B30C-6BB2-4180-8F58-0836A6A680AE}
+	EndGlobalSection
+EndGlobal

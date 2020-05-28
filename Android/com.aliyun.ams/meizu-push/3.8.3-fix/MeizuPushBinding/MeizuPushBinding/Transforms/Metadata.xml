@@ -1,0 +1,26 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='ActVideoSetting']/field[@name='ACT_VIDEO_SETTING']"
+        name="managedName">RAW_ACT_VIDEO_SETTING</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='AdvanceSetting']/field[@name='ADVANCE_SETTING']"
+        name="managedName">RAW_ADVANCE_SETTING</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='AppIconSetting']/field[@name='APP_ICON_SETTING']"
+        name="managedName">RAW_APP_ICON_SETTING</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk']/class[@name='MzPushMessageReceiver']/method[@name='onHandleIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='NotificationStyle']/field[@name='NOTIFICATION_STYLE']"
+        name="managedName">RAW_NOTIFICATION_STYLE</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk']/class[@name='SystemReceiver']/method[@name='onHandleIntent' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]"
+        name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='NotifyType']/field[@name='NOTIFY_TYPE']"
+        name="managedName">RAW_NOTIFY_TYPE</attr>
+  <attr path="/api/package[@name='com.meizu.cloud.pushsdk.notification.model']/class[@name='TimeDisplaySetting']/field[@name='TIME_DISPLAY_SETTING']"
+        name="managedName">RAW_TIME_DISPLAY_SETTING</attr>
+  
+</metadata>

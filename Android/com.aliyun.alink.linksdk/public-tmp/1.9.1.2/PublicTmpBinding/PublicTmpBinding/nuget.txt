@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.PublicTmp</id>
+    <version>1.9.1.2</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.alink.linksdk.public-tmp for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.alink.linksdk.public-tmp.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>PublicTmp XamarinAndroidPublicTmp AndroidPublicTmp XamarinPublicTmp</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.External.SecurityGuard" version="5.4.191" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.PublicCmp" version="1.7.1" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.CoapSdk" version="1.7.1" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Aliyun.Alink.Linksdk.AndroidAlcsLpbs" version="1.5.0" />
+          <dependency id="XamarinLibrary.Xamarin.Android.Alibaba.FastJson" version="1.2.68" />
+          <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+          <dependency id="GoogleGson" version="2.8.1" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="PublicTmpBinding.dll" target="lib\MonoAndroid10\PublicTmpBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

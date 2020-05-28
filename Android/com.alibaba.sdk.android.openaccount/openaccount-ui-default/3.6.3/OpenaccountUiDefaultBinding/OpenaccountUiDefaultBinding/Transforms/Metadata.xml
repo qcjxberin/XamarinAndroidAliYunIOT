@@ -1,0 +1,17 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.alibaba.sdk.android.openaccount.ui.task']/class[@name='UpdateProfileTask']/method[@name='parseData' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]"
+        name="managedName">RawParseData</attr>
+  <attr path="/api/package[@name='com.alibaba.sdk.android.openaccount.ui.task']/class[@name='UpdateLoginIdTask']/method[@name='parseData' and count(parameter)=1 and parameter[1][@type='org.json.JSONObject']]"
+        name="managedName">RawParseData</attr>
+  <remove-node path="/api/package[@name='com.alibaba.sdk.android.openaccount.ui.widget']/class[@name='OauthWidget']/field[@name='oauths']"
+               />
+  <remove-node path="/api/package[@name='com.alibaba.sdk.android.openaccount.ui.widget']/class[@name='OauthWidget']/field[@name='texts']"
+               />
+</metadata>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Alibaba.Sdk.Android.Openaccount.OpenaccountCore</id>
+    <version>3.6.3</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.alibaba.sdk.android.openaccount.openaccount-core for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.alibaba.sdk.android.openaccount.openaccount-core.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>PublicTmpExtBoneplugin XamarinAndroidPublicTmpExtBoneplugin AndroidPublicTmpExtBoneplugin XamarinPublicTmpExtBoneplugin</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">
+          <dependency id="Xamarin.AndroidX.Legacy.Support.V4" version="1.0.0" />
+          <dependency id="Xamarin.Google.Android.Material" version="1.0.0" />
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="OpenaccountCoreBinding.dll" target="lib\MonoAndroid10\OpenaccountCoreBinding.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>

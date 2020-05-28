@@ -1,0 +1,95 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />  
+  -->
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push.securitybox.alipush']/class[@name='AliPushSecurityBoxServiceFactoryProvider']/method[@name='getFactoryInstance' and count(parameter)=0]"
+        name="managedName">RawGetFactoryInstance</attr>  
+  <remove-node path="/api/package[@name='com.alibaba.sdk.android.ams.common.spi']/interface[@name='FactoryProvider']/method[@name='getFactoryInstance' and count(parameter)=0]"
+               />
+  <attr path="/api/package[@name='com.taobao.accs.net']/class[@name='b']/field[@name='b']"
+        name="managedName">LittleB</attr>
+  <attr path="/api/package[@name='com.taobao.accs.internal']/class[@name='ServiceImpl']/method[@name='a' and count(parameter)=1 and parameter[1][@type='android.content.Intent']]"
+        name="managedName">InvokeA</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.d']/field[@name='d']"
+        name="managedName">LittleD</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.b']/field[@name='b']"
+        name="managedName">LittleB</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.a']/field[@name='a']"
+        name="managedName">LittleA</attr>
+  <attr path="/api/package[@name='com.taobao.accs.ut.a']/class[@name='d']/field[@name='d']"
+        name="managedName">LittleD</attr>
+  <attr path="/api/package[@name='com.taobao.accs.ut.a']/class[@name='c']/field[@name='c']"
+        name="managedName">LittleC</attr>
+  <attr path="/api/package[@name='com.taobao.agoo']/class[@name='IRegister']/method[@name='onFailure' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.String']]"
+        name="managedName">RawOnFailure</attr>  
+  <attr path="/api/package[@name='com.taobao.accs.data']/class[@name='d']/field[@name='d']"
+        name="managedName">LittleD</attr>
+  <attr path="/api/package[@name='com.taobao.accs.internal']/class[@name='a']/field[@name='a']"
+        name="managedName">LittleA</attr>  
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push']/class[@name='MessageReceiver']/method[@name='onHandleCall' and count(parameter)=2 and parameter[1][@type='android.content.Context'] and parameter[2][@type='android.content.Intent']]"
+        name="visibility">protected</attr>  
+  <remove-node path="/api/package[@name='com.alibaba.sdk.android.push.common.util.sendrequest']/class[@name='SendRequestTask']/method[@name='doInBackground' and count(parameter)=1 and parameter[1][@type='java.util.Map&lt;java.lang.String, java.lang.String&gt;...']]"
+               />  
+  <attr path="/api/package[@name='anet.channel']/class[@name='SessionRequest']"
+        name="visibility">public</attr>  
+  <attr path="/api/package[@name='anet.channel.fulltrace']/class[@name='b']/field[@name='b']"
+        name="managedName">LittleB</attr>
+  <attr path="/api/package[@name='anet.channel.entity']/class[@name='b']/field[@name='b']"
+        name="managedName">LittleB</attr>
+  <attr path="/api/package[@name='anet.channel.entity']/class[@name='a']/field[@name='a']"
+        name="managedName">LittleA</attr>  
+  <remove-node path="/api/package[@name='anetwork.channel.aidl.adapter']/class[@name='ConnectionDelegate']/method[@name='getConnHeadFields' and count(parameter)=0]"
+               />  
+  <attr path="/api/package[@name='anetwork.channel.entity']/class[@name='g']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.d']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.e']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.fulltrace']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.entity']/class[@name='a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.entity']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.strategy']/class[@name='l.c']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anet.channel.monitor']/class[@name='f']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push.notification']/class[@name='c']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push.notification']/class[@name='NotificationCompat.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push.notification']/interface[@name='NotificationCompat.NotificationCompatImpl']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.alibaba.sdk.android.push.notification']/interface[@name='NotificationCompat.NotificationCompatImpl']"
+        name="visibility">public</attr>
+  <attr path="/api/package[@name='com.taobao.accs']/interface[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.net']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='anetwork.channel.aidl.adapter']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.data']/class[@name='d']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.client']/class[@name='b']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.ut.a']/class[@name='c']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.internal']/class[@name='a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.ut.monitor']/class[@name='TrafficsMonitor.a']"
+        name="obfuscated">false</attr>
+  <attr path="/api/package[@name='com.taobao.accs.ut.a']/class[@name='d']"
+        name="obfuscated">false</attr>
+</metadata>

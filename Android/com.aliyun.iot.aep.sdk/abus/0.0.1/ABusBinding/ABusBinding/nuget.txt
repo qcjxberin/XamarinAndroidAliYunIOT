@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>XamarinLibrary.Xamarin.Android.Aliyun.Iot.Aep.Sdk.Abus</id>
+    <version>0.0.1.0</version>
+    <authors>ericcui</authors>
+    <owners>ericcui</owners>
+    <projectUrl>https://github.com/jingliancui</projectUrl>
+    <license type="file">LICENSE.txt</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Android com.aliyun.iot.aep.sdk.abus for Xamarin.Android</description>    
+    <releaseNotes>Finished binding work for Android com.aliyun.iot.aep.sdk.abus.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Abus XamarinAndroidAbus AndroidAbus XamarinAbus</tags>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">          
+          <!--<dependency id="Xamarin.Google.Android.Material" version="1.0.0" />-->
+        </group>
+    </dependencies>
+  </metadata>
+    <files>        
+        <file src="ABus.dll" target="lib\MonoAndroid10\ABus.dll" />
+
+        <file src="LICENSE.txt" target="" />
+    </files>
+</package>
